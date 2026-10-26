@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const portfolio = await getCollection('portfolio');
+  return portfolio.map(p => ({
+    params: { slug: p.data.slug },
+    props: { entry: p },
+  }));
+}
+
+const { entry } = Astro.props;
+const { title, description, tripDetails, photos } = entry.data;
+---
+<BaseLayout title={title} description={description} image={entry.data.coverImage}>
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Collection</span>
+      <h1>{title}</h1>
+      <p class="gallery-meta">{description}</p>
+      {tripDetails && <p class="gallery-meta" style="font-size: 0.85rem; color: var(--accent);">{tripDetails}</p>}
+
+      <div class="grid grid-4 lightbox-grid">
+        {photos.map(photo => (
+          <div class="card">
+            <img src={photo.image} alt={photo.title.match(/^_?[A-Za-z]*\d/) ? title : photo.title} loading="lazy" />
+            {!photo.title.match(/^_?[A-Za-z]*\d/) && (
+              <div class="card-overlay">
+                <h3 style="font-size: 0.9rem;">{photo.title}</h3>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      <div style="margin-top: 48px;">
+        <a href="/portfolio">← Back to all collections</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

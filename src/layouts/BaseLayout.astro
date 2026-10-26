@@ -1,0 +1,60 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = "Wildlife and bird photography from India by Gaurav Pathak.", image = "/images/portfolio/winter-wonderland-spiti/cover.jpg" } = Astro.props;
+const siteTitle = "Gaurav's Feathered Frames";
+const fullTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={image} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪶</text></svg>" />
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="/" class="brand">Gaurav's Feathered Frames</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="/portfolio">Portfolio</a>
+        <a href="/blog">Journal</a>
+        <a href="/about">About</a>
+        <a href="/prints">Prints</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>&copy; {new Date().getFullYear()} Gaurav Pathak. Shot on Canon R5.</div>
+      <div>
+        <a href="https://www.instagram.com/gauravsfeatheredframes" target="_blank" rel="noopener">Instagram</a>
+        &nbsp;·&nbsp;
+        <a href="/contact">Get in touch</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle?.addEventListener('click', () => links?.classList.toggle('open'));
+  </script>
+</body>
+</html>

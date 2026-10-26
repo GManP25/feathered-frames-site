@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const portfolio = await getCollection('portfolio');
+const blog = (await getCollection('blog')).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const heroProject = portfolio.find(p => p.data.slug === 'winter-wonderland-spiti') ?? portfolio[0];
+const featured = portfolio.slice(0, 3);
+const latestPosts = blog.slice(0, 3);
+---
+<BaseLayout title="Gaurav's Feathered Frames">
+  <section class="hero" style={`background-image: url(${heroProject.data.coverImage})`}>
+    <div class="hero-content">
+      <span class="eyebrow">Wildlife &amp; Bird Photography · India</span>
+      <h1>Patience, light, and the moment a wild thing looks back.</h1>
+      <p>I'm Gaurav — shooting birds and wildlife across India's forests, grasslands and high Himalaya on a Canon R5 and RF 600mm. This is where the frames and the field notes live.</p>
+      <div style="margin-top: 28px; display: flex; gap: 16px; flex-wrap: wrap;">
+        <a href="/portfolio" class="btn">View the Portfolio</a>
+        <a href="https://www.instagram.com/gauravsfeatheredframes" target="_blank" rel="noopener" class="btn" style="border-color: var(--text-dim); color: var(--text-dim);">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Galleries</span>
+          <h2>Featured collections</h2>
+        </div>
+        <a href="/portfolio">See all collections →</a>
+      </div>
+      <div class="grid grid-3">
+        {featured.map(p => (
+          <a class="card" href={`/portfolio/${p.data.slug}`}>
+            <img src={p.data.coverImage} alt={p.data.title} loading="lazy" />
+            <div class="card-overlay">
+              <div>
+                <h3>{p.data.title}</h3>
+                <span class="count">{p.data.photos.length} photographs</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-elevated);">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">From the field</span>
+          <h2>Latest from the journal</h2>
+        </div>
+        <a href="/blog">All posts →</a>
+      </div>
+      <div class="grid grid-3">
+        {latestPosts.map(post => (
+          <a class="blog-card" href={`/blog/${post.id}`}>
+            <div class="card">
+              {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />}
+            </div>
+            <span class="date">{new Date(post.data.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            <h3>{post.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="text-align: center;">
+      <span class="eyebrow">Coming soon</span>
+      <h2>Fine-art prints, made to order</h2>
+      <p style="color: var(--text-dim); max-width: 560px; margin: 0 auto 24px;">A small collection of my favourite frames will soon be available as prints. Join the list to hear first.</p>
+      <a href="/prints" class="btn">Learn more</a>
+    </div>
+  </section>
+</BaseLayout>

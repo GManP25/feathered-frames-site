@@ -1,0 +1,22 @@
+---
+title: "Wings & Water"
+slug: "wings-water"
+description: "Some of the most mesmerising bird photography happens where air meets water. This collection captures birds interacting with lakes, rivers, and oceans, whether it's a kingfisher plunging into a river, a flamingo wading elegantly, or a seabird skimming the waves. The reflections, ripples, and splashes add an extra dimension of artistry to each image."
+coverImage: "/images/portfolio/wings-water/cover.jpg"
+tripDetails: ""
+photos:
+    - title: "Red crested pochard"
+      image: "/images/portfolio/wings-water/red-crested-pochard.jpg"
+    - title: "Northern Shoveler"
+      image: "/images/portfolio/wings-water/northern-shoveler.jpg"
+    - title: "Mallard"
+      image: "/images/portfolio/wings-water/mallard.jpg"
+    - title: "Black tailed godwit"
+      image: "/images/portfolio/wings-water/black-tailed-godwit.jpg"
+    - title: "River terns"
+      image: "/images/portfolio/wings-water/river-terns.jpg"
+    - title: "Oriental Darter"
+      image: "/images/portfolio/wings-water/oriental-darter.jpg"
+    - title: "Great Crested Grebe"
+      image: "/images/portfolio/wings-water/great-crested-grebe.jpg"
+---

@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+<BaseLayout title="Journal" description="Field notes, stories, and photography lessons from trips across India.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Journal</span>
+      <h1 style="margin-bottom: 36px;">Field notes &amp; stories</h1>
+      <div class="grid grid-3">
+        {posts.map(post => (
+          <a class="blog-card" href={`/blog/${post.id}`}>
+            <div class="card">
+              {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />}
+            </div>
+            <span class="date">{new Date(post.data.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            <h3>{post.data.title}</h3>
+            {post.data.excerpt && <p class="excerpt">{post.data.excerpt}</p>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

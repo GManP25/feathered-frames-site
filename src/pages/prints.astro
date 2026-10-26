@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Prints" description="Fine-art wildlife photography prints, coming soon.">
+  <section class="section">
+    <div class="wrap" style="text-align: center;">
+      <span class="eyebrow">Coming soon</span>
+      <h1>Prints</h1>
+      <p style="color: var(--text-dim); max-width: 560px; margin: 0 auto 28px;">
+        A small, hand-picked collection of frames from the portfolio will soon be available as fine-art prints.
+        Leave your email and you'll be the first to know when they launch.
+      </p>
+
+      <form name="print-waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+            style="display:flex; gap: 10px; justify-content: center; flex-wrap: wrap; max-width: 480px; margin: 0 auto;">
+        <input type="hidden" name="form-name" value="print-waitlist" />
+        <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <input type="email" name="email" placeholder="you@email.com" required
+               style="flex: 1; min-width: 220px; background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text); padding: 12px 14px; border-radius: 3px;" />
+        <button type="submit" class="btn" style="cursor: pointer;">Join the list</button>
+      </form>
+    </div>
+  </section>
+</BaseLayout>
