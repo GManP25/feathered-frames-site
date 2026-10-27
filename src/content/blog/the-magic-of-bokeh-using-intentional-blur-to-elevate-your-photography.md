@@ -1,10 +1,13 @@
 ---
 title: "The Magic of Bokeh: Using Intentional Blur to Elevate Your Photography"
 date: 2025-07-23T07:11:46Z
+category: "The Viewfinder"
 heroImage: "/images/blog/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography/img-01.jpg"
 excerpt: "Photography isn’t always about capturing every detail clearly—often, it’s about knowing exactly what not to…"
 originalUrl: "https://www.gauravsfeatheredframes.com/post/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography"
 ---
+
+<figure class="inline-media"><img src="/images/blog/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 Photography isn’t always about capturing every detail clearly—often, it’s about knowing exactly what not to show.
 

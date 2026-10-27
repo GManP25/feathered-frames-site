@@ -6,27 +6,11 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
+    category: z.string().default('On the Trail'),
     heroImage: z.string().optional().default(''),
     excerpt: z.string().optional().default(''),
     originalUrl: z.string().optional().default(''),
   }),
 });
 
-const portfolio = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/portfolio' }),
-  schema: z.object({
-    title: z.string(),
-    slug: z.string(),
-    description: z.string(),
-    coverImage: z.string(),
-    tripDetails: z.string().optional().default(''),
-    photos: z.array(
-      z.object({
-        title: z.string(),
-        image: z.string(),
-      })
-    ),
-  }),
-});
-
-export const collections = { blog, portfolio };
+export const collections = { blog };

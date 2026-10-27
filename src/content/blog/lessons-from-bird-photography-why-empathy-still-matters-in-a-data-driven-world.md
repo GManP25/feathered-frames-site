@@ -1,10 +1,13 @@
 ---
 title: "Lessons from Bird Photography: Why Empathy Still Matters in a Data-Driven World"
 date: 2025-03-21T07:48:52.489Z
+category: "Framing Work"
 heroImage: "/images/blog/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world/img-01.jpg"
 excerpt: "I’ve loved wildlife photography for as long as I can remember, but my real passion is capturing birds in their natural habitat. Waking up before dawn, quietly setting up my…"
 originalUrl: "https://www.gauravsfeatheredframes.com/post/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world"
 ---
+
+<figure class="inline-media"><img src="/images/blog/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 I’ve loved wildlife photography for as long as I can remember, but my real passion is capturing birds in their natural habitat. Waking up before dawn, quietly setting up my camera, and waiting—sometimes for hours—for that perfect shot might sound crazy to some people. Yet it’s in those moments of patient observation that I’ve learned some of my most valuable lessons. Surprisingly, many of those lessons apply just as well to my professional life as they do to my time in the field.
 

@@ -4,30 +4,21 @@ import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map(post => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  return posts.map(post => ({ params: { slug: post.id }, props: { post } }));
 }
-
 const { post } = Astro.props;
-const { title, date, heroImage, excerpt } = post.data;
+const { title, date, heroImage, excerpt, category } = post.data;
 const { Content } = await render(post);
+const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <BaseLayout title={title} description={excerpt} image={heroImage}>
-  <section class="section">
-    <div class="wrap">
-      <div class="post-body">
-        <span class="eyebrow">{new Date(date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+  <article>
+    <div class="post-top">
+      <div class="wrap post-body">
+        <div class="meta"><span class="tag">{category}</span><time datetime={date.toISOString()}>{when}</time></div>
         <h1>{title}</h1>
       </div>
-      {heroImage && <img src={heroImage} alt={title} class="post-hero" />}
-      <div class="post-body">
-        <Content />
-      </div>
-      <div class="post-body" style="margin-top: 32px;">
-        <a href="/blog">← Back to journal</a>
-      </div>
     </div>
-  </section>
+    <div class="post-content"><Content /><a class="back-link" href="/blog">&larr; Back to the journal</a></div>
+  </article>
 </BaseLayout>
