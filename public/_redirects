@@ -2,3 +2,5 @@
 /portfolio/:slug /gallery/:slug 301
 /about /#about 301
 /contact /#contact 301
+/post/:slug /blog/:slug 301
+/blog-1 /blog 301
