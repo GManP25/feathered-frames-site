@@ -1,39 +1,32 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-const posts = (await getCollection('blog')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
-const cats = [...new Set(posts.map(p => p.data.category))];
-const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+import { getCategories, getPosts } from '../../lib/journal';
+const categories = await getCategories();
+const total = (await getPosts()).length;
 ---
 <BaseLayout title="Journal" description="Trip reports and field lessons from nature and wildlife photography across India.">
-  <section class="section" style="padding-top: calc(var(--header-h) + 64px);">
+  <section class="page-head">
     <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Journal</span>
-        <h1 style="font-size: clamp(2rem, 4vw, 3rem);">Trip reports &amp; field lessons</h1>
-      </div>
-      <div class="journal-filter" role="toolbar" aria-label="Filter posts by category">
-        <button class="chip" type="button" data-cat="All" aria-pressed="true">All<span class="n">{posts.length}</span></button>
-        {cats.map(c => <button class="chip" type="button" data-cat={c} aria-pressed="false">{c}<span class="n">{posts.filter(p => p.data.category === c).length}</span></button>)}
-      </div>
-      <div class="journal-grid">
-        {posts.map(post => (
-          <a class="post-card" href={`/blog/${post.id}`} data-cat={post.data.category}>
-            <div class="thumb">{post.data.heroImage && <img src={post.data.heroImage} alt="" loading="lazy" decoding="async" />}</div>
-            <div class="meta"><span class="tag">{post.data.category}</span><time datetime={post.data.date.toISOString()}>{fmt(post.data.date)}</time></div>
-            <h3>{post.data.title}</h3>
-            {post.data.excerpt && <p>{post.data.excerpt}</p>}
+      <span class="eyebrow">Journal</span>
+      <h1>Trip reports &amp; field lessons</h1>
+    </div>
+  </section>
+  <div class="filter-bar" role="navigation" aria-label="Journal categories">
+    <div class="wrap">
+      <a class="chip" href="/blog" aria-current="page">All<span class="n">{total}</span></a>
+      {categories.map(c => <a class="chip" href={`/blog/category/${c.slug}`}>{c.name}<span class="n">{c.count}</span></a>)}
+    </div>
+  </div>
+  <section class="section" style="padding-top: 40px;">
+    <div class="wrap">
+      <div class="cards two">
+        {categories.map(c => (
+          <a class="card" href={`/blog/category/${c.slug}`}>
+            {c.cover && <img src={c.cover} alt="" loading="lazy" decoding="async" />}
+            <span class="card-text"><h3>{c.name}</h3><span>{c.count} {c.count === 1 ? 'post' : 'posts'}</span></span>
           </a>
         ))}
       </div>
     </div>
   </section>
-  <script>
-    const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.journal-filter .chip'));
-    const cards = Array.from(document.querySelectorAll<HTMLElement>('.post-card'));
-    chips.forEach(c => c.addEventListener('click', () => {
-      chips.forEach(x => x.setAttribute('aria-pressed', String(x === c)));
-      cards.forEach(card => { card.hidden = !(c.dataset.cat === 'All' || card.dataset.cat === c.dataset.cat); });
-    }));
-  </script>
 </BaseLayout>

@@ -1,24 +1,87 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import photos from '../data/photos.json';
+import collections from '../data/collections.json';
+const groups = collections.map(c => ({ c, items: photos.filter((p: any) => p.collectionSlug === c.slug) }));
+const lookup = Object.fromEntries(photos.map((p: any) => [p.id, { thumb: p.thumb, title: p.title, loc: p.location, collection: p.collection }]));
 ---
-<BaseLayout title="Prints" description="Fine-art wildlife photography prints, coming soon.">
-  <section class="section">
-    <div class="wrap" style="text-align: center; padding-top: calc(var(--header-h) + 40px);">
-      <span class="eyebrow">Coming soon</span>
-      <h1>Prints</h1>
-      <p style="color: var(--text-dim); max-width: 560px; margin: 0 auto 28px;">
-        A small, hand-picked collection of frames from the portfolio will soon be available as fine-art prints.
-        Leave your email and you'll be the first to know when they launch.
-      </p>
-
-      <form name="print-waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field"
-            style="display:flex; gap: 10px; justify-content: center; flex-wrap: wrap; max-width: 480px; margin: 0 auto;">
-        <input type="hidden" name="form-name" value="print-waitlist" />
-        <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
-        <input type="email" name="email" placeholder="you@email.com" required
-               style="flex: 1; min-width: 220px; background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 12px 14px; border-radius: 3px;" />
-        <button type="submit" class="btn" style="cursor: pointer;">Join the list</button>
+<BaseLayout title="Prints" description="Request a fine-art print of any photograph from the gallery.">
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Prints</span>
+      <h1>Request a print</h1>
+      <div class="col-note-inline">
+        <p>Any photograph in the gallery can be printed. Choose the one you would like, tell me the size and format you have in mind, and I will reply by email with availability, sizes and prices. Online ordering will follow later.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="padding-top: 24px;">
+    <div class="wrap about-grid">
+      <div class="print-preview" id="preview">
+        <div class="pv-frame"><img id="pvImg" alt="" hidden /><span id="pvEmpty">Choose a photograph to preview it here</span></div>
+        <p id="pvCap" class="pv-cap"></p>
+        <p class="pv-link"><a href="/#gallery">Browse the collections</a> and use &ldquo;Request this photograph as a print&rdquo; on any image.</p>
+      </div>
+      <form class="form" name="print-request" method="POST" action="/" data-netlify="true" data-ajax netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="print-request" />
+        <p style="display:none;"><label>Leave this empty <input name="bot-field" /></label></p>
+        <div>
+          <label for="photograph">Photograph</label>
+          <select id="photograph" name="photograph" required>
+            <option value="">Select a photograph</option>
+            {groups.map(g => (
+              <optgroup label={g.c.title}>
+                {g.items.map((p: any) => <option value={`${p.title} | ${p.collection} | ${p.id}`} data-id={p.id}>{p.title}</option>)}
+              </optgroup>
+            ))}
+          </select>
+        </div>
+        <div class="two-col">
+          <div>
+            <label for="size">Preferred size</label>
+            <select id="size" name="size">
+              <option>Not sure yet, please advise</option>
+              <option>A4 (8.3 x 11.7 in)</option>
+              <option>A3 (11.7 x 16.5 in)</option>
+              <option>A2 (16.5 x 23.4 in)</option>
+              <option>Larger or custom size</option>
+            </select>
+          </div>
+          <div>
+            <label for="format">Format</label>
+            <select id="format" name="format">
+              <option>Not sure yet</option>
+              <option>Print only</option>
+              <option>Framed print</option>
+            </select>
+          </div>
+        </div>
+        <div class="two-col">
+          <div><label for="pname">Name</label><input type="text" id="pname" name="name" required autocomplete="name" /></div>
+          <div><label for="pemail">Email</label><input type="email" id="pemail" name="email" required autocomplete="email" /></div>
+        </div>
+        <div><label for="pnote">Anything else? <span style="text-transform:none;letter-spacing:0">(optional)</span></label><textarea id="pnote" name="message" rows="4"></textarea></div>
+        <div><button type="submit" class="btn">Send request</button></div>
+        <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
+  <script define:vars={{ lookup }}>
+    const sel = document.getElementById('photograph');
+    const img = document.getElementById('pvImg');
+    const empty = document.getElementById('pvEmpty');
+    const cap = document.getElementById('pvCap');
+    function update() {
+      const opt = sel.selectedOptions[0];
+      const p = opt && lookup[opt.dataset.id];
+      if (p) {
+        img.src = p.thumb; img.alt = p.title; img.hidden = false; empty.hidden = true;
+        cap.textContent = [p.title, p.loc].filter(Boolean).join(', ');
+      } else { img.hidden = true; empty.hidden = false; cap.textContent = ''; }
+    }
+    const want = new URLSearchParams(location.search).get('photo');
+    if (want) { const o = Array.from(sel.options).find(o => o.dataset.id === want); if (o) sel.value = o.value; }
+    sel.addEventListener('change', update);
+    update();
+  </script>
 </BaseLayout>

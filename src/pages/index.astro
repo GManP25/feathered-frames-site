@@ -1,19 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-import photosData from '../data/photos.json';
 import collections from '../data/collections.json';
+import { getCategories } from '../lib/journal';
 
-// Round-robin across collections so the grid mixes subjects
-const groups: Record<string, any[]> = {};
-photosData.forEach((p: any) => { (groups[p.collectionSlug] ??= []).push(p); });
-const lists = Object.values(groups);
-const photos: any[] = [];
-for (let i = 0; lists.some(l => i < l.length); i++) lists.forEach(l => { if (i < l.length) photos.push(l[i]); });
-
-
-const posts = (await getCollection('blog')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 4);
-const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+const categories = await getCategories();
 const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lammergeier.jpg';
 ---
 <BaseLayout title="Gaurav's Feathered Frames" description="Nature and wildlife photography from India: birds, mammals and landscapes, with field notes from every trip.">
@@ -25,66 +15,40 @@ const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lamme
     <a class="scroll-cue" href="#gallery" aria-label="Scroll to the gallery">Scroll</a>
   </section>
 
-  <section id="gallery" class="section" style="padding-bottom: 0;">
+  <section id="gallery" class="section">
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Gallery</span>
         <h2>Frames from the field</h2>
-        <p>Six collections from across India. Choose one to read its story, or select any photograph to see it large along with the camera settings behind it.</p>
+        <p>Six collections from across India. Choose one to read its story and view every photograph, along with the camera settings behind it.</p>
       </div>
-    </div>
-    <div class="filter-bar" role="toolbar" aria-label="Filter photographs by category">
-      <div class="wrap">
-        <button class="chip" type="button" data-filter="All" aria-pressed="true">All<span class="n">{photos.length}</span></button>
+      <div class="cards">
         {collections.map(c => (
-          <button class="chip" type="button" data-filter={c.slug} data-title={c.title} data-desc={c.description} data-details={c.details.join(' | ')} aria-pressed="false">{c.title}<span class="n">{c.count}</span></button>
-        ))}
-      </div>
-    </div>
-    <div class="wrap">
-      <div class="col-note" id="colNote" hidden>
-        <h3 id="colTitle"></h3>
-        <div id="colDesc"></div>
-        <p class="trip" id="colTrip"></p>
-      </div>
-      <div class="gallery" id="gallery-grid">
-        {photos.map((p, i) => (
-          <button
-            class="tile" type="button" data-col={p.collectionSlug} data-colname={p.collection} data-need={p.needs.join(', ')} data-full={p.image} data-thumb={p.thumb}
-            data-title={p.title} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
-            style={`background-image:url(${p.lqip}); aspect-ratio:${p.w}/${p.h}`}
-            aria-label={`Open ${p.title}`}
-          >
-            <img src={p.thumb} width={p.w} height={p.h} alt={`${p.title}${p.location ? ', ' + p.location : ''}`} loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
-            <span class="tile-info">
-              <span class="tile-title">{p.title}</span>
-              {p.location && <span class="tile-loc" style="display:block">{p.location}</span>}
-              {p.exif && <span class="tile-exif" style="display:block">{[p.exif.focal, p.exif.aperture, p.exif.shutter, p.exif.iso].filter(Boolean).join(' • ')}</span>}
-            </span>
-          </button>
+          <a class="card" href={`/gallery/${c.slug}`}>
+            <img src={`/images/portfolio/${c.slug}/cover.jpg`} alt="" loading="lazy" decoding="async" />
+            <span class="card-text"><h3>{c.title}</h3><span>{c.count} photographs</span></span>
+          </a>
         ))}
       </div>
     </div>
   </section>
 
-  <section id="journal" class="section section-alt" style="margin-top: 80px;">
+  <section id="journal" class="section section-alt">
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Journal</span>
         <h2>Trip reports &amp; field lessons</h2>
         <p>Stories from long drives, cold mornings and the occasional lucky frame, along with what I have learnt about photographing wildlife.</p>
       </div>
-      <div class="journal-grid">
-        {posts.map(post => (
-          <a class="post-card" href={`/blog/${post.id}`}>
-            <div class="thumb">{post.data.heroImage && <img src={post.data.heroImage} alt="" loading="lazy" decoding="async" />}</div>
-            <div class="meta"><span class="tag">{post.data.category}</span><time datetime={post.data.date.toISOString()}>{fmt(post.data.date)}</time></div>
-            <h3>{post.data.title}</h3>
-            {post.data.excerpt && <p>{post.data.excerpt}</p>}
+      <div class="cards two">
+        {categories.map(c => (
+          <a class="card" href={`/blog/category/${c.slug}`}>
+            {c.cover && <img src={c.cover} alt="" loading="lazy" decoding="async" />}
+            <span class="card-text"><h3>{c.name}</h3><span>{c.count} {c.count === 1 ? 'post' : 'posts'}</span></span>
           </a>
         ))}
       </div>
-      <a class="more-link" href="/blog">Read all posts</a>
+      <a class="more-link" href="/blog">Browse the journal</a>
     </div>
   </section>
 
@@ -110,145 +74,17 @@ const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lamme
       <div>
         <span class="eyebrow">Contact</span>
         <h2 style="font-size: clamp(1.9rem, 3.4vw, 2.7rem);">Say hello</h2>
-        <p style="color: var(--text-dim); margin-top: 12px;">For print enquiries, collaborations or questions about a trip, send a message and I will reply as soon as I can.</p>
+        <p style="color: var(--text-dim); margin-top: 12px;">For collaborations, trip questions or print enquiries (you can also <a href="/prints">request a print</a> directly) or questions about a trip, send a message and I will reply as soon as I can.</p>
       </div>
-      <form class="form" name="contact" method="POST" action="/?sent=1" data-netlify="true" netlify-honeypot="bot-field">
+      <form class="form" name="contact" method="POST" action="/" data-netlify="true" data-ajax netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
         <p style="display:none;"><label>Leave this empty <input name="bot-field" /></label></p>
         <div><label for="name">Name</label><input type="text" id="name" name="name" required autocomplete="name" /></div>
         <div><label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email" /></div>
         <div><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div>
         <div><button type="submit" class="btn">Send message</button></div>
+        <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
-
-  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photograph viewer">
-    <div class="lb-stage">
-      <span class="lb-count" id="lbCount"></span>
-      <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
-      <button class="lb-nav prev" id="lbPrev" aria-label="Previous photograph">&#8249;</button>
-      <img class="lb-img" id="lbImg" alt="" />
-      <button class="lb-nav next" id="lbNext" aria-label="Next photograph">&#8250;</button>
-    </div>
-    <div class="lb-panel">
-      <div class="lb-title" id="lbTitle"></div>
-      <div class="lb-exif" id="lbExif">
-        <div><b id="eFocal">-</b><span>Focal length</span></div>
-        <div><b id="eAp">-</b><span>Aperture</span></div>
-        <div><b id="eSh">-</b><span>Shutter</span></div>
-        <div><b id="eIso">-</b><span>ISO</span></div>
-      </div>
-      <div class="lb-gear" id="lbGear"></div>
-    </div>
-  </div>
-
-  <script>
-    const grid = document.getElementById('gallery-grid')!;
-    const tiles = Array.from(grid.querySelectorAll<HTMLButtonElement>('.tile'));
-    const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
-
-    // Progressive rendering: blurred placeholder behind, image fades in when ready
-    tiles.forEach(t => {
-      const img = t.querySelector('img')!;
-      const done = () => img.classList.add('loaded');
-      if (img.complete && img.naturalWidth) done(); else img.addEventListener('load', done, { once: true });
-    });
-
-    chips.forEach(c => c.addEventListener('click', () => {
-      const f = c.dataset.filter!;
-      chips.forEach(x => x.setAttribute('aria-pressed', String(x === c)));
-      tiles.forEach(t => { t.hidden = !(f === 'All' || t.dataset.col === f); });
-      const note = document.getElementById('colNote')!;
-      if (f === 'All') { note.hidden = true; }
-      else {
-        note.hidden = false;
-        document.getElementById('colTitle')!.textContent = c.dataset.title || '';
-        const dEl = document.getElementById('colDesc')!; dEl.innerHTML = '';
-        (c.dataset.desc || '').split('\n').filter(Boolean).forEach(t => { const p = document.createElement('p'); p.textContent = t; dEl.appendChild(p); });
-        document.getElementById('colTrip')!.textContent = (c.dataset.details || '').replace(/\n/g, ' \u2022 ');
-        document.getElementById('colTrip')!.hidden = !c.dataset.details;
-      }
-    }));
-
-    // Review mode (/?review=1): flags photographs that still need a title, location or camera settings
-    if (new URLSearchParams(location.search).get('review') === '1') {
-      document.body.classList.add('review');
-      tiles.forEach(t => {
-        const need = t.dataset.need;
-        if (need) { const b = document.createElement('span'); b.className = 'review-badge'; b.textContent = 'Needs: ' + need; t.appendChild(b); }
-      });
-    }
-
-    // Lightbox
-    const lb = document.getElementById('lb')!;
-    const lbImg = document.getElementById('lbImg') as HTMLImageElement;
-    const $ = (id: string) => document.getElementById(id)!;
-    let list: HTMLButtonElement[] = [];
-    let idx = 0;
-    let lastFocus: Element | null = null;
-
-    function show(i: number) {
-      idx = (i + list.length) % list.length;
-      const t = list[idx];
-      const d = t.dataset;
-      lbImg.classList.add('blur');
-      lbImg.src = d.thumb!;
-      lbImg.alt = d.title || '';
-      const full = new Image();
-      full.onload = () => { if (list[idx] === t) { lbImg.src = full.src; lbImg.classList.remove('blur'); } };
-      full.src = d.full!;
-      $('lbTitle').innerHTML = '';
-      const name = document.createElement('span'); name.textContent = d.title || '';
-      $('lbTitle').appendChild(name);
-      const sub = [d.cat, d.loc].filter(Boolean).join('  •  ');
-      if (sub) { const s = document.createElement('small'); s.textContent = sub; $('lbTitle').appendChild(s); }
-      $('lbCount').textContent = `${idx + 1} / ${list.length}`;
-      const ex = d.exif ? JSON.parse(d.exif) : null;
-      const exBox = $('lbExif');
-      if (ex) {
-        exBox.style.display = '';
-        $('eFocal').textContent = ex.focal || '-';
-        $('eAp').textContent = ex.aperture || '-';
-        $('eSh').textContent = ex.shutter || '-';
-        $('eIso').textContent = (ex.iso || '-').replace('ISO ', '');
-        $('lbGear').textContent = [ex.camera, ex.lens].filter(Boolean).join('  •  ');
-        $('lbGear').className = 'lb-gear';
-      } else {
-        exBox.style.display = 'none';
-        $('lbGear').textContent = 'Camera settings are not available for this photograph.';
-        $('lbGear').className = 'lb-none';
-      }
-    }
-    function open(t: HTMLButtonElement) {
-      list = tiles.filter(x => !x.hidden);
-      lastFocus = document.activeElement;
-      lb.classList.add('open');
-      document.body.style.overflow = 'hidden';
-      show(list.indexOf(t));
-      $('lbClose').focus();
-    }
-    function close() {
-      lb.classList.remove('open');
-      document.body.style.overflow = '';
-      (lastFocus as HTMLElement | null)?.focus?.();
-    }
-    tiles.forEach(t => t.addEventListener('click', () => open(t)));
-    $('lbClose').addEventListener('click', close);
-    $('lbPrev').addEventListener('click', () => show(idx - 1));
-    $('lbNext').addEventListener('click', () => show(idx + 1));
-    lb.addEventListener('click', (e) => { if ((e.target as HTMLElement).classList.contains('lb-stage')) close(); });
-    addEventListener('keydown', (e) => {
-      if (!lb.classList.contains('open')) return;
-      if (e.key === 'Escape') close();
-      else if (e.key === 'ArrowLeft') show(idx - 1);
-      else if (e.key === 'ArrowRight') show(idx + 1);
-    });
-    let sx = 0;
-    lb.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
-    lb.addEventListener('touchend', (e) => {
-      const dx = e.changedTouches[0].clientX - sx;
-      if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
-    });
-  </script>
 </BaseLayout>

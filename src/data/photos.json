@@ -9,9 +9,16 @@
   "w": 1500,
   "h": 1200,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EACEQAAEEAgICAwAAAAAAAAAAAAECAwQRACEFEhMjQVFy/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAGREBAAMBAQAAAAAAAAAAAAAAAAECERJR/9oADAMBAAIRAxEAPwAmco85BSWabKqC6OxmopBmySYrr7aVB5DizrqTsZvnxnR4pEf1lBsfP3hydbQ4eMgUpCrvRs5AxxMZtYI7DWt1ilBEoU66sq/VZJ//2Q==",
-  "needs": [
-   "camera settings"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "Canon EOS R5",
+   "lens": "RF600mm F4 L IS USM + RF 1.4x extender",
+   "iso": "ISO 2000",
+   "focal": "840mm",
+   "aperture": "f/5.6",
+   "shutter": "1/1250s"
+  },
+  "id": "winter-wonderland-spiti/snow-leopard-in-a-frozen-cave"
  },
  {
   "title": "Bearded Vulture or lammergeier",
@@ -31,7 +38,8 @@
    "shutter": "1/2000s",
    "iso": "ISO 1600"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/bearded-vulture-or-lammergeier"
  },
  {
   "title": "Black-headed mountain finch",
@@ -51,7 +59,8 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch"
  },
  {
   "title": "Black-headed mountain finch",
@@ -71,7 +80,8 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch-2"
  },
  {
   "title": "Robin accentor",
@@ -91,10 +101,11 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/robin-accentor"
  },
  {
-  "title": "Untitled",
+  "title": "Black-winged snowfinch",
   "collection": "The Winter Wonderland - Spiti",
   "collectionSlug": "winter-wonderland-spiti",
   "location": "Spiti Valley, Himachal Pradesh",
@@ -111,9 +122,8 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "title"
-  ]
+  "needs": [],
+  "id": "winter-wonderland-spiti/mg-0081-edit-jpg"
  },
  {
   "title": "Hill Pigeon",
@@ -133,7 +143,8 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/hill-pigeon"
  },
  {
   "title": "Black-headed mountain finch",
@@ -153,7 +164,8 @@
    "shutter": "1/500s",
    "iso": "ISO 125"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch-3"
  },
  {
   "title": "Blue sheep",
@@ -173,7 +185,8 @@
    "shutter": "1/1600s",
    "iso": "ISO 160"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/blue-sheep"
  },
  {
   "title": "Himalayan Fox sleeping",
@@ -193,7 +206,8 @@
    "shutter": "1/640s",
    "iso": "ISO 250"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/himalayan-fox-sleeping"
  },
  {
   "title": "Ibex",
@@ -213,7 +227,8 @@
    "shutter": "1/2000s",
    "iso": "ISO 100"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/ibex"
  },
  {
   "title": "Locked in a stare with the ghost of the mountains",
@@ -233,7 +248,8 @@
    "shutter": "1/1250s",
    "iso": "ISO 800"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/locked-in-a-stare-with-the-ghost-of-the-mountains"
  },
  {
   "title": "The ghost of the mountains claims its prize",
@@ -245,9 +261,16 @@
   "w": 2000,
   "h": 1599,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMG/8QAIxAAAgIBAwMFAAAAAAAAAAAAAQIDEQAEEiEFE4EiMXGhsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARMf/aAAwDAQACEQMRAD8A0c+uhjX1kMCOPaj5zSCmbTy75NzSA8dssKrGgSntghJXVSbASiP3JGh3RZuZhbAUCBXnCCP0yeRT2NRJ8VYA8ZReHp8hhTfK+8CjQPP1iFf/2Q==",
-  "needs": [
-   "camera settings"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "Canon EOS R5",
+   "lens": "RF600mm F4 L IS USM",
+   "iso": "ISO 1600",
+   "focal": "600mm",
+   "aperture": "f/4",
+   "shutter": "1/800s"
+  },
+  "id": "winter-wonderland-spiti/the-ghost-of-the-mountains-claims-its-prize"
  },
  {
   "title": "Snow Leopard slipping away",
@@ -267,13 +290,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 320"
   },
-  "needs": []
+  "needs": [],
+  "id": "winter-wonderland-spiti/snow-leopard-slipping-away"
  },
  {
   "title": "Pied Kingfisher",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Sultanpur National Park, Gurgaon",
   "image": "/images/portfolio/birds-in-flight/pied-kingfisher.jpg",
   "thumb": "/images/thumbs/birds-in-flight/pied-kingfisher.jpg",
   "w": 1600,
@@ -287,15 +311,14 @@
    "shutter": "1/1600s",
    "iso": "ISO 200"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/pied-kingfisher"
  },
  {
   "title": "Greater Painted Snipe",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/birds-in-flight/greater-painted-snipe.jpg",
   "thumb": "/images/thumbs/birds-in-flight/greater-painted-snipe.jpg",
   "w": 1585,
@@ -309,15 +332,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/greater-painted-snipe"
  },
  {
   "title": "Yellow Bittern",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Najafgarh Jheel, Gurgaon",
   "image": "/images/portfolio/birds-in-flight/yellow-bittern.jpg",
   "thumb": "/images/thumbs/birds-in-flight/yellow-bittern.jpg",
   "w": 1982,
@@ -331,15 +353,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 640"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/yellow-bittern"
  },
  {
   "title": "River tern",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/birds-in-flight/river-tern.jpg",
   "thumb": "/images/thumbs/birds-in-flight/river-tern.jpg",
   "w": 1585,
@@ -353,15 +374,14 @@
    "shutter": "1/3200s",
    "iso": "ISO 400"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/river-tern"
  },
  {
   "title": "Eurasian Hobby",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Surajpur Bird Sanctuary, Greater Noida",
   "image": "/images/portfolio/birds-in-flight/eurasian-hobby.jpg",
   "thumb": "/images/thumbs/birds-in-flight/eurasian-hobby.jpg",
   "w": 1586,
@@ -375,15 +395,14 @@
    "shutter": "1/2500s",
    "iso": "ISO 125"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/eurasian-hobby"
  },
  {
   "title": "Oriental Honey Buzzard",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Surajpur Bird Sanctuary, Greater Noida",
   "image": "/images/portfolio/birds-in-flight/oriental-honey-buzzard.jpg",
   "thumb": "/images/thumbs/birds-in-flight/oriental-honey-buzzard.jpg",
   "w": 1982,
@@ -397,15 +416,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 250"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/oriental-honey-buzzard"
  },
  {
   "title": "Sand Martin",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/birds-in-flight/sand-martin.jpg",
   "thumb": "/images/thumbs/birds-in-flight/sand-martin.jpg",
   "w": 1982,
@@ -419,15 +437,14 @@
    "shutter": "1/3200s",
    "iso": "ISO 320"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/sand-martin"
  },
  {
   "title": "Red Necked Falcon",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/birds-in-flight/red-necked-falcon.jpg",
   "thumb": "/images/thumbs/birds-in-flight/red-necked-falcon.jpg",
   "w": 1982,
@@ -441,15 +458,14 @@
    "shutter": "1/3200s",
    "iso": "ISO 640"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/red-necked-falcon"
  },
  {
   "title": "Booted Eagle",
   "collection": "Birds in Flight",
   "collectionSlug": "birds-in-flight",
-  "location": "",
+  "location": "Dhanauri, Greater Noida",
   "image": "/images/portfolio/birds-in-flight/booted-eagle.jpg",
   "thumb": "/images/thumbs/birds-in-flight/booted-eagle.jpg",
   "w": 1600,
@@ -463,15 +479,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 200"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "birds-in-flight/booted-eagle"
  },
  {
   "title": "Pied Wheatear",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Kinnaur, Himachal Pradesh",
   "image": "/images/portfolio/avian-portraits/pied-wheatear.jpg",
   "thumb": "/images/thumbs/avian-portraits/pied-wheatear.jpg",
   "w": 1586,
@@ -485,15 +500,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 640"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/pied-wheatear"
  },
  {
   "title": "White capped bunting",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Kinnaur, Himachal Pradesh",
   "image": "/images/portfolio/avian-portraits/white-capped-bunting.jpg",
   "thumb": "/images/thumbs/avian-portraits/white-capped-bunting.jpg",
   "w": 1585,
@@ -507,15 +521,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 160"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/white-capped-bunting"
  },
  {
   "title": "Asian Green bee eater",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/avian-portraits/asian-green-bee-eater.jpg",
   "thumb": "/images/thumbs/avian-portraits/asian-green-bee-eater.jpg",
   "w": 725,
@@ -529,15 +542,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 400"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/asian-green-bee-eater"
  },
  {
   "title": "Marsh Sandpiper",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/avian-portraits/marsh-sandpiper.jpg",
   "thumb": "/images/thumbs/avian-portraits/marsh-sandpiper.jpg",
   "w": 1982,
@@ -551,15 +563,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 320"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/marsh-sandpiper"
  },
  {
   "title": "Spotted forktail",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Kalsa Nadi, Nainital, Uttarakhand",
   "image": "/images/portfolio/avian-portraits/spotted-forktail.jpg",
   "thumb": "/images/thumbs/avian-portraits/spotted-forktail.jpg",
   "w": 2000,
@@ -573,15 +584,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 1000"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/spotted-forktail"
  },
  {
   "title": "Little Ringed Plover",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/avian-portraits/little-ringed-plover.jpg",
   "thumb": "/images/thumbs/avian-portraits/little-ringed-plover.jpg",
   "w": 1982,
@@ -595,15 +605,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 160"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/little-ringed-plover"
  },
  {
   "title": "Blue-tailed bee-eater",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Mangar Bani, Gurgaon",
   "image": "/images/portfolio/avian-portraits/blue-tailed-bee-eater.jpg",
   "thumb": "/images/thumbs/avian-portraits/blue-tailed-bee-eater.jpg",
   "w": 724,
@@ -617,15 +626,14 @@
    "shutter": "1/1600s",
    "iso": "ISO 2500"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/blue-tailed-bee-eater"
  },
  {
   "title": "Peregrine Falcon",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Little Rann of Kutch, Gujarat",
   "image": "/images/portfolio/avian-portraits/peregrine-falcon.jpg",
   "thumb": "/images/thumbs/avian-portraits/peregrine-falcon.jpg",
   "w": 1982,
@@ -639,15 +647,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 250"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/peregrine-falcon"
  },
  {
   "title": "White-browed bushchat",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Nalsarovar Bird Sanctuary, Gujarat",
   "image": "/images/portfolio/avian-portraits/white-browed-bushchat.jpg",
   "thumb": "/images/thumbs/avian-portraits/white-browed-bushchat.jpg",
   "w": 2000,
@@ -661,15 +668,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 16000"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/white-browed-bushchat"
  },
  {
   "title": "Plumbeous Water Redstart",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Solang Valley, Himachal Pradesh",
   "image": "/images/portfolio/avian-portraits/plumbeous-water-redstart.jpg",
   "thumb": "/images/thumbs/avian-portraits/plumbeous-water-redstart.jpg",
   "w": 2000,
@@ -683,15 +689,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 6400"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/plumbeous-water-redstart"
  },
  {
   "title": "Citrine Wagtail",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/avian-portraits/citrine-wagtail.jpg",
   "thumb": "/images/thumbs/avian-portraits/citrine-wagtail.jpg",
   "w": 2000,
@@ -705,15 +710,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 125"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/citrine-wagtail"
  },
  {
   "title": "Horned Lark",
   "collection": "Avian Portraits",
   "collectionSlug": "avian-portraits",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/avian-portraits/horned-lark.jpg",
   "thumb": "/images/thumbs/avian-portraits/horned-lark.jpg",
   "w": 2000,
@@ -727,15 +731,14 @@
    "shutter": "1/500s",
    "iso": "ISO 800"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "avian-portraits/horned-lark"
  },
  {
   "title": "Red crested pochard",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Baur Reservoir, Uttarakhand",
   "image": "/images/portfolio/wings-water/red-crested-pochard.jpg",
   "thumb": "/images/thumbs/wings-water/red-crested-pochard.jpg",
   "w": 1299,
@@ -749,15 +752,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 500"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/red-crested-pochard"
  },
  {
   "title": "Northern Shoveler",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Sultanpur National Park, Gurgaon",
   "image": "/images/portfolio/wings-water/northern-shoveler.jpg",
   "thumb": "/images/thumbs/wings-water/northern-shoveler.jpg",
   "w": 2000,
@@ -771,15 +773,14 @@
    "shutter": "1/1000s",
    "iso": "ISO 200"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/northern-shoveler"
  },
  {
   "title": "Mallard",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Boston Public Garden, Boston",
   "image": "/images/portfolio/wings-water/mallard.jpg",
   "thumb": "/images/thumbs/wings-water/mallard.jpg",
   "w": 1600,
@@ -793,15 +794,14 @@
    "shutter": "1/1600s",
    "iso": "ISO 1250"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/mallard"
  },
  {
   "title": "Black tailed godwit",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Chandu Budhera, Gurgaon",
   "image": "/images/portfolio/wings-water/black-tailed-godwit.jpg",
   "thumb": "/images/thumbs/wings-water/black-tailed-godwit.jpg",
   "w": 1086,
@@ -815,15 +815,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 500"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/black-tailed-godwit"
  },
  {
   "title": "River terns",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/wings-water/river-terns.jpg",
   "thumb": "/images/thumbs/wings-water/river-terns.jpg",
   "w": 1086,
@@ -837,15 +836,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 320"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/river-terns"
  },
  {
   "title": "Oriental Darter",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/wings-water/oriental-darter.jpg",
   "thumb": "/images/thumbs/wings-water/oriental-darter.jpg",
   "w": 1086,
@@ -859,15 +857,14 @@
    "shutter": "1/1600s",
    "iso": "ISO 320"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/oriental-darter"
  },
  {
   "title": "Great Crested Grebe",
   "collection": "Wings & Water",
   "collectionSlug": "wings-water",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/wings-water/great-crested-grebe.jpg",
   "thumb": "/images/thumbs/wings-water/great-crested-grebe.jpg",
   "w": 1086,
@@ -881,15 +878,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 320"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "wings-water/great-crested-grebe"
  },
  {
   "title": "Indian Wild Ass",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Little Rann of Kutch, Gujarat",
   "image": "/images/portfolio/mammals-in-the-wild/indian-wild-ass.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/indian-wild-ass.jpg",
   "w": 724,
@@ -903,15 +899,14 @@
    "shutter": "1/800s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/indian-wild-ass"
  },
  {
   "title": "Ibex",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Spiti Valley, Himachal Pradesh",
   "image": "/images/portfolio/mammals-in-the-wild/ibex.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/ibex.jpg",
   "w": 2000,
@@ -925,15 +920,14 @@
    "shutter": "1/2000s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/ibex"
  },
  {
   "title": "Snow Leopard",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Spiti Valley, Himachal Pradesh",
   "image": "/images/portfolio/mammals-in-the-wild/snow-leopard.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/snow-leopard.jpg",
   "w": 1585,
@@ -947,15 +941,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 200"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/snow-leopard"
  },
  {
   "title": "Golden Jackal",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/golden-jackal.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/golden-jackal.jpg",
   "w": 1600,
@@ -969,15 +962,14 @@
    "shutter": "1/500s",
    "iso": "ISO 8000"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/golden-jackal"
  },
  {
   "title": "Blackbuck",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Tal Chhapar Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/blackbuck.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/blackbuck.jpg",
   "w": 1600,
@@ -991,15 +983,14 @@
    "shutter": "1/1250s",
    "iso": "ISO 400"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/blackbuck"
  },
  {
   "title": "Blackbuck",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Tal Chhapar Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/blackbuck-2.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/blackbuck-2.jpg",
   "w": 1182,
@@ -1013,15 +1004,14 @@
    "shutter": "1/125s",
    "iso": null
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/blackbuck-2"
  },
  {
   "title": "Leopard",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Jhalana Leopard Reserve, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/leopard.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/leopard.jpg",
   "w": 1601,
@@ -1035,15 +1025,14 @@
    "shutter": "1/400s",
    "iso": "ISO 1600"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/leopard"
  },
  {
   "title": "Indian crested porcupine",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/indian-crested-porcupine.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/indian-crested-porcupine.jpg",
   "w": 1086,
@@ -1057,15 +1046,14 @@
    "shutter": "1/640s",
    "iso": "ISO 6400"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/indian-crested-porcupine"
  },
  {
   "title": "Spotted Deer",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/spotted-deer.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/spotted-deer.jpg",
   "w": 1086,
@@ -1079,15 +1067,14 @@
    "shutter": "1/160s",
    "iso": "ISO 2000"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/spotted-deer"
  },
  {
   "title": "Golden Jackals",
   "collection": "Mammals in the Wild",
   "collectionSlug": "mammals-in-the-wild",
-  "location": "",
+  "location": "Bharatpur Bird Sanctuary, Rajasthan",
   "image": "/images/portfolio/mammals-in-the-wild/golden-jackals.jpg",
   "thumb": "/images/thumbs/mammals-in-the-wild/golden-jackals.jpg",
   "w": 1086,
@@ -1101,45 +1088,56 @@
    "shutter": "1/1250s",
    "iso": "ISO 4000"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "mammals-in-the-wild/golden-jackals"
  },
  {
   "title": "Chail",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Chail Wildlife Sanctuary, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/chail.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/chail.jpg",
   "w": 2000,
   "h": 1125,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIACgAKAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgQG/8QAIBAAAgIBBQADAAAAAAAAAAAAAQIAAwQREiEiMRRBYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECAxME/9oADAMBAAIRAxEAPwDbU+LkJuqG8fn1JavHHqmJX6P166M3kpk32IjlXIJHsV0SZDqiOz8YcbWhOXxkFtIezVmOvJJhHdhkj//Z",
-  "needs": [
-   "camera settings",
-   "location"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "iPhone 16 Pro Max",
+   "lens": null,
+   "iso": "ISO 80",
+   "focal": "24mm",
+   "aperture": "f/1.78",
+   "shutter": "1/6711s"
+  },
+  "id": "landscapes-of-the-wild/chail"
  },
  {
   "title": "Spiti",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Spiti Valley, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/spiti.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/spiti.jpg",
   "w": 2000,
   "h": 1500,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIACgAKAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACMQAAICAQMDBQAAAAAAAAAAAAECAAMEERJRBRMhIkFSwdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDZtwyqn06yGzGDeAuh4Ml7+URuW2zz77zF39Zyge1WUd/ltH3NSGmPUEbRyqngnSEy78HNybDbZepY8k/kJdaI/9k=",
-  "needs": [
-   "camera settings",
-   "location"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "iPhone 16 Pro Max",
+   "lens": null,
+   "iso": "ISO 64",
+   "focal": "24mm",
+   "aperture": "f/1.78",
+   "shutter": "1/256s"
+  },
+  "id": "landscapes-of-the-wild/spiti"
  },
  {
-  "title": "Morang, Himachal pradesh",
+  "title": "Morang, Himachal Pradesh",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Kinnaur, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/morang-himachal-pradesh.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/morang-himachal-pradesh.jpg",
   "w": 768,
@@ -1153,45 +1151,56 @@
    "shutter": "1/1855s",
    "iso": "ISO 80"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/morang-himachal-pradesh"
  },
  {
   "title": "Nako, Himachal Pradesh",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Nako, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/nako-himachal-pradesh.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/nako-himachal-pradesh.jpg",
   "w": 2000,
   "h": 1125,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIACgAKAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EACEQAAICAQQCAwAAAAAAAAAAAAECABEDBBIhMQVhE4HR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECEhMh/9oADAMBAAIRAxEAPwDmJhQ8ZEZfY/IfT4g1Lubmuql/h3bVaQHPTk92BMNaAqJtAG1rFDruWs1w2kWRn4lJFNx7AiTZsjHIbIP0Ii0kGqP/2Q==",
-  "needs": [
-   "camera settings",
-   "location"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "iPhone 14 Pro Max",
+   "lens": null,
+   "iso": "ISO 50",
+   "focal": "14mm",
+   "aperture": "f/2.2",
+   "shutter": "1/2882s"
+  },
+  "id": "landscapes-of-the-wild/nako-himachal-pradesh"
  },
  {
   "title": "Sattal",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Sattal, Uttarakhand",
   "image": "/images/portfolio/landscapes-of-the-wild/sattal.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/sattal.jpg",
   "w": 2000,
   "h": 1125,
   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIACgAKAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAv/EACMQAAICAgECBwAAAAAAAAAAAAECAAMRIQQFURITIjFBQmH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABkRAAMBAQEAAAAAAAAAAAAAAAABEVESMf/aAAwDAQACEQMRAD8ASvW+Qpw4U4+pQTNnW2ZgoqrY9sGTbiVssVSQMIffexvccw8urCekfkic8QmhZzuWXJHhUdsQk612DaPxCWvRyj//2Q==",
-  "needs": [
-   "camera settings",
-   "location"
-  ]
+  "needs": [],
+  "exif": {
+   "camera": "iPhone 14 Pro Max",
+   "lens": null,
+   "iso": "ISO 40",
+   "focal": "14mm",
+   "aperture": "f/2.2",
+   "shutter": "1/868s"
+  },
+  "id": "landscapes-of-the-wild/sattal"
  },
  {
   "title": "Manila, Uttarakhand",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Manila, Uttarakhand",
   "image": "/images/portfolio/landscapes-of-the-wild/manila-uttarakhand.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/manila-uttarakhand.jpg",
   "w": 1024,
@@ -1205,15 +1214,14 @@
    "shutter": "1/971s",
    "iso": "ISO 64"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/manila-uttarakhand"
  },
  {
-  "title": "Munsiari",
+  "title": "Munsiyari",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Munsiyari, Uttarakhand",
   "image": "/images/portfolio/landscapes-of-the-wild/munsiari.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/munsiari.jpg",
   "w": 1182,
@@ -1227,15 +1235,14 @@
    "shutter": "1/3356s",
    "iso": "ISO 80"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/munsiari"
  },
  {
-  "title": "Munsiari",
+  "title": "Munsiyari",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Munsiyari, Uttarakhand",
   "image": "/images/portfolio/landscapes-of-the-wild/munsiari-2.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/munsiari-2.jpg",
   "w": 1182,
@@ -1249,15 +1256,14 @@
    "shutter": "1/680s",
    "iso": "ISO 80"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/munsiari-2"
  },
  {
   "title": "Chandratal Lake",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/chandratal-lake.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/chandratal-lake.jpg",
   "w": 2000,
@@ -1271,15 +1277,14 @@
    "shutter": "1/500s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/chandratal-lake"
  },
  {
   "title": "The trek to Chandratal Lake",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/the-trek-to-chandratal-lake.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/the-trek-to-chandratal-lake.jpg",
   "w": 2000,
@@ -1293,15 +1298,14 @@
    "shutter": "1/500s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/the-trek-to-chandratal-lake"
  },
  {
   "title": "The route back from Chandratal lake",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/the-route-back-from-chandratal-lake.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/the-route-back-from-chandratal-lake.jpg",
   "w": 2000,
@@ -1315,15 +1319,14 @@
    "shutter": "1/500s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/the-route-back-from-chandratal-lake"
  },
  {
   "title": "The peak behind Moonlake camps at Chandratal",
   "collection": "Landscapes of the Wild",
   "collectionSlug": "landscapes-of-the-wild",
-  "location": "",
+  "location": "Chandratal, Himachal Pradesh",
   "image": "/images/portfolio/landscapes-of-the-wild/the-peak-behind-moonlake-camps-at-chandratal.jpg",
   "thumb": "/images/thumbs/landscapes-of-the-wild/the-peak-behind-moonlake-camps-at-chandratal.jpg",
   "w": 1334,
@@ -1337,8 +1340,7 @@
    "shutter": "1/1000s",
    "iso": "ISO 100"
   },
-  "needs": [
-   "location"
-  ]
+  "needs": [],
+  "id": "landscapes-of-the-wild/the-peak-behind-moonlake-camps-at-chandratal"
  }
 ]

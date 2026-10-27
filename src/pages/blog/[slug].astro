@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import { slugify } from '../../lib/journal';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -15,10 +17,11 @@ const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', y
   <article>
     <div class="post-top">
       <div class="wrap post-body">
-        <div class="meta"><span class="tag">{category}</span><time datetime={date.toISOString()}>{when}</time></div>
+        <div class="meta"><a class="tag" href={`/blog/category/${slugify(category)}`}>{category}</a><time datetime={date.toISOString()}>{when}</time></div>
         <h1>{title}</h1>
       </div>
     </div>
     <div class="post-content"><Content /><a class="back-link" href="/blog">&larr; Back to the journal</a></div>
   </article>
+  <Lightbox />
 </BaseLayout>

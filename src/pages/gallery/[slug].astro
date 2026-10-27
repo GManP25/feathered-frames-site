@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import photosData from '../../data/photos.json';
+import collections from '../../data/collections.json';
+
+export function getStaticPaths() {
+  return collections.map(c => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props;
+const photos: any[] = photosData.filter((p: any) => p.collectionSlug === c.slug);
+const paras = c.description.split('\n').filter(Boolean);
+---
+<BaseLayout title={c.title} description={c.description.slice(0, 160)} image={`/images/portfolio/${c.slug}/cover.jpg`}>
+  <section class="page-head">
+    <div class="wrap">
+      <a class="back-link" href="/#gallery">&larr; All collections</a>
+      <span class="eyebrow" style="margin-top:18px">Collection &middot; {photos.length} photographs</span>
+      <h1>{c.title}</h1>
+      <div class="col-note-inline">
+        {paras.map(t => <p>{t}</p>)}
+        {c.details.filter(Boolean).length > 0 && <p class="trip">{c.details.filter(Boolean).join(' • ').replace(/\n/g, ' • ')}</p>}
+      </div>
+    </div>
+  </section>
+  <div class="filter-bar" role="navigation" aria-label="Collections">
+    <div class="wrap">
+      <a class="chip" href="/#gallery">All collections</a>
+      {collections.map(x => (
+        <a class="chip" href={`/gallery/${x.slug}`} aria-current={x.slug === c.slug ? 'page' : undefined}>{x.title}<span class="n">{x.count}</span></a>
+      ))}
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="gallery" id="gallery-grid">
+      {photos.map((p, i) => (
+        <button
+          class="tile" type="button" data-lb data-lb-group="gallery" data-kind="photo" data-id={p.id} data-need={p.needs.join(', ')}
+          data-full={p.image} data-thumb={p.thumb} data-title={p.title} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
+          style={`background-image:url(${p.lqip}); aspect-ratio:${p.w}/${p.h}`}
+          aria-label={`Open ${p.title}`}
+        >
+          <img src={p.thumb} width={p.w} height={p.h} alt={`${p.title}${p.location ? ', ' + p.location : ''}`} loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
+          <span class="tile-info">
+            <span class="tile-title">{p.title}</span>
+            {p.location && <span class="tile-loc" style="display:block">{p.location}</span>}
+            {p.exif && <span class="tile-exif" style="display:block">{[p.exif.focal, p.exif.aperture, p.exif.shutter, p.exif.iso].filter(Boolean).join(' • ')}</span>}
+          </span>
+        </button>
+      ))}
+    </div>
+  </div>
+  <Lightbox />
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('.tile').forEach(t => {
+      const img = t.querySelector('img')!;
+      const done = () => img.classList.add('loaded');
+      if (img.complete && img.naturalWidth) done(); else img.addEventListener('load', done, { once: true });
+    });
+    // Review mode (?review=1): flags photographs that still need a title, location or camera settings
+    if (new URLSearchParams(location.search).get('review') === '1') {
+      document.body.classList.add('review');
+      document.querySelectorAll<HTMLButtonElement>('.tile').forEach(t => {
+        const need = t.dataset.need;
+        if (need) { const b = document.createElement('span'); b.className = 'review-badge'; b.textContent = 'Needs: ' + need; t.appendChild(b); }
+      });
+    }
+    // keep the current collection chip in view on small screens
+    document.querySelector('.chip[aria-current]')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  </script>
+</BaseLayout>

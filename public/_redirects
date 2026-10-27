@@ -1,4 +1,4 @@
 /portfolio /#gallery 301
-/portfolio/* /#gallery 301
+/portfolio/:slug /gallery/:slug 301
 /about /#about 301
 /contact /#contact 301

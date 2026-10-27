@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCategories, getPosts, fmtDate } from '../../../lib/journal';
+
+export async function getStaticPaths() {
+  const cats = await getCategories();
+  return cats.map(c => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props;
+const categories = await getCategories();
+const total = (await getPosts()).length;
+---
+<BaseLayout title={c.name} description={`Journal posts in ${c.name}: trip reports and field lessons from wildlife photography across India.`} image={c.cover}>
+  <section class="page-head">
+    <div class="wrap">
+      <a class="back-link" href="/blog">&larr; Journal</a>
+      <span class="eyebrow" style="margin-top:18px">Journal &middot; {c.count} {c.count === 1 ? 'post' : 'posts'}</span>
+      <h1>{c.name}</h1>
+    </div>
+  </section>
+  <div class="filter-bar" role="navigation" aria-label="Journal categories">
+    <div class="wrap">
+      <a class="chip" href="/blog">All<span class="n">{total}</span></a>
+      {categories.map(x => <a class="chip" href={`/blog/category/${x.slug}`} aria-current={x.slug === c.slug ? 'page' : undefined}>{x.name}<span class="n">{x.count}</span></a>)}
+    </div>
+  </div>
+  <section class="section" style="padding-top: 40px;">
+    <div class="wrap">
+      <div class="journal-grid">
+        {c.posts.map(post => (
+          <a class="post-card" href={`/blog/${post.id}`}>
+            <div class="thumb">{post.data.heroImage && <img src={post.data.heroImage} alt="" loading="lazy" decoding="async" />}</div>
+            <div class="meta"><span class="tag">{post.data.category}</span><time datetime={post.data.date.toISOString()}>{fmtDate(post.data.date)}</time></div>
+            <h3>{post.data.title}</h3>
+            {post.data.excerpt && <p>{post.data.excerpt}</p>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -38,9 +38,10 @@ const p = isHome ? '' : '/';
     <div class="wrap">
       <a href="/" class="brand">Gaurav's Feathered Frames</a>
       <nav class="nav-links" id="navLinks" aria-label="Main">
-        <a href={`${p}#gallery`}>Gallery</a>
+        <a href={`${p}#gallery`} data-nav="gallery">Gallery</a>
         <a href={isHome ? "#journal" : "/blog"} data-nav="journal">Journal</a>
         <a href={`${p}#about`}>About</a>
+        <a href="/prints" data-nav="prints">Prints</a>
         <a href={`${p}#contact`}>Contact</a>
       </nav>
       <div class="header-actions">
@@ -76,8 +77,6 @@ const p = isHome ? '' : '/';
       </div>
     </div>
   </footer>
-
-  <div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-label="Enlarged image"><img alt="" /></div>
 
   <script>
     const root = document.documentElement;
@@ -126,19 +125,34 @@ const p = isHome ? '' : '/';
       document.querySelector('.nav-links a[data-nav="journal"]')?.classList.add('active');
     }
 
-    // Click-to-enlarge for images inside blog posts
-    const zoom = document.getElementById('zoom');
-    const zoomImg = zoom?.querySelector('img');
-    document.addEventListener('click', (e) => {
-      const t = e.target as HTMLElement;
-      if (t instanceof HTMLImageElement && t.hasAttribute('data-zoom') && zoom && zoomImg) {
-        zoomImg.src = t.currentSrc || t.src;
-        zoom.classList.add('open');
-      } else if (zoom?.classList.contains('open')) {
-        zoom.classList.remove('open');
-      }
+    if (location.pathname.startsWith('/gallery')) {
+      document.querySelector('.nav-links a[data-nav="gallery"]')?.classList.add('active');
+    }
+    if (location.pathname.startsWith('/prints')) {
+      document.querySelector('.nav-links a[data-nav="prints"]')?.classList.add('active');
+    }
+
+    // Forms post to Netlify in the background and confirm on the page
+    document.querySelectorAll<HTMLFormElement>('form[data-ajax]').forEach((form) => {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+        const status = form.querySelector<HTMLElement>('.form-status');
+        if (btn) btn.disabled = true;
+        if (status) { status.className = 'form-status'; status.textContent = 'Sending...'; }
+        try {
+          const body = new URLSearchParams(new FormData(form) as unknown as Record<string, string>).toString();
+          const res = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body });
+          if (!res.ok) throw new Error(String(res.status));
+          form.reset();
+          if (status) { status.className = 'form-status ok'; status.textContent = 'Thank you. Your message has been sent and I will reply by email.'; }
+        } catch {
+          if (status) { status.className = 'form-status err'; status.textContent = 'Sorry, that did not go through. Please try again, or message me on Instagram.'; }
+        } finally {
+          if (btn) btn.disabled = false;
+        }
+      });
     });
-    addEventListener('keydown', (e) => { if (e.key === 'Escape') zoom?.classList.remove('open'); });
   </script>
 </body>
 </html>
