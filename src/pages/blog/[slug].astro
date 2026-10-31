@@ -17,7 +17,7 @@ const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', y
   <article>
     <div class="post-top">
       <div class="wrap post-body">
-        <div class="meta"><a class="tag" href={`/blog/category/${slugify(category)}`}>{category}</a><time datetime={date.toISOString()}>{when}</time></div>
+        <div class="meta"><a class="tag" href={`/blog/category/${slugify(category)}`}>{category}</a><time class="z-date" datetime={date.toISOString()}><svg class="ico-leaf" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4C11 4 5 8.5 5 15c0 1.6.5 3 1.4 4.1C7.6 12.8 12 9.4 17 8.2 12.8 10.4 9.6 13.8 7.4 18.4c.9.4 1.9.6 3 .6 6 0 9.6-5.5 9.6-15z"/></svg>{when}</time></div>
         <h1>{title}</h1>
       </div>
     </div>

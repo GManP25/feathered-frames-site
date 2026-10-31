@@ -18,7 +18,8 @@
    "aperture": "f/5.6",
    "shutter": "1/1250s"
   },
-  "id": "winter-wonderland-spiti/snow-leopard-in-a-frozen-cave"
+  "id": "winter-wonderland-spiti/snow-leopard-in-a-frozen-cave",
+  "scientificName": "Panthera uncia"
  },
  {
   "title": "Bearded Vulture or lammergeier",
@@ -39,7 +40,8 @@
    "iso": "ISO 1600"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/bearded-vulture-or-lammergeier"
+  "id": "winter-wonderland-spiti/bearded-vulture-or-lammergeier",
+  "scientificName": "Gypaetus barbatus"
  },
  {
   "title": "Black-headed mountain finch",
@@ -60,7 +62,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/black-headed-mountain-finch"
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch",
+  "scientificName": "Leucosticte brandti"
  },
  {
   "title": "Black-headed mountain finch",
@@ -81,7 +84,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/black-headed-mountain-finch-2"
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch-2",
+  "scientificName": "Leucosticte brandti"
  },
  {
   "title": "Robin accentor",
@@ -102,7 +106,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/robin-accentor"
+  "id": "winter-wonderland-spiti/robin-accentor",
+  "scientificName": "Prunella rubeculoides"
  },
  {
   "title": "Black-winged snowfinch",
@@ -144,7 +149,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/hill-pigeon"
+  "id": "winter-wonderland-spiti/hill-pigeon",
+  "scientificName": "Columba rupestris"
  },
  {
   "title": "Black-headed mountain finch",
@@ -165,7 +171,8 @@
    "iso": "ISO 125"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/black-headed-mountain-finch-3"
+  "id": "winter-wonderland-spiti/black-headed-mountain-finch-3",
+  "scientificName": "Leucosticte brandti"
  },
  {
   "title": "Blue sheep",
@@ -186,7 +193,8 @@
    "iso": "ISO 160"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/blue-sheep"
+  "id": "winter-wonderland-spiti/blue-sheep",
+  "scientificName": "Pseudois nayaur"
  },
  {
   "title": "Himalayan Fox sleeping",
@@ -207,7 +215,8 @@
    "iso": "ISO 250"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/himalayan-fox-sleeping"
+  "id": "winter-wonderland-spiti/himalayan-fox-sleeping",
+  "scientificName": "Vulpes vulpes"
  },
  {
   "title": "Ibex",
@@ -228,7 +237,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/ibex"
+  "id": "winter-wonderland-spiti/ibex",
+  "scientificName": "Capra sibirica"
  },
  {
   "title": "Locked in a stare with the ghost of the mountains",
@@ -291,7 +301,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/snow-leopard-slipping-away"
+  "id": "winter-wonderland-spiti/snow-leopard-slipping-away",
+  "scientificName": "Panthera uncia"
  },
  {
   "title": "Pied Kingfisher",
@@ -312,7 +323,8 @@
    "iso": "ISO 200"
   },
   "needs": [],
-  "id": "birds-in-flight/pied-kingfisher"
+  "id": "birds-in-flight/pied-kingfisher",
+  "scientificName": "Ceryle rudis"
  },
  {
   "title": "Greater Painted Snipe",
@@ -333,7 +345,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "birds-in-flight/greater-painted-snipe"
+  "id": "birds-in-flight/greater-painted-snipe",
+  "scientificName": "Rostratula benghalensis"
  },
  {
   "title": "Yellow Bittern",
@@ -354,7 +367,8 @@
    "iso": "ISO 640"
   },
   "needs": [],
-  "id": "birds-in-flight/yellow-bittern"
+  "id": "birds-in-flight/yellow-bittern",
+  "scientificName": "Ixobrychus sinensis"
  },
  {
   "title": "River tern",
@@ -375,7 +389,8 @@
    "iso": "ISO 400"
   },
   "needs": [],
-  "id": "birds-in-flight/river-tern"
+  "id": "birds-in-flight/river-tern",
+  "scientificName": "Sterna aurantia"
  },
  {
   "title": "Eurasian Hobby",
@@ -396,7 +411,8 @@
    "iso": "ISO 125"
   },
   "needs": [],
-  "id": "birds-in-flight/eurasian-hobby"
+  "id": "birds-in-flight/eurasian-hobby",
+  "scientificName": "Falco subbuteo"
  },
  {
   "title": "Oriental Honey Buzzard",
@@ -417,7 +433,8 @@
    "iso": "ISO 250"
   },
   "needs": [],
-  "id": "birds-in-flight/oriental-honey-buzzard"
+  "id": "birds-in-flight/oriental-honey-buzzard",
+  "scientificName": "Pernis ptilorhynchus"
  },
  {
   "title": "Sand Martin",
@@ -438,7 +455,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "birds-in-flight/sand-martin"
+  "id": "birds-in-flight/sand-martin",
+  "scientificName": "Riparia riparia"
  },
  {
   "title": "Red Necked Falcon",
@@ -459,7 +477,8 @@
    "iso": "ISO 640"
   },
   "needs": [],
-  "id": "birds-in-flight/red-necked-falcon"
+  "id": "birds-in-flight/red-necked-falcon",
+  "scientificName": "Falco chicquera"
  },
  {
   "title": "Booted Eagle",
@@ -480,7 +499,8 @@
    "iso": "ISO 200"
   },
   "needs": [],
-  "id": "birds-in-flight/booted-eagle"
+  "id": "birds-in-flight/booted-eagle",
+  "scientificName": "Hieraaetus pennatus"
  },
  {
   "title": "Pied Wheatear",
@@ -501,7 +521,8 @@
    "iso": "ISO 640"
   },
   "needs": [],
-  "id": "avian-portraits/pied-wheatear"
+  "id": "avian-portraits/pied-wheatear",
+  "scientificName": "Oenanthe pleschanka"
  },
  {
   "title": "White capped bunting",
@@ -522,7 +543,8 @@
    "iso": "ISO 160"
   },
   "needs": [],
-  "id": "avian-portraits/white-capped-bunting"
+  "id": "avian-portraits/white-capped-bunting",
+  "scientificName": "Emberiza stewarti"
  },
  {
   "title": "Asian Green bee eater",
@@ -543,7 +565,8 @@
    "iso": "ISO 400"
   },
   "needs": [],
-  "id": "avian-portraits/asian-green-bee-eater"
+  "id": "avian-portraits/asian-green-bee-eater",
+  "scientificName": "Merops orientalis"
  },
  {
   "title": "Marsh Sandpiper",
@@ -564,7 +587,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "avian-portraits/marsh-sandpiper"
+  "id": "avian-portraits/marsh-sandpiper",
+  "scientificName": "Tringa stagnatilis"
  },
  {
   "title": "Spotted forktail",
@@ -585,7 +609,8 @@
    "iso": "ISO 1000"
   },
   "needs": [],
-  "id": "avian-portraits/spotted-forktail"
+  "id": "avian-portraits/spotted-forktail",
+  "scientificName": "Enicurus maculatus"
  },
  {
   "title": "Little Ringed Plover",
@@ -606,7 +631,8 @@
    "iso": "ISO 160"
   },
   "needs": [],
-  "id": "avian-portraits/little-ringed-plover"
+  "id": "avian-portraits/little-ringed-plover",
+  "scientificName": "Charadrius dubius"
  },
  {
   "title": "Blue-tailed bee-eater",
@@ -627,7 +653,8 @@
    "iso": "ISO 2500"
   },
   "needs": [],
-  "id": "avian-portraits/blue-tailed-bee-eater"
+  "id": "avian-portraits/blue-tailed-bee-eater",
+  "scientificName": "Merops philippinus"
  },
  {
   "title": "Peregrine Falcon",
@@ -648,7 +675,8 @@
    "iso": "ISO 250"
   },
   "needs": [],
-  "id": "avian-portraits/peregrine-falcon"
+  "id": "avian-portraits/peregrine-falcon",
+  "scientificName": "Falco peregrinus"
  },
  {
   "title": "White-browed bushchat",
@@ -669,7 +697,8 @@
    "iso": "ISO 16000"
   },
   "needs": [],
-  "id": "avian-portraits/white-browed-bushchat"
+  "id": "avian-portraits/white-browed-bushchat",
+  "scientificName": "Saxicola macrorhynchus"
  },
  {
   "title": "Plumbeous Water Redstart",
@@ -690,7 +719,8 @@
    "iso": "ISO 6400"
   },
   "needs": [],
-  "id": "avian-portraits/plumbeous-water-redstart"
+  "id": "avian-portraits/plumbeous-water-redstart",
+  "scientificName": "Phoenicurus fuliginosus"
  },
  {
   "title": "Citrine Wagtail",
@@ -711,7 +741,8 @@
    "iso": "ISO 125"
   },
   "needs": [],
-  "id": "avian-portraits/citrine-wagtail"
+  "id": "avian-portraits/citrine-wagtail",
+  "scientificName": "Motacilla citreola"
  },
  {
   "title": "Horned Lark",
@@ -732,7 +763,8 @@
    "iso": "ISO 800"
   },
   "needs": [],
-  "id": "avian-portraits/horned-lark"
+  "id": "avian-portraits/horned-lark",
+  "scientificName": "Eremophila alpestris"
  },
  {
   "title": "Red crested pochard",
@@ -753,7 +785,8 @@
    "iso": "ISO 500"
   },
   "needs": [],
-  "id": "wings-water/red-crested-pochard"
+  "id": "wings-water/red-crested-pochard",
+  "scientificName": "Netta rufina"
  },
  {
   "title": "Northern Shoveler",
@@ -774,7 +807,8 @@
    "iso": "ISO 200"
   },
   "needs": [],
-  "id": "wings-water/northern-shoveler"
+  "id": "wings-water/northern-shoveler",
+  "scientificName": "Spatula clypeata"
  },
  {
   "title": "Mallard",
@@ -795,7 +829,8 @@
    "iso": "ISO 1250"
   },
   "needs": [],
-  "id": "wings-water/mallard"
+  "id": "wings-water/mallard",
+  "scientificName": "Anas platyrhynchos"
  },
  {
   "title": "Black tailed godwit",
@@ -816,7 +851,8 @@
    "iso": "ISO 500"
   },
   "needs": [],
-  "id": "wings-water/black-tailed-godwit"
+  "id": "wings-water/black-tailed-godwit",
+  "scientificName": "Limosa limosa"
  },
  {
   "title": "River terns",
@@ -837,7 +873,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "wings-water/river-terns"
+  "id": "wings-water/river-terns",
+  "scientificName": "Sterna aurantia"
  },
  {
   "title": "Oriental Darter",
@@ -858,7 +895,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "wings-water/oriental-darter"
+  "id": "wings-water/oriental-darter",
+  "scientificName": "Anhinga melanogaster"
  },
  {
   "title": "Great Crested Grebe",
@@ -879,7 +917,8 @@
    "iso": "ISO 320"
   },
   "needs": [],
-  "id": "wings-water/great-crested-grebe"
+  "id": "wings-water/great-crested-grebe",
+  "scientificName": "Podiceps cristatus"
  },
  {
   "title": "Indian Wild Ass",
@@ -900,7 +939,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/indian-wild-ass"
+  "id": "mammals-in-the-wild/indian-wild-ass",
+  "scientificName": "Equus hemionus khur"
  },
  {
   "title": "Ibex",
@@ -921,7 +961,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/ibex"
+  "id": "mammals-in-the-wild/ibex",
+  "scientificName": "Capra sibirica"
  },
  {
   "title": "Snow Leopard",
@@ -942,7 +983,8 @@
    "iso": "ISO 200"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/snow-leopard"
+  "id": "mammals-in-the-wild/snow-leopard",
+  "scientificName": "Panthera uncia"
  },
  {
   "title": "Golden Jackal",
@@ -963,7 +1005,8 @@
    "iso": "ISO 8000"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/golden-jackal"
+  "id": "mammals-in-the-wild/golden-jackal",
+  "scientificName": "Canis aureus"
  },
  {
   "title": "Blackbuck",
@@ -984,7 +1027,8 @@
    "iso": "ISO 400"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/blackbuck"
+  "id": "mammals-in-the-wild/blackbuck",
+  "scientificName": "Antilope cervicapra"
  },
  {
   "title": "Blackbuck",
@@ -1005,7 +1049,8 @@
    "iso": null
   },
   "needs": [],
-  "id": "mammals-in-the-wild/blackbuck-2"
+  "id": "mammals-in-the-wild/blackbuck-2",
+  "scientificName": "Antilope cervicapra"
  },
  {
   "title": "Leopard",
@@ -1026,7 +1071,8 @@
    "iso": "ISO 1600"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/leopard"
+  "id": "mammals-in-the-wild/leopard",
+  "scientificName": "Panthera pardus"
  },
  {
   "title": "Indian crested porcupine",
@@ -1047,7 +1093,8 @@
    "iso": "ISO 6400"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/indian-crested-porcupine"
+  "id": "mammals-in-the-wild/indian-crested-porcupine",
+  "scientificName": "Hystrix indica"
  },
  {
   "title": "Spotted Deer",
@@ -1068,7 +1115,8 @@
    "iso": "ISO 2000"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/spotted-deer"
+  "id": "mammals-in-the-wild/spotted-deer",
+  "scientificName": "Axis axis"
  },
  {
   "title": "Golden Jackals",
@@ -1089,7 +1137,8 @@
    "iso": "ISO 4000"
   },
   "needs": [],
-  "id": "mammals-in-the-wild/golden-jackals"
+  "id": "mammals-in-the-wild/golden-jackals",
+  "scientificName": "Canis aureus"
  },
  {
   "title": "Chail",

@@ -7,7 +7,7 @@ excerpt: "Photography isn’t always about capturing every detail clearly—ofte
 originalUrl: "https://www.gauravsfeatheredframes.com/post/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography"
 ---
 
-<figure class="inline-media"><img src="/images/blog/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-magic-of-bokeh-using-intentional-blur-to-elevate-your-photography/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 Photography isn’t always about capturing every detail clearly—often, it’s about knowing exactly what not to show.
 

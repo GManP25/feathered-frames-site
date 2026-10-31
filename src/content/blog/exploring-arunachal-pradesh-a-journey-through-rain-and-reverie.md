@@ -13,11 +13,11 @@ We landed at Dibrugarh Airport, a modest outpost that serves as the airborne lif
 
 What struck me immediately, just minutes from the airport, was how alive everything was. We hadn’t reached any birding site yet. We were still on the road, still getting our bearings, but the fields that flanked the highway shimmered with activity. There were birds everywhere. Not a vague notion of “bird life” but clear, specific, almost cinematic glimpses: a Lesser Adjutant stalking across a paddy’s edge, a Cinnamon bittern flying low over the fields, a Watercock darting through reeds. At one point we stopped, cameras already in hand, to watch a male Watercock chasing a female, frantic, comical, and earnest in its hope. The trip had barely begun, and already the birds were performing.
 
-<div class="inline-gallery cols-3"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-02.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-03.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:2.4867"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8867"><img width="1596" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-02.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-03.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 The light was soft and broken, the sky a ceiling of damp white. It was the cusp of monsoon. Scattered showers would drift through the day like passing moods. And all along the road, as if Assam had laid out a welcome banner, were its famous tea gardens, neat rows of green rippling like water. The air was balmy. The landscape rustic and saturated. Even in motion, we could feel it: this was going to be a journey that asked you to look closely, and feel deeply.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-04.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-04.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 Originally, our plan had been to drive eastward in stages, stopping at Tezu on the way to Walong. But Rajesh Panwar, a well-known birder and our guide for the journey, had only just returned from scouting the area with another group and knew better. “Too quiet around Tezu,” he said. “Maguri is more alive right now.” We trusted him. So we adjusted the route. That’s how birding works. You chase not only species but signals: the right place, the right moment, and someone who knows when those align.
 
@@ -31,7 +31,7 @@ It wasn’t a simple walk into a hide. To find the owl, we had to cross the Dibr
 
 But this was no tame savanna. The grass was wild and towered above our heads, a vertical green wall that shimmered with heat. The humidity hit like a wave, rising from the ground and closing in above. Palash walked ahead with a machete, slicing through the denser sections, cutting a path into the unknown. It was surreal. A corridor of motion and silence, broken only by the swish of blades and the squelch of boots in sodden earth.
 
-<figure class="inline-media inline-video"><video controls preload="none" playsinline poster="/videos/blog/maguri-beel-grassland.jpg"><source src="/videos/blog/maguri-beel-grassland.mp4" type="video/mp4"></video></figure>
+<figure class="inline-media inline-video" style="--ar:0.5624"><video width="1280" height="2276" controls preload="none" playsinline poster="/videos/blog/maguri-beel-grassland.jpg"><source src="/videos/blog/maguri-beel-grassland.mp4" type="video/mp4"></video></figure>
 
 Somewhere in here, hidden within this swaying jungle of grass, were three individual Grass-Owls. We trudged through for nearly an hour, scanning every rustle, every shadow. Then, without warning, a flash of wings.
 
@@ -39,11 +39,11 @@ An owl burst from the grass right in front of us, rising just above our heads an
 
 We stood breathless. A few of us managed to raise our cameras in time. Mine caught the bird mid-flight, wings open. It was one of those encounters that reminds you why you come to places like this. We searched on for another hour, hoping to see more, a clearer shot or a second owl, but they had melted into the landscape. Then the rain began again. Not a drizzle this time, but steady, honest monsoon rain.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-06.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-06.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 We made our way back to the river, wet and steaming. As we stood on the muddy bank, waiting for the boat, we looked behind us. That vast grassland was now grey under falling water, holding its secrets once more.
 
-<figure class="inline-media inline-video"><video controls preload="none" playsinline poster="/videos/blog/boat-ride.jpg"><source src="/videos/blog/boat-ride.mp4" type="video/mp4"></video></figure>
+<figure class="inline-media inline-video" style="--ar:0.5624"><video width="1280" height="2276" controls preload="none" playsinline poster="/videos/blog/boat-ride.jpg"><source src="/videos/blog/boat-ride.mp4" type="video/mp4"></video></figure>
 
 By the time we reached the cars, it was time for lunch. After lunch, the rain eased up, and after a short break we were on the move again. There was no time to waste. The next two targets were no less elusive.
 
@@ -57,7 +57,7 @@ After about thirty minutes of slow, breath-held tracking, Palash pointed up. The
 
 It was nearly dark now. On the way back, we stopped at the edge of a small grove where a Collared Scops-Owl had been seen before. We waited quietly, hoping for a call. I turned around to scan the trees behind us, and paused.
 
-<figure class="inline-media inline-video"><video controls preload="none" playsinline poster="/videos/blog/fireflies.jpg"><source src="/videos/blog/fireflies.mp4" type="video/mp4"></video></figure>
+<figure class="inline-media inline-video" style="--ar:1.7778"><video width="1280" height="720" controls preload="none" playsinline poster="/videos/blog/fireflies.jpg"><source src="/videos/blog/fireflies.mp4" type="video/mp4"></video></figure>
 
 The grove was lit with fireflies. Not one or two, but dozens. They blinked in quiet rhythms, a secret code shared only with the night. I pulled out my phone to take a video, trying to record what felt almost too ethereal to belong to the same day.
 
@@ -65,7 +65,7 @@ Then came the call.
 
 The owl had been right in front of us all along, closer than expected. So close, in fact, that my 600mm lens was almost too much. But I managed a few sharp frames. It felt like a gift. The rain, the forest, the fireflies, and now this owl: each a layer, each a note in a growing symphony of wilderness.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-09.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-09.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 That night we went to bed tired but elated, our minds still full of feathers and flight, of calls from the dark and eyes that watch silently from the trees.
 
@@ -79,19 +79,19 @@ We were cruising through a remote stretch of road, hemmed in by mist and scatter
 
 There, among the stalks and shadows, we spotted them: a flock of Grey-headed Parakeets. Their green plumage was almost too bright for the morning fog, and the grey wash over their heads gave them a strange elegance. A Near Threatened species, they carry a kind of vulnerability in their presence, beautiful, but never guaranteed. Cameras clicked. Voices stayed low. For a few minutes, the birds stayed with us, flitting between branches, occasionally pausing long enough for a clean frame. And just like that, they were gone.
 
-<div class="inline-gallery cols-2"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-10.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-11.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.5994"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-10.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.7994"><img width="1439" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-11.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 Some hours later, we stopped for lunch at a small roadside dhaba, just as the skies opened up again. We had grown used to the rain by now. It fell like a constant breath over the hills, sometimes loud, sometimes soft, never entirely gone. Most of the group stayed under shelter, waiting for the downpour to pass. But then, just beyond the edge of the hill, something caught my eye: a flash of movement, a ripple in the undergrowth.
 
 Camera in hand, I stepped out into the rain. TThere, perched just low enough for a clean frame, was a Hair-crested Drongo, tail flowing behind it like a black ribbon, plumage glistening in the wet light. A lifer, and one I hadn’t expected. The rest of the group soon joined me, and for a few minutes we forgot the dampness altogether.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-12.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-12.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 It’s moments like these that remind you how birding is often about being present, more than being prepared.
 
 By early evening, we reached Walong, a village caught between mountain and river, quiet and self-contained. Our homestay stood slightly above the Lohit River, its wide braid of water glinting beneath a darkening sky. Below us, just visible through haze and drizzle, lay the Advanced Landing Ground of the Indian Army, a small airstrip meant to give India a strategic advantage. Its presence was quiet but resolute, a reminder of where we stood, not just in terrain, but in history.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-13.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-13.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 We settled in, not speaking too much. There was something about the landscape that quieted even the most talkative among us. It wasn’t fatigue. It was reverence. Tomorrow would be a full day. We prayed for clearer skies and for Walong to reveal its secrets to us.
 
@@ -105,13 +105,13 @@ One such moment came early, when a rustle in the roadside scrub revealed the unm
 
 Further along, we stepped out to investigate a treetop commotion and were rewarded with a fleeting but clear sighting of the Black-headed Greenfinch. It paused just long enough on an exposed branch for us to get a few frames before bounding off in its characteristic undulating flight.
 
-<div class="inline-gallery cols-3"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-14.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-15.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-16.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:2.2667"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-14.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.6667"><img width="1200" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-15.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-16.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 The road wound along a ridge above the river, and it was here, while scanning a lower bank, that we picked out a Black-browed Tit, small, precise, almost too quick for the eye. It fed rapidly through the branches of a mossy shrub, appearing and vanishing in turns, finally pausing long enough for a satisfying click of the shutter.
 
 Later that morning, while rolling slowly along another turn, one of us spotted something pale along the far bank of the Lohit River. We braked, pulled out scopes, and zeroed in. There, unmistakable even at a distance, was the Chinese Pond Heron. It had slipped our grasp back at Maguri Beel, but now stood statuesque in the reeds, as if offering a final chance. It stayed long enough for us to get distant, yet confirming images before vanishing down the riverbank.
 
-<div class="inline-gallery cols-2"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-17.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-18.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.6000"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-17.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-18.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 In the same area, a Plaintive Cuckoo called, its soft, fluting notes rising from somewhere in the middle canopy. We tried to track it by sound, circling back and scanning tree lines. Eventually, it burst into flight with a quick, graceful arc overhead. Just one usable flight shot, but the moment itself was what stayed with us.
 
@@ -127,7 +127,7 @@ Our target for the day was one of the most distinctive birds of the region: the 
 
 Our destination lay enroute to the village, near a slope of tall pine trees overlooking the river, close enough to the border that your phone picks up international signals. We weren’t just birding now. We were on the seam of sovereignty…in a place where history, diplomacy, and ecology coexist in unspoken negotiation.
 
-<div class="inline-gallery cols-2"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-19.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-20.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.6000"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-19.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-20.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 It was here, standing quietly beneath the pines, that we saw them: a pair of Derbyan Parakeets.
 
@@ -139,7 +139,7 @@ From there, we continued upward to Helmet Top, a place steeped in a different ki
 
 A flash of motion through the canopy caught our attention, the crimson and metallic flash of a Mrs. Gould’s Sunbird. I hadn’t planned for it. I hadn’t even hoped for it. And yet, there it was, flitting in and out of the branches of a tree, brilliant in the filtered light. It stayed just long enough for a clean shot. A flash of color in a place of memory. It felt like a gift unasked for, but perfectly timed.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-22.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-22.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 Not long after, the rain returned. We waited it out in the cars. It wasn’t a brief spell. We dozed in our seats for nearly two hours, the rhythmic thrum of rain on the roof of the car growing into a kind of dull chant. When the rain finally let up, it left behind a heavy, creeping mist, beautiful, but difficult.
 
@@ -147,7 +147,7 @@ We stepped out and tried to make the most of the quiet.The Yunnan Nuthatch was s
 
 Then, in a thicket of bamboo and scrub, we saw them: Spot-breasted Parrotbills. A kind of bird that is always in motion more than in one place. But this time, we got them. Perched just long enough, dancing across our viewfinders, they gave us a real sighting, a real set of shots. The mist hung around them like theatre fog, softening the scene, sharpening our sense of luck.
 
-<div class="inline-gallery cols-2"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-23.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-24.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.6000"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-23.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-24.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 There were glimpses of others, promises made but not kept, as many species stayed just out of reach in the mist: the Himalayan Cuckoo, the Square-tailed Drongo-Cuckoo, the Silver-eared Mesia, and the Brown Bullfinch.
 
@@ -163,7 +163,7 @@ But even here, the birds came: Blyth’s Swifts, Asian House Martins, Eastern Re
 
 We didn’t speak much. But I think we all understood that the trip was turning inward. Mishmi Hills still waited. But something had changed.
 
-<div class="inline-gallery cols-2"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-25.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-26.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:2.5000"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-25.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-26.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 ## Mishmi Hills: The Storm, the Goodbye, and a Final Gift
 
@@ -173,7 +173,7 @@ Rain slicked the green hills until they gleamed, each layer of forest fresher th
 
 We stopped several times along the way. Even through the murk, birds appeared, often faint outlines that sharpened just long enough to stir excitement. Two lifers greeted us on that winding road: the Chestnut-winged Cuckoo, with its rich, warm coloring visible even through the mist, and the Hodgson’s Hawk-Cuckoo, a more ghostlike figure that sat huddled against the rain in a tree. These sightings offered reassurance. We were still in the game.
 
-<div class="inline-gallery cols-3"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-27.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-28.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-29.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:3.7500"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-27.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-28.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-29.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 By the time we arrived at our accommodation in Mishmi Hills, the rain had intensified. It had now been falling for more than two days straight, sometimes heavy, sometimes just a curtain in the air. That night, we went to bed hoping the clouds might shift. Just enough for a few hours in the field.
 
@@ -191,11 +191,11 @@ We kept our eyes open as we moved through the landscape, especially along the te
 
 First came the Indochinese Roller, perched clean and upright on a pole, its pale blue body and subtle streaking like a watermark against the clouded sky. It stayed for a while, offering a calm, almost deliberate goodbye.
 
-<figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-30.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-30.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
 
 And then, as we neared the final stretch, we saw them: Oriental Hobbies...not just one, but a family. Two adults and a juvenile, swooping and diving over the trees, aerial and alert, like shadows moving through wind. They danced through the air above us, fast and elusive, their grace undiminished by the dull light. It was the kind of moment that doesn’t need to last long to stay with you.
 
-<div class="inline-gallery cols-3"><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-31.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-32.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media"><img src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-33.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:2.4006"><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-31.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8000"><img width="1440" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-32.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.8006"><img width="1441" height="1800" src="/images/blog/exploring-arunachal-pradesh-a-journey-through-rain-and-reverie/img-33.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
 
 By the time we reached the airport, the weight of what we’d missed had been replaced by the warmth of what we’d seen. We had come chasing birds across a landscape shaped by weather and war, rivers and ridge lines, silence and flight.
 
