@@ -38,7 +38,7 @@ const paras = c.description.split('\n').filter(Boolean);
       {photos.map((p, i) => (
         <button
           class="tile" type="button" data-lb data-lb-group="gallery" data-kind="photo" data-id={p.id} data-w={p.w} data-h={p.h} data-need={p.needs.join(', ')}
-          data-full={p.image} data-thumb={p.thumb} data-title={p.title} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
+          data-full={p.image} data-thumb={p.thumb} data-title={p.title} data-sci={p.scientificName || ''} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
           style={`background-image:url(${p.lqip}); aspect-ratio:${p.w}/${p.h}`}
           aria-label={`Open ${p.title}`}
         >

@@ -1,26 +1,33 @@
 ---
 // Shared viewer. Any element with data-lb opens it. Elements sharing data-lb-group form one slideshow.
-// data-kind="photo" shows title, camera settings and the print request link; data-kind="post" shows the image alone.
+// data-kind="photo": photograph (75%) beside a details sidebar (25%) on desktop, stacked on mobile.
+// data-kind="post": the image alone, full width.
 ---
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
   <div class="lb-stage">
     <span class="lb-count" id="lbCount"></span>
-    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
     <button class="lb-nav prev" id="lbPrev" aria-label="Previous image">&#8249;</button>
     <img class="lb-img" id="lbImg" alt="" />
     <button class="lb-nav next" id="lbNext" aria-label="Next image">&#8250;</button>
   </div>
-  <div class="lb-panel">
-    <div class="lb-title" id="lbTitle"></div>
-    <div class="lb-exif" id="lbExif">
-      <div><b id="eFocal">-</b><span>Focal length</span></div>
-      <div><b id="eAp">-</b><span>Aperture</span></div>
-      <div><b id="eSh">-</b><span>Shutter</span></div>
-      <div><b id="eIso">-</b><span>ISO</span></div>
+  <aside class="lb-panel" aria-label="Photograph details">
+    <div class="lb-head">
+      <h2 class="lb-name" id="lbName"></h2>
+      <p class="lb-sci" id="lbSci"></p>
+      <p class="lb-loc" id="lbLoc"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg><span id="lbLocText"></span></p>
     </div>
-    <div class="lb-gear" id="lbGear"></div>
-    <a class="lb-print" id="lbPrint" href="/prints">Request this photograph as a print</a>
-  </div>
+    <dl class="lb-specs" id="lbSpecs">
+      <div><dt>Camera</dt><dd id="sCam">-</dd></div>
+      <div><dt>Lens</dt><dd id="sLens">-</dd></div>
+      <div><dt>Focal length</dt><dd id="sFocal">-</dd></div>
+      <div><dt>Aperture</dt><dd id="sAp">-</dd></div>
+      <div><dt>Shutter</dt><dd id="sSh">-</dd></div>
+      <div><dt>ISO</dt><dd id="sIso">-</dd></div>
+    </dl>
+    <p class="lb-none" id="lbNone" hidden>Camera settings are not available for this photograph.</p>
+    <a class="lb-print" id="lbPrint" href="/prints">Request print</a>
+  </aside>
 </div>
 
 <script>
@@ -62,24 +69,18 @@
     $('lbCount').textContent = list.length > 1 ? `${idx + 1} / ${list.length}` : '';
     if (!isPhoto) return;
 
-    $('lbTitle').innerHTML = '';
-    const name = document.createElement('span'); name.textContent = d.title || '';
-    $('lbTitle').appendChild(name);
-    if (d.loc) { const s = document.createElement('small'); s.textContent = d.loc; $('lbTitle').appendChild(s); }
+    $('lbName').textContent = d.title || '';
+    $('lbSci').textContent = d.sci || '';
+    $('lbSci').hidden = !d.sci;
+    $('lbLocText').textContent = d.loc || '';
+    $('lbLoc').hidden = !d.loc;
     const ex = d.exif ? JSON.parse(d.exif) : null;
-    const exBox = $('lbExif');
+    $('lbSpecs').hidden = !ex;
+    $('lbNone').hidden = !!ex;
     if (ex) {
-      exBox.style.display = '';
-      $('eFocal').textContent = ex.focal || '-';
-      $('eAp').textContent = ex.aperture || '-';
-      $('eSh').textContent = ex.shutter || '-';
-      $('eIso').textContent = (ex.iso || '-').replace('ISO ', '');
-      $('lbGear').textContent = [ex.camera, ex.lens].filter(Boolean).join('  •  ');
-      $('lbGear').className = 'lb-gear';
-    } else {
-      exBox.style.display = 'none';
-      $('lbGear').textContent = 'Camera settings are not available for this photograph.';
-      $('lbGear').className = 'lb-none';
+      const set = (id: string, v?: string) => { const el = $(id); el.textContent = v || '-'; (el.parentElement as HTMLElement).hidden = !v; };
+      set('sCam', ex.camera); set('sLens', ex.lens); set('sFocal', ex.focal); set('sAp', ex.aperture); set('sSh', ex.shutter);
+      set('sIso', ex.iso ? ex.iso.replace('ISO ', '') : '');
     }
     ($('lbPrint') as HTMLAnchorElement).href = '/prints?photo=' + encodeURIComponent(d.id || '');
   }
@@ -113,7 +114,7 @@
   $('lbClose').addEventListener('click', close);
   $('lbPrev').addEventListener('click', () => show(idx - 1));
   $('lbNext').addEventListener('click', () => show(idx + 1));
-  lb.addEventListener('click', (e) => { if ((e.target as HTMLElement).classList.contains('lb-stage')) close(); });
+  lb.addEventListener("click", (e) => { if ((e.target as HTMLElement).classList.contains("lb-stage")) close(); });
   let sx = 0;
   lb.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
   lb.addEventListener('touchend', (e) => {
