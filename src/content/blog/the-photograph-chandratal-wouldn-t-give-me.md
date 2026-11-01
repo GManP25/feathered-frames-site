@@ -3,7 +3,7 @@ title: "The Photograph Chandratal Wouldn’t Give Me"
 date: 2026-10-18T12:52:56Z
 category: "On the Trail"
 heroImage: "/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-17.jpg"
-excerpt: "It began, appropriately enough, in the…"
+excerpt: "A monsoon road trip to Chandratal in search of the Milky Way, and the unexpected moments that came when the clouds hid the night sky."
 originalUrl: "https://www.gauravsfeatheredframes.com/post/the-photograph-chandratal-wouldn-t-give-me"
 ---
 
@@ -17,19 +17,19 @@ Kaushik and I were the only photographers. Ankur and Rajeev were his colleagues,
 
 Our seventh traveller, Jitendra, never made it out of Delhi. He had developed a fever before departure and had spent the day hoping that some medication and rest might get him well enough to travel. It wasn’t to be. By the time we assembled at Kaushik’s house, it was clear that he was simply too unwell to undertake a journey into the high Himalayas. We were down to six before the Urbania had even left Noida, and the drizzle followed us as we began the long drive north.
 
-<div class="inline-gallery cols-2" style="--sum:3.1102"><figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-02.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:3.1102"><figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-01.jpg" alt="The white Urbania van parked at night outside an apartment building in Noida before the drive to Chandratal" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-02.jpg" alt="The travelling group sharing a selfie inside the Urbania on the overnight drive from Noida" loading="lazy" decoding="async" data-zoom></figure></div>
 
 ## Into the Monsoon
 
 Our first halt came around midnight at the famous Gulshan Dhaba in Murthal, where everyone piled out for dinner. Everyone except me. I was following my intermittent fasting routine and, despite being at one of those places where eating is practically part of the experience, decided to maintain it. The others ate while I waited, after which we climbed back into the Urbania and continued north.
 
-<figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-03.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-03.jpg" alt="The travelling group gathered around a table for a meal at a highway restaurant on the drive north" loading="lazy" decoding="async" data-zoom></figure>
 
 The next few hours passed in fragments. I would doze, wake to the lights of another town slipping past the window, fall asleep again and occasionally check where we had reached. At around five in the morning, we stopped just beyond Rupnagar in Punjab so Abhishek, our driver, could take a tea break. We were still roughly two hours from Mandi. I skipped the tea and food again and stepped outside for a few minutes.
 
 Dawn was beginning to arrive, and with it came the first sight of the mountains in the distance. Until then, the journey had been one of highways, headlights, dhabas and intermittent sleep. Now, as the light strengthened, dark ridges began taking shape against the horizon. Soon the road itself began to climb and the landscape changed around us. Low monsoon clouds drifted across the tops of the mountains, sometimes wrapping themselves around entire ridge-lines before lifting enough to reveal them again.
 
-<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-04.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-04.jpg" alt="A wide reservoir ringed by green hills under low monsoon cloud on the road to Mandi" loading="lazy" decoding="async" data-zoom></figure>
 
 There was another sight that repeatedly accompanied us along these early stretches of road: Kanwariyas. We passed them in groups, walking along the highway in their characteristic saffron, some carrying decorated kanwars, others simply keeping pace with their companions. What struck me was the range of ages. There were youngsters who looked as though they could walk all day without breaking stride, but there were also grey-haired men covering the same roads on foot. Some continued through the tunnels alongside traffic, their orange clothing appearing and disappearing in the headlights as vehicles passed them. Watching them walk kilometre after kilometre, I found myself thinking that faith really doesn’t have an age limit. We were sitting comfortably inside a vehicle complaining about the length of the drive while they simply kept walking.
 
@@ -49,7 +49,7 @@ We had known before leaving Delhi that travelling through Himachal during the mo
 
 Once we were moving again, the mountains seemed to close around us. We passed Bhuntar, and I remember being surprised by its scale. It was a substantial town nestled into the valley with the river running through it, houses climbing the surrounding slopes and even an airport somehow squeezed into the available space. Low clouds hung across the mountains all around it and, seen from the road, the entire town seemed tucked into a fold in the Himalayas.
 
-<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-07.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-07.jpg" alt="Bhuntar town in the valley beneath low monsoon cloud, seen from the highway beside the Beas" loading="lazy" decoding="async" data-zoom></figure>
 
 The road continued alongside the swollen Beas. Waterfalls kept appearing, feeding the river from slopes above us, while the clouds dropped progressively lower. At one point, the distinction between mountain and cloud simply disappeared. We had spent the morning looking up at clouds drifting across the peaks; now the road had climbed high enough that we were driving through them. The monsoon had accompanied us from the moment we left Noida, and it was beginning to feel as though we were following it into the mountains.
 
@@ -57,7 +57,7 @@ The road continued alongside the swollen Beas. Waterfalls kept appearing, feedin
 
 By the time we reached Solang Valley Resort, water had become the soundtrack of the journey. The property sits with the river running around two sides of it and a waterfall immediately beside it, which meant there was almost nowhere you could go without hearing water. Step out of the room and there was a constant rush in the background. Walk into the gardens and it became louder. Go down towards the river and it turned into a roar.
 
-<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-08.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-08.jpg" alt="A narrow waterfall cascading down a forested green hillside at Solang Valley, Himachal Pradesh" loading="lazy" decoding="async" data-zoom></figure>
 
 These weren’t the gentle streams of summer. The monsoon had filled the rivers until they moved through the valley with tremendous force, while the waterfall beside the property added its own volume to the soundscape. There was something strangely calming about that continuous sound, even while the sheer amount of water around us was slightly awe-inspiring. By the following morning, it had already become part of the background, noticeable again only when I stepped onto the balcony or walked closer to the river.
 
@@ -67,7 +67,7 @@ A call back home that evening added another dimension to the weather around us. 
 
 That evening we went for a short walk near the hotel. An old bridge crossed the river nearby, covered in colourful prayer flags, with the raging water beneath it and the waterfall feeding into it not far away. It was the sort of setting that made you stop every few metres simply because the view had changed again.
 
-<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-10.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-10.jpg" alt="An old bridge over the river at Solang with mountains rising beneath a cloudy sky" loading="lazy" decoding="async" data-zoom></figure>
 
 And, of course, I started looking for birds. I hadn’t carried any photography gear on what was meant to be a short evening walk, but that rarely stops me from looking. Near the river we spotted a White-capped Redstart, followed by a Yellow-breasted Greenfinch. Later I saw a Black Kite perched at the top of a tree, completely drenched by the rain, sitting there as though waiting for the weather to improve. Eventually it seemed to accept that the rain wasn’t going anywhere and took off.
 
@@ -103,7 +103,7 @@ I had a quick bath, packed my bags and got everything ready to leave. Kaushik an
 
 The waterfall and river that had been background noise from the room became a roar again as I moved closer to the water. The short walk around the hotel proved surprisingly productive. A juvenile Bearded Vulture appeared, followed by an Ultramarine Flycatcher and a Plumbeous Water Redstart. It was a good little morning session, particularly considering that this was supposedly not a birding trip.
 
-<div class="inline-gallery cols-2" style="--sum:2.5000"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-13.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-14.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:2.5000"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-13.jpg" alt="A juvenile Bearded Vulture perched on a rocky outcrop amid dense green forest at Solang Valley" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-14.jpg" alt="A Plumbeous Water Redstart perched on a mossy rock with its white tail feathers fanned in Solang Valley" loading="lazy" decoding="async" data-zoom></figure></div>
 
 When we finally left Solang, the weather remained encouraging. We passed more waterfalls as we climbed away, and my last view before the road turned towards the Atal Tunnel was of distant mountain ranges with snow-covered peaks rising beyond them.
 
@@ -111,7 +111,7 @@ Then we entered the mountain.
 
 The Atal Tunnel is an extraordinary piece of engineering. Running for 9.02 kilometres beneath the Pir Panjal range, it bypasses the old route over Rohtang Pass, shortening the road towards Lahaul by 46 kilometres and cutting several hours from the journey. We entered through the South Portal, marvelled at the thought of driving for more than nine kilometres through the heart of a mountain, and eventually emerged on the Lahaul side.
 
-<figure class="inline-media" style="--ar:0.9261"><img width="1667" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-15.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.9261"><img width="1667" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-15.jpg" alt="The South Portal of the Atal Tunnel at Rohtang seen from the approaching road" loading="lazy" decoding="async" data-zoom></figure>
 
 The landscape waiting outside was already beginning to feel different, and so was the weather. For the first time since leaving Delhi, the rain had genuinely loosened its grip.
 
@@ -121,7 +121,7 @@ Koksar would be home for the next two nights, an intentional pause in the itiner
 
 Our hotel had a swing positioned near the edge of the property, facing the river below and the mountains across the valley. It was impossible to resist. One by one, everyone took a turn, the sort of simple group activity that becomes considerably more entertaining when you’re surrounded by scenery like that.
 
-<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-16.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-16.jpg" alt="A wooden swing at the hotel in Koksar facing the river and the mountains across the valley" loading="lazy" decoding="async" data-zoom></figure>
 
 Lunch was equally uncomplicated: dal, rice and chicken. We spent much of the afternoon settling in, relaxing and allowing our bodies to get used to the altitude. By evening we were ready for a walk and wandered down to a local dhaba where some of the group ordered Maggi, that unofficial staple of practically every Indian mountain holiday.
 
@@ -131,11 +131,11 @@ We carried our cameras and tripods down the road and began setting up, only to d
 
 Still, we worked around it. The Milky Way began appearing on the backs of our cameras and, despite the compromised location, we came away with some good photographs. We even managed to catch a meteor or two.
 
-<figure class="inline-media" style="--ar:1.4988"><img width="1800" height="1201" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-17.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.4988"><img width="1800" height="1201" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-17.jpg" alt="The Milky Way arching over a dark mountain ridge at Koksar with a meteor streaking across the sky" loading="lazy" decoding="async" data-zoom></figure>
 
 The others had followed us, initially simply to experience the sky, but soon phones began appearing. Kaushik and I started showing them how they could attempt Milky Way photographs without dedicated cameras: how to steady the phone, use longer exposures where possible and avoid contaminating the scene with unnecessary light. Their reactions when the stars began appearing on their own screens were wonderful. Only Kaushik and I had come as photographers, but for a little while everyone was trying to become one.
 
-<figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-18.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.3333"><img width="1024" height="768" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-18.jpg" alt="The travelling group sitting beside a dark roadside in torchlight during the night sky session at Koksar" loading="lazy" decoding="async" data-zoom></figure>
 
 The night, unfortunately, had another turn waiting for us. Once we were back in our rooms, Kaushik’s pulse oximeter began showing readings that concerned us. He had experienced altitude sickness before, which was one of the reasons we had carried portable oxygen cylinders. Until then, those cylinders had simply been part of our preparation. That night, we needed them.
 
@@ -169,15 +169,15 @@ I stayed back with him, which also meant I had a perfect view as the other four 
 
 The setting itself was spectacular. Green mountains towered above us, the river raged through the valley below and the waterfall thundered down the opposite slope. Yet alongside all that raw landscape were flags, food stalls, tourists wandering around and people flying across the river on zip lines. Somehow it all worked.
 
-<div class="inline-gallery cols-2" style="--sum:1.2291"><figure class="inline-media" style="--ar:0.6667"><img width="1200" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-21.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media inline-video" style="--ar:0.5624"><video width="1280" height="2276" controls preload="none" playsinline poster="/videos/blog/sissu-waterfall.jpg"><source src="/videos/blog/sissu-waterfall.mp4" type="video/mp4"></video></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.2291"><figure class="inline-media" style="--ar:0.6667"><img width="1200" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-21.jpg" alt="Sissu Falls dropping from a rocky cliff into the green valley in Lahaul" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media inline-video" style="--ar:0.5624"><video width="1280" height="2276" controls preload="none" playsinline poster="/videos/blog/sissu-waterfall.jpg"><source src="/videos/blog/sissu-waterfall.mp4" type="video/mp4"></video></figure></div>
 
 Standing there, looking up at those mountains, I was struck again by their sheer scale. The Himalayas have a way of making human time feel rather insignificant. These mountains were ancient long before any of us arrived, and they will remain long after we are gone. For a few minutes, beneath all that rock and sky, our own concerns seemed very small.
 
-<div class="inline-gallery cols-2" style="--sum:1.3344"><figure class="inline-media" style="--ar:0.6672"><img width="1201" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-23.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.6672"><img width="1201" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-24.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.3344"><figure class="inline-media" style="--ar:0.6672"><img width="1201" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-23.jpg" alt="Two travellers ziplining across the Chandra River at Sissu with snow-capped peaks behind" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.6672"><img width="1201" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-24.jpg" alt="Two travellers riding a zip line above green mountain slopes at Sissu" loading="lazy" decoding="async" data-zoom></figure></div>
 
 Once the others returned, we piled back into the Urbania and headed towards Koksar. Rather than go straight to the hotel, we continued a few kilometres beyond it to scout for a possible Milky Way location for that night.
 
-<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-25.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-25.jpg" alt="The Chandra River winding between two mountains under a blue sky near Koksar" loading="lazy" decoding="async" data-zoom></figure>
 
 We found a gorgeous bend in the river, flowing between two mountains with snow-covered peaks visible in the distance. Everyone got out and we spent some time photographing it. Visually, it was exactly the sort of landscape you would want beneath the Milky Way. Photographically, however, it didn’t work. The curve of the road and the direction in which we would need to shoot simply didn’t align with the position of the Galactic Core, so we returned to the hotel.
 
@@ -193,7 +193,7 @@ That changed everything, and I came away with some of my favourite photographs o
 
 The rest of the group had trooped along again, partly to experience the sky and partly to practise the tricks they had learnt the previous night. By now Vandana and Rajeev were even talking about wanting to learn more about photography from Kaushik.
 
-<figure class="inline-media" style="--ar:1.4988"><img width="1800" height="1201" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-26.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.4988"><img width="1800" height="1201" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-26.jpg" alt="The Milky Way stretching across the sky above dark mountain silhouettes near Koksar" loading="lazy" decoding="async" data-zoom></figure>
 
 It was interesting to watch the group evolve. A few days earlier I had joined what was largely an existing circle of colleagues. Now we were all standing beside a dark mountain road together, passing phones around, comparing photographs and looking up at the same sky.
 
@@ -215,7 +215,7 @@ Outside, mountains rose on both sides of the valley while the river wound below 
 
 We stopped at one of the first larger waterfalls simply because nobody wanted to drive past it. The water was painfully cold, probably fed by snow and glacial melt higher in the mountains, but that didn’t stop us from splashing around and taking photographs.
 
-<div class="inline-gallery cols-2" style="--sum:1.1253"><figure class="inline-media" style="--ar:0.5635"><img width="666" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-29.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.5618"><img width="664" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-30.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:1.1253"><figure class="inline-media" style="--ar:0.5635"><img width="666" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-29.jpg" alt="The travelling group posing beside a small waterfall on the unpaved road to Chandratal" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:0.5618"><img width="664" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-30.jpg" alt="A long-exposure waterfall tumbling in soft white streaks down dark rocks on the road to Chandratal" loading="lazy" decoding="async" data-zoom></figure></div>
 
 At another, the volume of water made standing beneath it impractical, so I did something more sensible and took out the camera. The falling water was perfect for long exposures, allowing me to turn the torrent into soft white streaks against the dark rocks.
 
@@ -225,17 +225,17 @@ Occasionally we stopped simply because the landscape demanded it. At one viewpoi
 
 Then we reached Chhatru. The old bridge there crossed the turbid Chandra River, prayer flags strung across it and fluttering above the water. Small eateries and a campsite sat beside the river, and our drivers decided this was a good place for lunch. The rest of us spent the break wandering around the bridge, photographing the landscape and, inevitably, taking far too many group pictures.
 
-<div class="inline-gallery cols-3" style="--sum:4.7748"><figure class="inline-media" style="--ar:1.5000"><img width="1086" height="724" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-31.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.5000"><img width="1086" height="724" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-32.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-33.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:4.7748"><figure class="inline-media" style="--ar:1.5000"><img width="1086" height="724" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-31.jpg" alt="Five members of the travelling group posing together on the road near the old bridge at Chhatru" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.5000"><img width="1086" height="724" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-32.jpg" alt="Members of the travelling group posing with crossed arms near the old bridge at Chhatru" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-33.jpg" alt="The old suspension bridge across the Chandra River at Chhatru with rocky peaks beyond" loading="lazy" decoding="async" data-zoom></figure></div>
 
 Once we left Chhatru, the landscape began changing again. The green slowly retreated, the mountains became more barren and rocky, and snow-covered peaks appeared in the distance with cotton-candy clouds rolling over them. The scenery was beginning to take on the stark character of the high-altitude Himalayas.
 
-<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-34.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-34.jpg" alt="Snow-capped peaks rising behind barren slopes under dramatic clouds beyond Chhatru" loading="lazy" decoding="async" data-zoom></figure>
 
 Then, around a bend, we saw the sign we had been waiting for: Welcome to Chandratal Wildlife
 
 Sanctuary.
 
-<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-35.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.5628"><img width="1013" height="1800" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-35.jpg" alt="An orange and green signboard beside the rocky trail at the Chandratal Wildlife Sanctuary entrance" loading="lazy" decoding="async" data-zoom></figure>
 
 The road divided here, one direction leading towards Kaza via Kunzum Pass while ours continued towards Chandratal. After days of talking about it, we were finally there.
 
@@ -245,7 +245,7 @@ Soon, clusters of tents began appearing across the high-altitude landscape and o
 
 The tents were considerably more comfortable than I had expected at that altitude, with attached toilets and running water that felt positively luxurious considering where we were. Electricity, however, was limited. There was no regular power supply and while solar energy was used for some of the hot-water requirements, a diesel generator would be switched on only for a few hours in the evening, roughly from seven until ten. After that, the camp would have virtually no artificial light, which for two people who had travelled there to photograph the night sky sounded rather promising.
 
-<div class="inline-gallery cols-3" style="--sum:5.3244"><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-36.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-37.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-38.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:5.3244"><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-36.jpg" alt="Rows of tents at Moonlake Camps in the high-altitude valley at Chandratal beneath a blue sky with the sun flaring above" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-37.jpg" alt="Tents of Moonlake Camps lining the grassy valley floor at Chandratal with mountains behind" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-38.jpg" alt="Tents of Moonlake Camps under a blue sky with sun flare in the valley at Chandratal" loading="lazy" decoding="async" data-zoom></figure></div>
 
 The other thing that immediately caught our attention was a snow-covered peak rising directly behind our tents. Kaushik and I instinctively began looking at it differently from everyone else, not simply as part of the scenery but as a possible foreground for the photographs we hoped to make later that night. Based on the direction in which we expected the Milky Way to appear, the peak seemed perfectly positioned. After several days of travel, weather and uncertainty, we could finally begin to visualise the photograph that had originally brought us to Chandratal.
 
@@ -279,7 +279,7 @@ I told them to carry on towards the lake and that I would join them shortly. The
 
 Black-headed Mountain Finches and Plain Mountain Finches were moving through the area, while Citrine Wagtails, mostly juveniles, worked the edges of the water. Green Sandpipers appeared beside the rivulet as well. Considering that I had brought the birding lens on what was primarily an astrophotography trip simply because I knew there was always a chance that the mountains might offer something unexpected, I felt thoroughly vindicated. There was also something rather amusing about sitting beside a stream photographing birds while one of the most beautiful lakes in the Himalayas waited a little farther down the trail. Bird photography has a way of rearranging priorities.
 
-<div class="inline-gallery cols-2" style="--sum:2.5000"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-40.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-41.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:2.5000"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-40.jpg" alt="A Black-headed Mountain Finch foraging on grassy turf beside the rivulet near Chandratal" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-41.jpg" alt="A juvenile Citrine Wagtail perched on a golden rock against a smooth brown background at Chandratal" loading="lazy" decoding="async" data-zoom></figure></div>
 
 Eventually, satisfied with what I had managed to photograph, I switched back to the wide-angle and joined everyone beside the lake. We took photographs and videos of the water, mountains and clouds, using both cameras and phones, but after a while we stopped trying to document everything and simply sat down to enjoy where we were.
 
@@ -295,7 +295,7 @@ Grey clouds had begun gathering over the mountains beyond Chandratal. Initially,
 
 The timelapse recorded the transformation beautifully, with grey cloud spilling over the mountain tops and steadily consuming more of the sky. We continued sitting for a while and watched it happen, perhaps still hoping that this was another passing mountain shower, but after spending around an hour or an hour and a half beside the lake it became increasingly obvious that the weather was changing properly. The vehicles were still a substantial walk away, so we decided that it was probably time to leave.
 
-<div class="inline-gallery cols-2" style="--sum:3.2769"><figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-43.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.5000"><img width="1800" height="1200" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-44.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-2" style="--sum:3.2769"><figure class="inline-media" style="--ar:1.7769"><img width="1800" height="1013" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-43.jpg" alt="Chandratal Lake in turquoise water beside barren brown mountains under a cloudy sky" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.5000"><img width="1800" height="1200" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-44.jpg" alt="Chandratal Lake in a mountain basin beneath monsoon showers sweeping across the slopes" loading="lazy" decoding="async" data-zoom></figure></div>
 
 As we climbed back towards the parking area, we kept turning around to look at the mountains behind us. Each time, the clouds seemed closer. Eventually, we could see rain falling in the distance, hanging beneath the clouds like a grey curtain and moving through the valley in our direction.
 
@@ -307,7 +307,7 @@ Then we turned around and saw the rainbow.
 
 It stretched across the valley in front of us and seemed astonishingly close, almost as though it were rising directly from the landscape. Behind it were dark grey clouds and mountains, while around us the wind had picked up and rain was falling steadily. Getting into the cars would have been the sensible thing to do, but nobody seemed particularly interested in being sensible anymore. Cameras and phones came out and we stood in the rain trying to photograph what was unfolding in front of us.
 
-<figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-45.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.7748"><img width="1182" height="666" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-45.jpg" alt="A rainbow arching over the barren mountain valley at Chandratal after a monsoon shower" loading="lazy" decoding="async" data-zoom></figure>
 
 A few minutes later, a second rainbow appeared above the first. There we were, six increasingly wet travellers standing at over 4,000 metres, staring at a double rainbow across the mountains of Chandratal and trying to photograph it from every possible angle. Earlier, we had debated whether to visit the lake that afternoon or wait until the following morning. At that moment, we were extremely pleased that impatience had won.
 
@@ -339,15 +339,15 @@ When morning arrived, clouds still hung over the landscape and there seemed litt
 
 Everyone else turned their attention towards breakfast and packing while I picked up the 600mm and went for one last wander around the campsite. The landscape around us was rocky, broken occasionally by little streams and patches of open ground, and it didn’t take long before the birds started appearing.
 
-<figure class="inline-media" style="--ar:0.5626"><img width="665" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-46.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:0.5626"><img width="665" height="1182" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-46.jpg" alt="A photographer with a camera bag standing beside the Moonlake Camps signboard at Chandratal with mountains behind" loading="lazy" decoding="async" data-zoom></figure>
 
 Citrine Wagtails were moving around the water, White Wagtails worked the open ground and a Black Redstart appeared among the rocks. I found a Common Hoopoe and then a Black-winged Snowfinch, particularly satisfying after the relative lack of bird activity I had encountered around Koksar. It was turning into an unexpectedly productive final morning.
 
-<div class="inline-gallery cols-3" style="--sum:3.7500"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-47.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-48.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-49.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure></div>
+<div class="inline-gallery cols-3" style="--sum:3.7500"><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-47.jpg" alt="A White Wagtail standing on stony ground near Moonlake Camps at Chandratal" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-48.jpg" alt="A Citrine Wagtail walking among rocks and sparse grass near the camp at Chandratal" loading="lazy" decoding="async" data-zoom></figure><figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-49.jpg" alt="A Black-winged Snowfinch camouflaged against sparse dry ground near Moonlake Camps at Chandratal" loading="lazy" decoding="async" data-zoom></figure></div>
 
 Then I found a Horned Lark.
 
-<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-50.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/the-photograph-chandratal-wouldn-t-give-me/img-50.jpg" alt="A Horned Lark with dark facial markings perched on a pale boulder among the rocks at Chandratal" loading="lazy" decoding="async" data-zoom></figure>
 
 It was a lifer for me, and suddenly breakfast, packing and the long journey ahead became considerably less urgent. I spent the next few minutes watching and photographing it among the rocks, delighted that Chandratal had managed to produce one final surprise before we left.
 

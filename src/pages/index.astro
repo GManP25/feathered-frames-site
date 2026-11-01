@@ -6,7 +6,7 @@ import { getCategories } from '../lib/journal';
 const categories = await getCategories();
 const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lammergeier.jpg';
 ---
-<BaseLayout title="Gaurav's Feathered Frames" description="Nature and wildlife photography from India: birds, mammals and landscapes, with field notes from every trip.">
+<BaseLayout title="Gaurav's Feathered Frames" image={hero} imageAlt="Bearded vulture in flight over the Spiti Valley, India">
   <section class="hero" style={`background-image:url(${hero}); background-position: 32% 42%;`} id="top">
     <div class="hero-inner">
       <h1>Gaurav Pathak</h1>
@@ -25,8 +25,8 @@ const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lamme
       <div class="cards">
         {collections.map(c => (
           <a class="card" href={`/gallery/${c.slug}`}>
-            <img src={`/images/portfolio/${c.slug}/cover.jpg`} alt="" loading="lazy" decoding="async" />
-            <span class="card-text"><h3>{c.title}</h3><span>{c.count} photographs</span></span>
+            <img src={`/images/portfolio/${c.slug}/cover.jpg`} alt={c.coverAlt} loading="lazy" decoding="async" />
+            <div class="card-text"><h3>{c.title}</h3><span>{c.count} photographs</span></div>
           </a>
         ))}
       </div>
@@ -43,8 +43,8 @@ const hero = '/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lamme
       <div class="cards two">
         {categories.map(c => (
           <a class="card" href={`/blog/category/${c.slug}`}>
-            {c.cover && <img src={c.cover} alt="" loading="lazy" decoding="async" />}
-            <span class="card-text"><h3>{c.name}</h3><span>{c.count} {c.count === 1 ? 'post' : 'posts'}</span></span>
+            {c.cover && <img src={c.cover} alt={c.coverAlt} loading="lazy" decoding="async" />}
+            <div class="card-text"><h3>{c.name}</h3><span>{c.count} {c.count === 1 ? 'post' : 'posts'}</span></div>
           </a>
         ))}
       </div>

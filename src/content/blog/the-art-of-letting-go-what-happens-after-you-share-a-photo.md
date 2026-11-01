@@ -3,11 +3,11 @@ title: "The Art of Letting Go: What Happens After You Share a Photo"
 date: 2025-03-31T18:30:00Z
 category: "The Viewfinder"
 heroImage: "/images/blog/the-art-of-letting-go-what-happens-after-you-share-a-photo/img-01.jpg"
-excerpt: "One of the most important lessons I’ve learned as a photographer—sometimes the hard way—is this: once you put an image out into the world, you give up control over how it will be…"
+excerpt: "On releasing control of how a photograph is seen, felt and interpreted once it has been shared with the world."
 originalUrl: "https://www.gauravsfeatheredframes.com/post/the-art-of-letting-go-what-happens-after-you-share-a-photo"
 ---
 
-<figure class="inline-media" style="--ar:1.0000"><img width="1024" height="1024" src="/images/blog/the-art-of-letting-go-what-happens-after-you-share-a-photo/img-01.jpg" alt="" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.0000"><img width="1024" height="1024" src="/images/blog/the-art-of-letting-go-what-happens-after-you-share-a-photo/img-01.jpg" alt="Illustrated graphic for The Art of Letting Go showing a person from behind holding a red balloon against a blurred city" loading="lazy" decoding="async" data-zoom></figure>
 
 One of the most important lessons I’ve learned as a photographer—sometimes the hard way—is this: once you put an image out into the world, you give up control over how it will be seen, felt, and interpreted.
 

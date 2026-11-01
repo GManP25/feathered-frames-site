@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import photos from '../data/photos.json';
 import collections from '../data/collections.json';
 const groups = collections.map(c => ({ c, items: photos.filter((p: any) => p.collectionSlug === c.slug) }));
-const lookup = Object.fromEntries(photos.map((p: any) => [p.id, { thumb: p.thumb, title: p.title, loc: p.location, collection: p.collection }]));
+const lookup = Object.fromEntries(photos.map((p: any) => [p.id, { thumb: p.thumb, title: p.title, alt: p.alt || p.title, loc: p.location, collection: p.collection }]));
 ---
 <BaseLayout title="Prints" description="Request a fine-art print of any photograph from the gallery.">
   <section class="page-head">
@@ -18,7 +18,7 @@ const lookup = Object.fromEntries(photos.map((p: any) => [p.id, { thumb: p.thumb
   <section class="section" style="padding-top: 24px;">
     <div class="wrap about-grid">
       <div class="print-preview" id="preview">
-        <div class="pv-frame"><img id="pvImg" alt="" hidden /><span id="pvEmpty">Choose a photograph to preview it here</span></div>
+        <div class="pv-frame"><img id="pvImg" alt="Preview of the selected photograph" hidden /><span id="pvEmpty">Choose a photograph to preview it here</span></div>
         <p id="pvCap" class="pv-cap"></p>
         <p class="pv-link"><a href="/#gallery">Browse the collections</a> and use &ldquo;Request this photograph as a print&rdquo; on any image.</p>
       </div>
@@ -75,7 +75,7 @@ const lookup = Object.fromEntries(photos.map((p: any) => [p.id, { thumb: p.thumb
       const opt = sel.selectedOptions[0];
       const p = opt && lookup[opt.dataset.id];
       if (p) {
-        img.src = p.thumb; img.alt = p.title; img.hidden = false; empty.hidden = true;
+        img.src = p.thumb; img.alt = p.alt || p.title; img.hidden = false; empty.hidden = true;
         cap.textContent = [p.title, p.loc].filter(Boolean).join(', ');
       } else { img.hidden = true; empty.hidden = false; cap.textContent = ''; }
     }

@@ -60,7 +60,7 @@
     const sameSrc = d.thumb === d.full;
     lbImg.classList.toggle('blur', !sameSrc);
     lbImg.src = d.thumb!;
-    lbImg.alt = d.title || '';
+    lbImg.alt = d.alt || d.title || '';
     if (!sameSrc) {
       const full = new Image();
       full.onload = () => { if (list[idx] === t) { lbImg.src = full.src; lbImg.classList.remove('blur'); } };

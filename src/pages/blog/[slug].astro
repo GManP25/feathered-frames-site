@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Lightbox from '../../components/Lightbox.astro';
-import { slugify } from '../../lib/journal';
+import { slugify, altFor, summarise } from '../../lib/journal';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -13,7 +13,7 @@ const { title, date, heroImage, excerpt, category } = post.data;
 const { Content } = await render(post);
 const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
-<BaseLayout title={title} description={excerpt} image={heroImage}>
+<BaseLayout title={title} description={excerpt && excerpt.length > 90 ? excerpt : summarise(post.body || '') || excerpt} image={heroImage || undefined} imageAlt={altFor(heroImage)} type="article" published={date}>
   <article>
     <div class="post-top">
       <div class="wrap post-body">

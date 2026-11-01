@@ -19,7 +19,8 @@
    "shutter": "1/1250s"
   },
   "id": "winter-wonderland-spiti/snow-leopard-in-a-frozen-cave",
-  "scientificName": "Panthera uncia"
+  "scientificName": "Panthera uncia",
+  "alt": "A Snow Leopard resting inside a rocky cave hung with icicles above snow-covered ground in Spiti Valley, India"
  },
  {
   "title": "Bearded Vulture or lammergeier",
@@ -41,7 +42,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/bearded-vulture-or-lammergeier",
-  "scientificName": "Gypaetus barbatus"
+  "scientificName": "Gypaetus barbatus",
+  "alt": "A Bearded Vulture gliding with its wings fully spread against a warm brown rock face in Spiti Valley, India"
  },
  {
   "title": "Black-headed mountain finch",
@@ -63,7 +65,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/black-headed-mountain-finch",
-  "scientificName": "Leucosticte brandti"
+  "scientificName": "Leucosticte brandti",
+  "alt": "A Black-headed Mountain Finch perched on a boulder in fresh snow under soft, overcast light in Spiti Valley, India"
  },
  {
   "title": "Black-headed mountain finch",
@@ -85,7 +88,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/black-headed-mountain-finch-2",
-  "scientificName": "Leucosticte brandti"
+  "scientificName": "Leucosticte brandti",
+  "alt": "A Black-headed Mountain Finch standing on a snow-covered rock against a pale, diffused background in Spiti Valley, India"
  },
  {
   "title": "Robin accentor",
@@ -107,7 +111,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/robin-accentor",
-  "scientificName": "Prunella rubeculoides"
+  "scientificName": "Prunella rubeculoides",
+  "alt": "A Robin Accentor with a rust-orange breast perched on a snow-dusted log in Spiti Valley, India"
  },
  {
   "title": "Black-winged snowfinch",
@@ -128,7 +133,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/mg-0081-edit-jpg"
+  "id": "winter-wonderland-spiti/mg-0081-edit-jpg",
+  "alt": "A Black-winged Snowfinch resting on a mound of snow as light snow falls in Spiti Valley, India"
  },
  {
   "title": "Hill Pigeon",
@@ -150,7 +156,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/hill-pigeon",
-  "scientificName": "Columba rupestris"
+  "scientificName": "Columba rupestris",
+  "alt": "A Hill Pigeon perched on a snow-covered ledge against a soft grey-lilac background in Spiti Valley, India"
  },
  {
   "title": "Black-headed mountain finch",
@@ -172,7 +179,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/black-headed-mountain-finch-3",
-  "scientificName": "Leucosticte brandti"
+  "scientificName": "Leucosticte brandti",
+  "alt": "A Black-headed Mountain Finch fluffed up against the cold on a snowy rock ledge as snow falls in Spiti Valley, India"
  },
  {
   "title": "Blue sheep",
@@ -194,7 +202,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/blue-sheep",
-  "scientificName": "Pseudois nayaur"
+  "scientificName": "Pseudois nayaur",
+  "alt": "Three Blue Sheep standing on a snowy ridge, silhouetted against a deep blue sky in Spiti Valley, India"
  },
  {
   "title": "Himalayan Fox sleeping",
@@ -216,7 +225,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/himalayan-fox-sleeping",
-  "scientificName": "Vulpes vulpes"
+  "scientificName": "Vulpes vulpes",
+  "alt": "A Himalayan Fox curled up asleep in a rocky den, its bushy tail wrapped over its nose, in Spiti Valley, India"
  },
  {
   "title": "Ibex",
@@ -238,7 +248,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/ibex",
-  "scientificName": "Capra sibirica"
+  "scientificName": "Capra sibirica",
+  "alt": "An Ibex with long ridged horns standing on a rocky outcrop above patches of snow in Spiti Valley, India"
  },
  {
   "title": "Locked in a stare with the ghost of the mountains",
@@ -259,7 +270,8 @@
    "iso": "ISO 800"
   },
   "needs": [],
-  "id": "winter-wonderland-spiti/locked-in-a-stare-with-the-ghost-of-the-mountains"
+  "id": "winter-wonderland-spiti/locked-in-a-stare-with-the-ghost-of-the-mountains",
+  "alt": "A Snow Leopard lying on a snow-dusted rock ledge and gazing across the gorge in Spiti Valley, India"
  },
  {
   "title": "The ghost of the mountains claims its prize",
@@ -280,7 +292,8 @@
    "aperture": "f/4",
    "shutter": "1/800s"
   },
-  "id": "winter-wonderland-spiti/the-ghost-of-the-mountains-claims-its-prize"
+  "id": "winter-wonderland-spiti/the-ghost-of-the-mountains-claims-its-prize",
+  "alt": "A Snow Leopard feeding on its kill beside thorny shrubs on a snowy, rocky slope in Spiti Valley, India"
  },
  {
   "title": "Snow Leopard slipping away",
@@ -302,7 +315,8 @@
   },
   "needs": [],
   "id": "winter-wonderland-spiti/snow-leopard-slipping-away",
-  "scientificName": "Panthera uncia"
+  "scientificName": "Panthera uncia",
+  "alt": "A Snow Leopard slipping away across a snowy slope dotted with dry shrubs in Spiti Valley, India"
  },
  {
   "title": "Pied Kingfisher",
@@ -324,7 +338,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/pied-kingfisher",
-  "scientificName": "Ceryle rudis"
+  "scientificName": "Ceryle rudis",
+  "alt": "A Pied Kingfisher hovering with black and white wings spread before a dive at Sultanpur National Park, Gurgaon"
  },
  {
   "title": "Greater Painted Snipe",
@@ -346,7 +361,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/greater-painted-snipe",
-  "scientificName": "Rostratula benghalensis"
+  "scientificName": "Rostratula benghalensis",
+  "alt": "A Greater Painted Snipe in flight with wings raised and its long bill extended over a marsh at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Yellow Bittern",
@@ -368,7 +384,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/yellow-bittern",
-  "scientificName": "Ixobrychus sinensis"
+  "scientificName": "Ixobrychus sinensis",
+  "alt": "A Yellow Bittern flying low over green reeds with dark wings spread and yellow legs trailing at Najafgarh Jheel, Gurgaon"
  },
  {
   "title": "River tern",
@@ -390,7 +407,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/river-tern",
-  "scientificName": "Sterna aurantia"
+  "scientificName": "Sterna aurantia",
+  "alt": "A River Tern banking in flight with white wings spread above golden reeds at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Eurasian Hobby",
@@ -412,7 +430,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/eurasian-hobby",
-  "scientificName": "Falco subbuteo"
+  "scientificName": "Falco subbuteo",
+  "alt": "A Eurasian Hobby diving through a pale grey sky with its wings swept back at Surajpur Bird Sanctuary, Greater Noida"
  },
  {
   "title": "Oriental Honey Buzzard",
@@ -434,7 +453,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/oriental-honey-buzzard",
-  "scientificName": "Pernis ptilorhynchus"
+  "scientificName": "Pernis ptilorhynchus",
+  "alt": "An Oriental Honey Buzzard soaring with spread, barred wings against a hazy grey sky at Surajpur Bird Sanctuary, Greater Noida"
  },
  {
   "title": "Sand Martin",
@@ -456,7 +476,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/sand-martin",
-  "scientificName": "Riparia riparia"
+  "scientificName": "Riparia riparia",
+  "alt": "A Sand Martin twisting in flight with its pale underparts caught against a smooth purple-grey sky at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Red Necked Falcon",
@@ -478,7 +499,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/red-necked-falcon",
-  "scientificName": "Falco chicquera"
+  "scientificName": "Falco chicquera",
+  "alt": "A Red-necked Falcon soaring with its wings fully extended against a pale blue sky at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Booted Eagle",
@@ -500,7 +522,8 @@
   },
   "needs": [],
   "id": "birds-in-flight/booted-eagle",
-  "scientificName": "Hieraaetus pennatus"
+  "scientificName": "Hieraaetus pennatus",
+  "alt": "A Booted Eagle in flight with its wings raised above a golden field at Dhanauri, Greater Noida"
  },
  {
   "title": "Pied Wheatear",
@@ -522,7 +545,8 @@
   },
   "needs": [],
   "id": "avian-portraits/pied-wheatear",
-  "scientificName": "Oenanthe pleschanka"
+  "scientificName": "Oenanthe pleschanka",
+  "alt": "A Pied Wheatear perched on a granite boulder against a softly blurred hillside in Kinnaur, Himachal Pradesh"
  },
  {
   "title": "White capped bunting",
@@ -544,7 +568,8 @@
   },
   "needs": [],
   "id": "avian-portraits/white-capped-bunting",
-  "scientificName": "Emberiza stewarti"
+  "scientificName": "Emberiza stewarti",
+  "alt": "A White-capped Bunting with chestnut flanks perched on a white granite rock in Kinnaur, Himachal Pradesh"
  },
  {
   "title": "Asian Green bee eater",
@@ -566,7 +591,8 @@
   },
   "needs": [],
   "id": "avian-portraits/asian-green-bee-eater",
-  "scientificName": "Merops orientalis"
+  "scientificName": "Merops orientalis",
+  "alt": "A close portrait of an Asian Green Bee-eater showing its turquoise throat and curved bill against a warm golden background at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Marsh Sandpiper",
@@ -588,7 +614,8 @@
   },
   "needs": [],
   "id": "avian-portraits/marsh-sandpiper",
-  "scientificName": "Tringa stagnatilis"
+  "scientificName": "Tringa stagnatilis",
+  "alt": "A Marsh Sandpiper standing on dark wet mud on long yellow legs against a softly blurred background at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Spotted forktail",
@@ -610,7 +637,8 @@
   },
   "needs": [],
   "id": "avian-portraits/spotted-forktail",
-  "scientificName": "Enicurus maculatus"
+  "scientificName": "Enicurus maculatus",
+  "alt": "A Spotted Forktail perched on a rock with its long black and white tail trailing at Kalsa Nadi, Nainital, Uttarakhand"
  },
  {
   "title": "Little Ringed Plover",
@@ -632,7 +660,8 @@
   },
   "needs": [],
   "id": "avian-portraits/little-ringed-plover",
-  "scientificName": "Charadrius dubius"
+  "scientificName": "Charadrius dubius",
+  "alt": "A Little Ringed Plover foraging on algae-covered mud in soft light at Chandu Budhera, Gurgaon"
  },
  {
   "title": "Blue-tailed bee-eater",
@@ -654,7 +683,8 @@
   },
   "needs": [],
   "id": "avian-portraits/blue-tailed-bee-eater",
-  "scientificName": "Merops philippinus"
+  "scientificName": "Merops philippinus",
+  "alt": "A Blue-tailed Bee-eater perched on a thin twig with a freshly caught insect in its bill against a warm orange background at Mangar Bani, Gurgaon"
  },
  {
   "title": "Peregrine Falcon",
@@ -676,7 +706,8 @@
   },
   "needs": [],
   "id": "avian-portraits/peregrine-falcon",
-  "scientificName": "Falco peregrinus"
+  "scientificName": "Falco peregrinus",
+  "alt": "A Peregrine Falcon spreading its wings on a clay mound just before take-off in the Little Rann of Kutch, Gujarat"
  },
  {
   "title": "White-browed bushchat",
@@ -698,7 +729,8 @@
   },
   "needs": [],
   "id": "avian-portraits/white-browed-bushchat",
-  "scientificName": "Saxicola macrorhynchus"
+  "scientificName": "Saxicola macrorhynchus",
+  "alt": "A White-browed Bushchat standing on bare soil among dry stalks at Nalsarovar Bird Sanctuary, Gujarat"
  },
  {
   "title": "Plumbeous Water Redstart",
@@ -720,7 +752,8 @@
   },
   "needs": [],
   "id": "avian-portraits/plumbeous-water-redstart",
-  "scientificName": "Phoenicurus fuliginosus"
+  "scientificName": "Phoenicurus fuliginosus",
+  "alt": "A Plumbeous Water Redstart perched on a mossy boulder with its white tail feathers fanned against a soft green background in Solang Valley, Himachal Pradesh"
  },
  {
   "title": "Citrine Wagtail",
@@ -742,7 +775,8 @@
   },
   "needs": [],
   "id": "avian-portraits/citrine-wagtail",
-  "scientificName": "Motacilla citreola"
+  "scientificName": "Motacilla citreola",
+  "alt": "A juvenile Citrine Wagtail perched on a golden rock against a smooth brown background at Chandratal, Himachal Pradesh"
  },
  {
   "title": "Horned Lark",
@@ -764,7 +798,8 @@
   },
   "needs": [],
   "id": "avian-portraits/horned-lark",
-  "scientificName": "Eremophila alpestris"
+  "scientificName": "Eremophila alpestris",
+  "alt": "A Horned Lark with dark facial markings perched on a pale boulder at Chandratal, Himachal Pradesh"
  },
  {
   "title": "Red crested pochard",
@@ -786,7 +821,8 @@
   },
   "needs": [],
   "id": "wings-water/red-crested-pochard",
-  "scientificName": "Netta rufina"
+  "scientificName": "Netta rufina",
+  "alt": "A male Red-crested Pochard with a russet head and red bill swimming on calm blue water at Baur Reservoir, Uttarakhand"
  },
  {
   "title": "Northern Shoveler",
@@ -808,7 +844,8 @@
   },
   "needs": [],
   "id": "wings-water/northern-shoveler",
-  "scientificName": "Spatula clypeata"
+  "scientificName": "Spatula clypeata",
+  "alt": "A male Northern Shoveler with an iridescent green head swimming on still, silvery water at Sultanpur National Park, Gurgaon"
  },
  {
   "title": "Mallard",
@@ -830,7 +867,8 @@
   },
   "needs": [],
   "id": "wings-water/mallard",
-  "scientificName": "Anas platyrhynchos"
+  "scientificName": "Anas platyrhynchos",
+  "alt": "A male Mallard with a glossy green head swimming on dark green water at Boston Public Garden, Boston"
  },
  {
   "title": "Black tailed godwit",
@@ -852,7 +890,8 @@
   },
   "needs": [],
   "id": "wings-water/black-tailed-godwit",
-  "scientificName": "Limosa limosa"
+  "scientificName": "Limosa limosa",
+  "alt": "A Black-tailed Godwit wading in shallow water with its long bill and rust-coloured breast at Chandu Budhera, Gurgaon"
  },
  {
   "title": "River terns",
@@ -874,7 +913,8 @@
   },
   "needs": [],
   "id": "wings-water/river-terns",
-  "scientificName": "Sterna aurantia"
+  "scientificName": "Sterna aurantia",
+  "alt": "Two River Terns jostling in mid-air above the water in a spray of droplets at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Oriental Darter",
@@ -896,7 +936,8 @@
   },
   "needs": [],
   "id": "wings-water/oriental-darter",
-  "scientificName": "Anhinga melanogaster"
+  "scientificName": "Anhinga melanogaster",
+  "alt": "An Oriental Darter holding a freshly caught fish at the surface, its neck raised against smooth blue-grey water at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Great Crested Grebe",
@@ -918,7 +959,8 @@
   },
   "needs": [],
   "id": "wings-water/great-crested-grebe",
-  "scientificName": "Podiceps cristatus"
+  "scientificName": "Podiceps cristatus",
+  "alt": "A Great Crested Grebe swimming with a small fish in its bill on rippled water at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Indian Wild Ass",
@@ -940,7 +982,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/indian-wild-ass",
-  "scientificName": "Equus hemionus khur"
+  "scientificName": "Equus hemionus khur",
+  "alt": "Two Indian Wild Asses on the distant horizon beneath a glowing orange sunset sky in the Little Rann of Kutch, Gujarat"
  },
  {
   "title": "Ibex",
@@ -962,7 +1005,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/ibex",
-  "scientificName": "Capra sibirica"
+  "scientificName": "Capra sibirica",
+  "alt": "An Ibex with long ridged horns standing on a rocky outcrop above patches of snow in Spiti Valley, India"
  },
  {
   "title": "Snow Leopard",
@@ -984,7 +1028,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/snow-leopard",
-  "scientificName": "Panthera uncia"
+  "scientificName": "Panthera uncia",
+  "alt": "A Snow Leopard walking across a steep, snowy slope between scattered rocks, paw prints trailing behind it, in Spiti Valley, India"
  },
  {
   "title": "Golden Jackal",
@@ -1006,7 +1051,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/golden-jackal",
-  "scientificName": "Canis aureus"
+  "scientificName": "Canis aureus",
+  "alt": "A Golden Jackal staring directly at the camera on dry grass at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Blackbuck",
@@ -1028,7 +1074,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/blackbuck",
-  "scientificName": "Antilope cervicapra"
+  "scientificName": "Antilope cervicapra",
+  "alt": "A male Blackbuck rearing on its hind legs in a courtship display behind a female in a cloud of dust at Tal Chhapar Sanctuary, Rajasthan"
  },
  {
   "title": "Blackbuck",
@@ -1050,7 +1097,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/blackbuck-2",
-  "scientificName": "Antilope cervicapra"
+  "scientificName": "Antilope cervicapra",
+  "alt": "A Blackbuck leaping across a dirt track through golden grassland at Tal Chhapar Sanctuary, Rajasthan"
  },
  {
   "title": "Leopard",
@@ -1072,7 +1120,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/leopard",
-  "scientificName": "Panthera pardus"
+  "scientificName": "Panthera pardus",
+  "alt": "A Leopard walking towards the camera among dry shrubs and rocks at Jhalana Leopard Reserve, Rajasthan"
  },
  {
   "title": "Indian crested porcupine",
@@ -1094,7 +1143,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/indian-crested-porcupine",
-  "scientificName": "Hystrix indica"
+  "scientificName": "Hystrix indica",
+  "alt": "An Indian Crested Porcupine with raised quills against a pale, blurred background at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Spotted Deer",
@@ -1116,7 +1166,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/spotted-deer",
-  "scientificName": "Axis axis"
+  "scientificName": "Axis axis",
+  "alt": "A stag Spotted Deer with antlers standing in a misty forest clearing lit by soft backlight at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Golden Jackals",
@@ -1138,7 +1189,8 @@
   },
   "needs": [],
   "id": "mammals-in-the-wild/golden-jackals",
-  "scientificName": "Canis aureus"
+  "scientificName": "Canis aureus",
+  "alt": "Two Golden Jackals snarling over a carcass in warm golden light at Bharatpur Bird Sanctuary, Rajasthan"
  },
  {
   "title": "Chail",
@@ -1159,7 +1211,8 @@
    "aperture": "f/1.78",
    "shutter": "1/6711s"
   },
-  "id": "landscapes-of-the-wild/chail"
+  "id": "landscapes-of-the-wild/chail",
+  "alt": "Forested Himalayan ridges and a small hill town under a clear blue sky at Chail Wildlife Sanctuary, Himachal Pradesh"
  },
  {
   "title": "Spiti",
@@ -1180,7 +1233,8 @@
    "aperture": "f/1.78",
    "shutter": "1/256s"
   },
-  "id": "landscapes-of-the-wild/spiti"
+  "id": "landscapes-of-the-wild/spiti",
+  "alt": "Snow-covered mountains and a river valley under a pink-streaked sky in Spiti Valley, Himachal Pradesh"
  },
  {
   "title": "Morang, Himachal Pradesh",
@@ -1201,7 +1255,8 @@
    "iso": "ISO 80"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/morang-himachal-pradesh"
+  "id": "landscapes-of-the-wild/morang-himachal-pradesh",
+  "alt": "A turquoise river flowing through a steep rocky gorge near Morang, Kinnaur, Himachal Pradesh"
  },
  {
   "title": "Nako, Himachal Pradesh",
@@ -1222,7 +1277,8 @@
    "aperture": "f/2.2",
    "shutter": "1/2882s"
   },
-  "id": "landscapes-of-the-wild/nako-himachal-pradesh"
+  "id": "landscapes-of-the-wild/nako-himachal-pradesh",
+  "alt": "Barren mountain slopes and distant snow peaks under a deep blue sky at Nako, Himachal Pradesh"
  },
  {
   "title": "Sattal",
@@ -1243,7 +1299,8 @@
    "aperture": "f/2.2",
    "shutter": "1/868s"
   },
-  "id": "landscapes-of-the-wild/sattal"
+  "id": "landscapes-of-the-wild/sattal",
+  "alt": "Wooden boats lined along the shore of Sattal lake in soft morning light, Uttarakhand"
  },
  {
   "title": "Manila, Uttarakhand",
@@ -1264,7 +1321,8 @@
    "iso": "ISO 64"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/manila-uttarakhand"
+  "id": "landscapes-of-the-wild/manila-uttarakhand",
+  "alt": "A sea of cloud filling the valleys below pine trees at sunrise at Manila, Uttarakhand"
  },
  {
   "title": "Munsiyari",
@@ -1285,7 +1343,8 @@
    "iso": "ISO 80"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/munsiari"
+  "id": "landscapes-of-the-wild/munsiari",
+  "alt": "Dark forested mountain ridges under a clear blue sky at Munsiyari, Uttarakhand"
  },
  {
   "title": "Munsiyari",
@@ -1306,7 +1365,8 @@
    "iso": "ISO 80"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/munsiari-2"
+  "id": "landscapes-of-the-wild/munsiari-2",
+  "alt": "Silhouetted mountain valley beneath an orange horizon glow at Munsiyari, Uttarakhand"
  },
  {
   "title": "Chandratal Lake",
@@ -1327,7 +1387,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/chandratal-lake"
+  "id": "landscapes-of-the-wild/chandratal-lake",
+  "alt": "Chandratal Lake in a mountain basin beneath monsoon showers sweeping across the slopes, Himachal Pradesh"
  },
  {
   "title": "The trek to Chandratal Lake",
@@ -1348,7 +1409,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/the-trek-to-chandratal-lake"
+  "id": "landscapes-of-the-wild/the-trek-to-chandratal-lake",
+  "alt": "A trail crossing a grassy plateau towards snow-capped peaks on the trek to Chandratal Lake, Himachal Pradesh"
  },
  {
   "title": "The route back from Chandratal lake",
@@ -1369,7 +1431,8 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/the-route-back-from-chandratal-lake"
+  "id": "landscapes-of-the-wild/the-route-back-from-chandratal-lake",
+  "alt": "Snow-capped peaks above a grassy plateau under heavy cloud on the route back from Chandratal Lake, Himachal Pradesh"
  },
  {
   "title": "The peak behind Moonlake camps at Chandratal",
@@ -1390,6 +1453,7 @@
    "iso": "ISO 100"
   },
   "needs": [],
-  "id": "landscapes-of-the-wild/the-peak-behind-moonlake-camps-at-chandratal"
+  "id": "landscapes-of-the-wild/the-peak-behind-moonlake-camps-at-chandratal",
+  "alt": "A snow-capped peak emerging from mist behind Moonlake camps at Chandratal, Himachal Pradesh"
  }
 ]

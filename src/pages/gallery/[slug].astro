@@ -13,7 +13,7 @@ const photos: any[] = photosData.filter((p: any) => p.collectionSlug === c.slug)
 const lensName = (l?: string) => (l || '').replace(/\s+back\s.*$/i, '').replace(/\+\s*(EXTENDER RF1\.4x|RF 1\.4x extender)/i, '+ 1.4x');
 const paras = c.description.split('\n').filter(Boolean);
 ---
-<BaseLayout title={c.title} description={c.description.slice(0, 160)} image={`/images/portfolio/${c.slug}/cover.jpg`}>
+<BaseLayout title={c.title} description={c.description} image={`/images/portfolio/${c.slug}/cover.jpg`} imageAlt={c.coverAlt}>
   <section class="page-head">
     <div class="wrap">
       <a class="back-link" href="/#gallery">&larr; All collections</a>
@@ -38,11 +38,11 @@ const paras = c.description.split('\n').filter(Boolean);
       {photos.map((p, i) => (
         <button
           class="tile" type="button" data-lb data-lb-group="gallery" data-kind="photo" data-id={p.id} data-w={p.w} data-h={p.h} data-need={p.needs.join(', ')}
-          data-full={p.image} data-thumb={p.thumb} data-title={p.title} data-sci={p.scientificName || ''} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
+          data-full={p.image} data-thumb={p.thumb} data-title={p.title} data-alt={p.alt || p.title} data-sci={p.scientificName || ''} data-loc={p.location} data-exif={p.exif ? JSON.stringify(p.exif) : ''}
           style={`background-image:url(${p.lqip}); aspect-ratio:${p.w}/${p.h}`}
           aria-label={`Open ${p.title}`}
         >
-          <img src={p.thumb} width={p.w} height={p.h} alt={`${p.title}${p.location ? ', ' + p.location : ''}`} loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
+          <img src={p.thumb} width={p.w} height={p.h} alt={p.alt || `${p.title}${p.location ? ', ' + p.location : ''}`} loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
           <span class="tile-info">
             <span class="tile-title">{p.title}</span>
             {p.scientificName && <span class="tile-sci">{p.scientificName}</span>}

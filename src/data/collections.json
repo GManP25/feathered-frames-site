@@ -6,41 +6,47 @@
   "details": [
    "Trip to Spiti from New Delhi\n31st Jan to 9th Feb 2025"
   ],
-  "count": 14
+  "count": 14,
+  "coverAlt": "A Snow Leopard walking across a snow-covered slope, seen from above, in Spiti Valley, India"
  },
  {
   "slug": "birds-in-flight",
   "title": "Birds in Flight",
   "description": "This collection captures the breathtaking beauty and dynamic energy of birds in flight. From the graceful glide of an eagle to the swift, powerful wings of a kestrel, each image offers a unique moment of freedom and strength. The interplay of light, air, and movement showcases the elegance these remarkable creatures embody as they navigate the skies.\nThrough these photographs, I invite you to pause and appreciate the natural world from a new perspective, marvelling at the fluidity and wonder of birds as they soar above the landscapes they call home.",
   "details": [],
-  "count": 9
+  "count": 9,
+  "coverAlt": "A Bearded Vulture gliding with its wings fully spread against a warm brown rock face in Spiti Valley, India"
  },
  {
   "slug": "avian-portraits",
   "title": "Avian Portraits",
   "description": "Every bird has a story to tell, and their expressions, colours, and textures reveal fascinating details. This series focuses on close-up portraits, celebrating the intricate patterns of feathers, the intensity of piercing eyes, and the subtle nuances of their postures. Through these portraits, I aim to showcase the individuality and majesty of each species.",
   "details": [],
-  "count": 12
+  "count": 12,
+  "coverAlt": "A Rainbow Lorikeet with a blue head and orange breast perched on a railing against a soft background"
  },
  {
   "slug": "wings-water",
   "title": "Wings & Water",
   "description": "Some of the most mesmerising bird photography happens where air meets water. This collection captures birds interacting with lakes, rivers, and oceans, whether it's a kingfisher plunging into a river, a flamingo wading elegantly, or a seabird skimming the waves. The reflections, ripples, and splashes add an extra dimension of artistry to each image.",
   "details": [],
-  "count": 7
+  "count": 7,
+  "coverAlt": "A male Eurasian Wigeon with a chestnut head swimming on calm water"
  },
  {
   "slug": "mammals-in-the-wild",
   "title": "Mammals in the Wild",
   "description": "While my primary focus is on birds, the untamed beauty of mammals is equally captivating. This collection features candid moments of wildlife in their natural habitats, whether it's the cunning gaze of a fox, the quiet strength of a wolf, or the elusive grace of a snow leopard navigating its icy realm. These images showcase the resilience, adaptability, and raw beauty of mammals in the wild.",
   "details": [],
-  "count": 10
+  "count": 10,
+  "coverAlt": "A Tiger lying in dry grass and looking towards the camera"
  },
  {
   "slug": "landscapes-of-the-wild",
   "title": "Landscapes of the Wild",
   "description": "Nature isn't just about the creatures that inhabit it, it's also about the breathtaking scenery they call home. This collection presents sweeping vistas, dramatic skies, and untouched wilderness, capturing the soul of the places I've travelled to. Each image tells a story of space, solitude, and the ever-changing moods of nature.",
   "details": [],
-  "count": 12
+  "count": 12,
+  "coverAlt": "Key Monastery on its hilltop above a snow-covered valley under a deep blue sky in Spiti Valley, India"
  }
 ]
