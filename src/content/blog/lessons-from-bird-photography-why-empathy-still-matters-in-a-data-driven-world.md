@@ -7,17 +7,17 @@ excerpt: "What patience, observation and empathy learnt from watching birds can 
 originalUrl: "https://www.gauravsfeatheredframes.com/post/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world"
 ---
 
-<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world/img-01.jpg" alt="Two birds facing each other on bare brown soil in warm light" loading="lazy" decoding="async" data-zoom></figure>
+<figure class="inline-media" style="--ar:1.2500"><img width="1800" height="1440" src="/images/blog/lessons-from-bird-photography-why-empathy-still-matters-in-a-data-driven-world/img-01.jpg" alt="Two Chestnut-bellied Sandgrouse resting on arid, bare brown ground, their plumage blending into the earthy tones" loading="lazy" decoding="async" data-zoom><figcaption>Two beautifully patterned Chestnut-bellied sandgrouse rest on the arid terrain, their plumage blending seamlessly with the earthy tones of the landscape.</figcaption></figure>
 
-I’ve loved wildlife photography for as long as I can remember, but my real passion is capturing birds in their natural habitat. Waking up before dawn, quietly setting up my camera, and waiting—sometimes for hours—for that perfect shot might sound crazy to some people. Yet it’s in those moments of patient observation that I’ve learned some of my most valuable lessons. Surprisingly, many of those lessons apply just as well to my professional life as they do to my time in the field.
+I’ve loved wildlife photography for as long as I can remember, but my real passion is capturing birds in their natural habitat. Waking up before dawn, quietly setting up my camera, and waiting, sometimes for hours, for that perfect shot might sound crazy to some people. Yet it’s in those moments of patient observation that I’ve learned some of my most valuable lessons. Surprisingly, many of those lessons apply just as well to my professional life as they do to my time in the field.
 
 Patience Builds Trust
 
-When I’m out looking for a rare bird, I know I won’t capture anything worthwhile if I scare it off. It takes time to gain the bird’s trust—moving slowly, blending in, and paying attention to its comfort level. The same goes for building client relationships. We can’t expect to rush in, barrage them with data, and assume they’ll open up. Patience, genuine interest, and respect are what really earn their trust over time.
+When I’m out looking for a rare bird, I know I won’t capture anything worthwhile if I scare it off. It takes time to gain the bird’s trust: moving slowly, blending in, and paying attention to its comfort level. The same goes for building client relationships. We can’t expect to rush in, barrage them with data, and assume they’ll open up. Patience, genuine interest, and respect are what really earn their trust over time.
 
 Observation Reveals Hidden Clues
 
-I’ve learned the hard way that you can’t just rely on a field guide to know where birds will appear. Conditions change, habitats evolve, and birds don’t read the memo. In business, we often rely heavily on analytics and assume our dashboards will tell us everything. But clients, much like wildlife, can show unexpected signs or shift directions without warning. Being truly observant—asking questions, listening deeply, and noticing subtle cues—helps us respond more effectively than any chart ever could.
+I’ve learned the hard way that you can’t just rely on a field guide to know where birds will appear. Conditions change, habitats evolve, and birds don’t read the memo. In business, we often rely heavily on analytics and assume our dashboards will tell us everything. But clients, much like wildlife, can show unexpected signs or shift directions without warning. Being truly observant, asking questions, listening deeply, and noticing subtle cues, helps us respond more effectively than any chart ever could.
 
 Balancing Data and Empathy
 

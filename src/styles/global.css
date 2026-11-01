@@ -402,3 +402,8 @@ a.tag:hover { opacity: .8; }
 }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Two photos sharing one caption */
+.inline-group .group-row { display: flex; gap: 12px; align-items: flex-start; }
+.inline-group .group-row img { flex: var(--ar, 1) 1 0%; min-width: 0; width: 0; height: auto; max-height: none; }
+.inline-group figcaption { text-align: center; }
