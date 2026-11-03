@@ -1,0 +1,3304 @@
+[
+ {
+  "group": "Waterfowl",
+  "slug": "waterfowl",
+  "species": [
+   {
+    "name": "Lesser Whistling-Duck",
+    "sci": "Dendrocygna javanica",
+    "photo": null
+   },
+   {
+    "name": "Bar-headed Goose",
+    "sci": "Anser indicus",
+    "photo": null
+   },
+   {
+    "name": "Graylag Goose",
+    "sci": "Anser anser",
+    "photo": null
+   },
+   {
+    "name": "Canada Goose",
+    "sci": "Branta canadensis",
+    "photo": null
+   },
+   {
+    "name": "Knob-billed Duck",
+    "sci": "Sarkidiornis melanotos",
+    "photo": null
+   },
+   {
+    "name": "Ruddy Shelduck",
+    "sci": "Tadorna ferruginea",
+    "photo": null
+   },
+   {
+    "name": "Common Shelduck",
+    "sci": "Tadorna tadorna",
+    "photo": null
+   },
+   {
+    "name": "Cotton Pygmy-Goose",
+    "sci": "Nettapus coromandelianus",
+    "photo": null
+   },
+   {
+    "name": "Garganey",
+    "sci": "Spatula querquedula",
+    "photo": null
+   },
+   {
+    "name": "Northern Shoveler",
+    "sci": "Spatula clypeata",
+    "photo": "wings-water/northern-shoveler"
+   },
+   {
+    "name": "Gadwall",
+    "sci": "Mareca strepera",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Wigeon",
+    "sci": "Mareca penelope",
+    "photo": null
+   },
+   {
+    "name": "Indian Spot-billed Duck",
+    "sci": "Anas poecilorhyncha",
+    "photo": null
+   },
+   {
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "photo": "wings-water/mallard"
+   },
+   {
+    "name": "Northern Pintail",
+    "sci": "Anas acuta",
+    "photo": null
+   },
+   {
+    "name": "Green-winged Teal",
+    "sci": "Anas crecca",
+    "photo": null
+   },
+   {
+    "name": "Red-crested Pochard",
+    "sci": "Netta rufina",
+    "photo": "wings-water/red-crested-pochard"
+   },
+   {
+    "name": "Common Pochard",
+    "sci": "Aythya ferina",
+    "photo": null
+   },
+   {
+    "name": "Ferruginous Duck",
+    "sci": "Aythya nyroca",
+    "photo": null
+   },
+   {
+    "name": "Tufted Duck",
+    "sci": "Aythya fuligula",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Pheasants, Partridges & Quail",
+  "slug": "pheasants-partridges-quail",
+  "species": [
+   {
+    "name": "Hill Partridge",
+    "sci": "Arborophila torqueola",
+    "photo": null
+   },
+   {
+    "name": "Rufous-throated Partridge",
+    "sci": "Arborophila rufogularis",
+    "photo": null
+   },
+   {
+    "name": "Satyr Tragopan",
+    "sci": "Tragopan satyra",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Monal",
+    "sci": "Lophophorus impejanus",
+    "photo": null
+   },
+   {
+    "name": "Koklass Pheasant",
+    "sci": "Pucrasia macrolopha",
+    "photo": null
+   },
+   {
+    "name": "Cheer Pheasant",
+    "sci": "Catreus wallichii",
+    "photo": null
+   },
+   {
+    "name": "Kalij Pheasant",
+    "sci": "Lophura leucomelanos",
+    "photo": null
+   },
+   {
+    "name": "Indian Peafowl",
+    "sci": "Pavo cristatus",
+    "photo": null
+   },
+   {
+    "name": "Red Spurfowl",
+    "sci": "Galloperdix spadicea",
+    "photo": null
+   },
+   {
+    "name": "Gray Junglefowl",
+    "sci": "Gallus sonneratii",
+    "photo": null
+   },
+   {
+    "name": "Gray Francolin",
+    "sci": "Ortygornis pondicerianus",
+    "photo": null
+   },
+   {
+    "name": "Black Francolin",
+    "sci": "Francolinus francolinus",
+    "photo": null
+   },
+   {
+    "name": "Painted Francolin",
+    "sci": "Francolinus pictus",
+    "photo": null
+   },
+   {
+    "name": "Rain Quail",
+    "sci": "Coturnix coromandelica",
+    "photo": null
+   },
+   {
+    "name": "Chukar",
+    "sci": "Alectoris chukar",
+    "photo": null
+   },
+   {
+    "name": "Jungle Bush-Quail",
+    "sci": "Perdicula asiatica",
+    "photo": null
+   },
+   {
+    "name": "Rock Bush-Quail",
+    "sci": "Perdicula argoondah",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Pigeons & Doves",
+  "slug": "pigeons-doves",
+  "species": [
+   {
+    "name": "Rock Pigeon",
+    "sci": "Columba livia",
+    "photo": null
+   },
+   {
+    "name": "Hill Pigeon",
+    "sci": "Columba rupestris",
+    "photo": "winter-wonderland-spiti/hill-pigeon"
+   },
+   {
+    "name": "Snow Pigeon",
+    "sci": "Columba leuconota",
+    "photo": null
+   },
+   {
+    "name": "Common Wood-Pigeon",
+    "sci": "Columba palumbus",
+    "photo": null
+   },
+   {
+    "name": "Oriental Turtle-Dove",
+    "sci": "Streptopelia orientalis",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Collared-Dove",
+    "sci": "Streptopelia decaocto",
+    "photo": null
+   },
+   {
+    "name": "Red Collared-Dove",
+    "sci": "Streptopelia tranquebarica",
+    "photo": null
+   },
+   {
+    "name": "Spotted Dove",
+    "sci": "Spilopelia chinensis",
+    "photo": null
+   },
+   {
+    "name": "Laughing Dove",
+    "sci": "Spilopelia senegalensis",
+    "photo": null
+   },
+   {
+    "name": "Asian Emerald Dove",
+    "sci": "Chalcophaps indica",
+    "photo": null
+   },
+   {
+    "name": "Gray-fronted Green-Pigeon",
+    "sci": "Treron affinis",
+    "photo": null
+   },
+   {
+    "name": "Yellow-footed Green-Pigeon",
+    "sci": "Treron phoenicopterus",
+    "photo": null
+   },
+   {
+    "name": "Wedge-tailed Green-Pigeon",
+    "sci": "Treron sphenurus",
+    "photo": null
+   },
+   {
+    "name": "Green Imperial-Pigeon",
+    "sci": "Ducula aenea",
+    "photo": null
+   },
+   {
+    "name": "Malabar Imperial-Pigeon",
+    "sci": "Ducula cuprea",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Sandgrouse & Bustards",
+  "slug": "sandgrouse-bustards",
+  "species": [
+   {
+    "name": "Chestnut-bellied Sandgrouse",
+    "sci": "Pterocles exustus",
+    "photo": null
+   },
+   {
+    "name": "Great Indian Bustard",
+    "sci": "Ardeotis nigriceps",
+    "photo": null
+   },
+   {
+    "name": "Asian Houbara",
+    "sci": "Chlamydotis macqueenii",
+    "photo": null
+   },
+   {
+    "name": "Lesser Florican",
+    "sci": "Sypheotides indicus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Cuckoos & Coucals",
+  "slug": "cuckoos-coucals",
+  "species": [
+   {
+    "name": "Greater Coucal",
+    "sci": "Centropus sinensis",
+    "photo": null
+   },
+   {
+    "name": "Sirkeer Malkoha",
+    "sci": "Taccocua leschenaultii",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-winged Cuckoo",
+    "sci": "Clamator coromandus",
+    "photo": null
+   },
+   {
+    "name": "Pied Cuckoo",
+    "sci": "Clamator jacobinus",
+    "photo": null
+   },
+   {
+    "name": "Asian Koel",
+    "sci": "Eudynamys scolopaceus",
+    "photo": null
+   },
+   {
+    "name": "Plaintive Cuckoo",
+    "sci": "Cacomantis merulinus",
+    "photo": null
+   },
+   {
+    "name": "Gray-bellied Cuckoo",
+    "sci": "Cacomantis passerinus",
+    "photo": null
+   },
+   {
+    "name": "Fork-tailed Drongo-Cuckoo",
+    "sci": "Surniculus dicruroides",
+    "photo": null
+   },
+   {
+    "name": "Common Hawk-Cuckoo",
+    "sci": "Hierococcyx varius",
+    "photo": null
+   },
+   {
+    "name": "Hodgson's Hawk-Cuckoo",
+    "sci": "Hierococcyx nisicolor",
+    "photo": null
+   },
+   {
+    "name": "Indian Cuckoo",
+    "sci": "Cuculus micropterus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Nightjars & Frogmouths",
+  "slug": "nightjars-frogmouths",
+  "species": [
+   {
+    "name": "Jungle Nightjar",
+    "sci": "Caprimulgus indicus",
+    "photo": null
+   },
+   {
+    "name": "Gray Nightjar",
+    "sci": "Caprimulgus jotaka",
+    "photo": null
+   },
+   {
+    "name": "Jerdon's Nightjar",
+    "sci": "Caprimulgus atripennis",
+    "photo": null
+   },
+   {
+    "name": "Savanna Nightjar",
+    "sci": "Caprimulgus affinis",
+    "photo": null
+   },
+   {
+    "name": "Sri Lanka Frogmouth",
+    "sci": "Batrachostomus moniliger",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Swifts",
+  "slug": "swifts",
+  "species": [
+   {
+    "name": "Himalayan Swiftlet",
+    "sci": "Aerodramus brevirostris",
+    "photo": null
+   },
+   {
+    "name": "Alpine Swift",
+    "sci": "Tachymarptis melba",
+    "photo": null
+   },
+   {
+    "name": "Blyth's Swift",
+    "sci": "Apus leuconyx",
+    "photo": null
+   },
+   {
+    "name": "Little Swift",
+    "sci": "Apus affinis",
+    "photo": null
+   },
+   {
+    "name": "Asian Palm Swift",
+    "sci": "Cypsiurus balasiensis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Rails, Crakes & Cranes",
+  "slug": "rails-crakes-cranes",
+  "species": [
+   {
+    "name": "Spotted Crake",
+    "sci": "Porzana porzana",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Moorhen",
+    "sci": "Gallinula chloropus",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Coot",
+    "sci": "Fulica atra",
+    "photo": null
+   },
+   {
+    "name": "Gray-headed Swamphen",
+    "sci": "Porphyrio poliocephalus",
+    "photo": null
+   },
+   {
+    "name": "Watercock",
+    "sci": "Gallicrex cinerea",
+    "photo": null
+   },
+   {
+    "name": "White-breasted Waterhen",
+    "sci": "Amaurornis phoenicurus",
+    "photo": null
+   },
+   {
+    "name": "Baillon's Crake",
+    "sci": "Zapornia pusilla",
+    "photo": null
+   },
+   {
+    "name": "Sarus Crane",
+    "sci": "Antigone antigone",
+    "photo": null
+   },
+   {
+    "name": "Demoiselle Crane",
+    "sci": "Grus virgo",
+    "photo": null
+   },
+   {
+    "name": "Common Crane",
+    "sci": "Grus grus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Shorebirds",
+  "slug": "shorebirds",
+  "species": [
+   {
+    "name": "Great Thick-knee",
+    "sci": "Esacus recurvirostris",
+    "photo": null
+   },
+   {
+    "name": "Indian Thick-knee",
+    "sci": "Burhinus indicus",
+    "photo": null
+   },
+   {
+    "name": "Black-winged Stilt",
+    "sci": "Himantopus himantopus",
+    "photo": null
+   },
+   {
+    "name": "Pied Avocet",
+    "sci": "Recurvirostra avosetta",
+    "photo": null
+   },
+   {
+    "name": "Little Ringed Plover",
+    "sci": "Thinornis dubius",
+    "photo": "avian-portraits/little-ringed-plover"
+   },
+   {
+    "name": "River Lapwing",
+    "sci": "Vanellus duvaucelii",
+    "photo": null
+   },
+   {
+    "name": "Yellow-wattled Lapwing",
+    "sci": "Vanellus malabaricus",
+    "photo": null
+   },
+   {
+    "name": "Gray-headed Lapwing",
+    "sci": "Vanellus cinereus",
+    "photo": null
+   },
+   {
+    "name": "Red-wattled Lapwing",
+    "sci": "Vanellus indicus",
+    "photo": null
+   },
+   {
+    "name": "White-tailed Lapwing",
+    "sci": "Vanellus leucurus",
+    "photo": null
+   },
+   {
+    "name": "Kentish Plover",
+    "sci": "Anarhynchus alexandrinus",
+    "photo": null
+   },
+   {
+    "name": "Greater Painted-Snipe",
+    "sci": "Rostratula benghalensis",
+    "photo": "birds-in-flight/greater-painted-snipe"
+   },
+   {
+    "name": "Pheasant-tailed Jacana",
+    "sci": "Hydrophasianus chirurgus",
+    "photo": null
+   },
+   {
+    "name": "Bronze-winged Jacana",
+    "sci": "Metopidius indicus",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Whimbrel",
+    "sci": "Numenius phaeopus",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Curlew",
+    "sci": "Numenius arquata",
+    "photo": null
+   },
+   {
+    "name": "Black-tailed Godwit",
+    "sci": "Limosa limosa",
+    "photo": "wings-water/black-tailed-godwit"
+   },
+   {
+    "name": "Jack Snipe",
+    "sci": "Lymnocryptes minimus",
+    "photo": null
+   },
+   {
+    "name": "Common Snipe",
+    "sci": "Gallinago gallinago",
+    "photo": null
+   },
+   {
+    "name": "Common Sandpiper",
+    "sci": "Actitis hypoleucos",
+    "photo": null
+   },
+   {
+    "name": "Green Sandpiper",
+    "sci": "Tringa ochropus",
+    "photo": null
+   },
+   {
+    "name": "Marsh Sandpiper",
+    "sci": "Tringa stagnatilis",
+    "photo": null
+   },
+   {
+    "name": "Wood Sandpiper",
+    "sci": "Tringa glareola",
+    "photo": "avian-portraits/wood-sandpiper"
+   },
+   {
+    "name": "Common Redshank",
+    "sci": "Tringa totanus",
+    "photo": null
+   },
+   {
+    "name": "Spotted Redshank",
+    "sci": "Tringa erythropus",
+    "photo": null
+   },
+   {
+    "name": "Common Greenshank",
+    "sci": "Tringa nebularia",
+    "photo": null
+   },
+   {
+    "name": "Ruff",
+    "sci": "Calidris pugnax",
+    "photo": null
+   },
+   {
+    "name": "Temminck's Stint",
+    "sci": "Calidris temminckii",
+    "photo": null
+   },
+   {
+    "name": "Little Stint",
+    "sci": "Calidris minuta",
+    "photo": null
+   },
+   {
+    "name": "Barred Buttonquail",
+    "sci": "Turnix suscitator",
+    "photo": null
+   },
+   {
+    "name": "Indian Courser",
+    "sci": "Cursorius coromandelicus",
+    "photo": null
+   },
+   {
+    "name": "Cream-colored Courser",
+    "sci": "Cursorius cursor",
+    "photo": null
+   },
+   {
+    "name": "Collared Pratincole",
+    "sci": "Glareola pratincola",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Gulls, Terns & Skimmers",
+  "slug": "gulls-terns-skimmers",
+  "species": [
+   {
+    "name": "Little Gull",
+    "sci": "Hydrocoloeus minutus",
+    "photo": null
+   },
+   {
+    "name": "Slender-billed Gull",
+    "sci": "Chroicocephalus genei",
+    "photo": null
+   },
+   {
+    "name": "Black-headed Gull",
+    "sci": "Chroicocephalus ridibundus",
+    "photo": null
+   },
+   {
+    "name": "Brown-headed Gull",
+    "sci": "Chroicocephalus brunnicephalus",
+    "photo": null
+   },
+   {
+    "name": "Pallas's Gull",
+    "sci": "Ichthyaetus ichthyaetus",
+    "photo": null
+   },
+   {
+    "name": "Lesser Black-backed Gull",
+    "sci": "Larus fuscus",
+    "photo": null
+   },
+   {
+    "name": "Indian Skimmer",
+    "sci": "Rynchops albicollis",
+    "photo": null
+   },
+   {
+    "name": "Little Tern",
+    "sci": "Sternula albifrons",
+    "photo": null
+   },
+   {
+    "name": "Whiskered Tern",
+    "sci": "Chlidonias hybrida",
+    "photo": null
+   },
+   {
+    "name": "River Tern",
+    "sci": "Sterna aurantia",
+    "photo": "birds-in-flight/river-tern"
+   },
+   {
+    "name": "Black-bellied Tern",
+    "sci": "Sterna acuticauda",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Flamingos & Grebes",
+  "slug": "flamingos-grebes",
+  "species": [
+   {
+    "name": "Greater Flamingo",
+    "sci": "Phoenicopterus roseus",
+    "photo": null
+   },
+   {
+    "name": "Lesser Flamingo",
+    "sci": "Phoeniconaias minor",
+    "photo": null
+   },
+   {
+    "name": "Little Grebe",
+    "sci": "Tachybaptus ruficollis",
+    "photo": null
+   },
+   {
+    "name": "Great Crested Grebe",
+    "sci": "Podiceps cristatus",
+    "photo": "wings-water/great-crested-grebe"
+   }
+  ]
+ },
+ {
+  "group": "Storks",
+  "slug": "storks",
+  "species": [
+   {
+    "name": "Asian Openbill",
+    "sci": "Anastomus oscitans",
+    "photo": null
+   },
+   {
+    "name": "Asian Woolly-necked Stork",
+    "sci": "Ciconia episcopus",
+    "photo": null
+   },
+   {
+    "name": "Black-necked Stork",
+    "sci": "Ephippiorhynchus asiaticus",
+    "photo": null
+   },
+   {
+    "name": "Lesser Adjutant",
+    "sci": "Leptoptilos javanicus",
+    "photo": null
+   },
+   {
+    "name": "Painted Stork",
+    "sci": "Mycteria leucocephala",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Darters & Cormorants",
+  "slug": "darters-cormorants",
+  "species": [
+   {
+    "name": "Oriental Darter",
+    "sci": "Anhinga melanogaster",
+    "photo": "wings-water/oriental-darter"
+   },
+   {
+    "name": "Little Cormorant",
+    "sci": "Microcarbo niger",
+    "photo": null
+   },
+   {
+    "name": "Great Cormorant",
+    "sci": "Phalacrocorax carbo",
+    "photo": null
+   },
+   {
+    "name": "Indian Cormorant",
+    "sci": "Phalacrocorax fuscicollis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Ibises & Spoonbills",
+  "slug": "ibises-spoonbills",
+  "species": [
+   {
+    "name": "Glossy Ibis",
+    "sci": "Plegadis falcinellus",
+    "photo": null
+   },
+   {
+    "name": "Black-headed Ibis",
+    "sci": "Threskiornis melanocephalus",
+    "photo": null
+   },
+   {
+    "name": "Red-naped Ibis",
+    "sci": "Pseudibis papillosa",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Spoonbill",
+    "sci": "Platalea leucorodia",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Herons, Egrets & Bitterns",
+  "slug": "herons-egrets-bitterns",
+  "species": [
+   {
+    "name": "Black Bittern",
+    "sci": "Botaurus flavicollis",
+    "photo": null
+   },
+   {
+    "name": "Yellow Bittern",
+    "sci": "Botaurus sinensis",
+    "photo": "birds-in-flight/yellow-bittern"
+   },
+   {
+    "name": "Cinnamon Bittern",
+    "sci": "Botaurus cinnamomeus",
+    "photo": null
+   },
+   {
+    "name": "Black-crowned Night Heron",
+    "sci": "Nycticorax nycticorax",
+    "photo": null
+   },
+   {
+    "name": "Malayan Night Heron",
+    "sci": "Gorsachius melanolophus",
+    "photo": null
+   },
+   {
+    "name": "Little Egret",
+    "sci": "Egretta garzetta",
+    "photo": null
+   },
+   {
+    "name": "Western Reef-Heron",
+    "sci": "Egretta gularis",
+    "photo": null
+   },
+   {
+    "name": "Little Heron",
+    "sci": "Butorides atricapilla",
+    "photo": null
+   },
+   {
+    "name": "Indian Pond-Heron",
+    "sci": "Ardeola grayii",
+    "photo": null
+   },
+   {
+    "name": "Chinese Pond-Heron",
+    "sci": "Ardeola bacchus",
+    "photo": null
+   },
+   {
+    "name": "Eastern Cattle-Egret",
+    "sci": "Ardea coromanda",
+    "photo": null
+   },
+   {
+    "name": "Great Egret",
+    "sci": "Ardea alba",
+    "photo": null
+   },
+   {
+    "name": "Medium Egret",
+    "sci": "Ardea intermedia",
+    "photo": null
+   },
+   {
+    "name": "Gray Heron",
+    "sci": "Ardea cinerea",
+    "photo": null
+   },
+   {
+    "name": "Purple Heron",
+    "sci": "Ardea purpurea",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Pelicans",
+  "slug": "pelicans",
+  "species": [
+   {
+    "name": "Great White Pelican",
+    "sci": "Pelecanus onocrotalus",
+    "photo": null
+   },
+   {
+    "name": "Spot-billed Pelican",
+    "sci": "Pelecanus philippensis",
+    "photo": null
+   },
+   {
+    "name": "Dalmatian Pelican",
+    "sci": "Pelecanus crispus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Raptors: Eagles, Hawks & Vultures",
+  "slug": "raptors-eagles-hawks-vultures",
+  "species": [
+   {
+    "name": "Osprey",
+    "sci": "Pandion haliaetus",
+    "photo": null
+   },
+   {
+    "name": "Black-winged Kite",
+    "sci": "Elanus caeruleus",
+    "photo": null
+   },
+   {
+    "name": "Bearded Vulture",
+    "sci": "Gypaetus barbatus",
+    "photo": "winter-wonderland-spiti/bearded-vulture-or-lammergeier"
+   },
+   {
+    "name": "Egyptian Vulture",
+    "sci": "Neophron percnopterus",
+    "photo": null
+   },
+   {
+    "name": "Oriental Honey-buzzard",
+    "sci": "Pernis ptilorhynchus",
+    "photo": "birds-in-flight/oriental-honey-buzzard"
+   },
+   {
+    "name": "Cinereous Vulture",
+    "sci": "Aegypius monachus",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Griffon",
+    "sci": "Gyps himalayensis",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Griffon",
+    "sci": "Gyps fulvus",
+    "photo": null
+   },
+   {
+    "name": "Crested Serpent-Eagle",
+    "sci": "Spilornis cheela",
+    "photo": null
+   },
+   {
+    "name": "Mountain Hawk-Eagle",
+    "sci": "Nisaetus nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Black Eagle",
+    "sci": "Ictinaetus malaiensis",
+    "photo": null
+   },
+   {
+    "name": "Indian Spotted Eagle",
+    "sci": "Clanga hastata",
+    "photo": null
+   },
+   {
+    "name": "Greater Spotted Eagle",
+    "sci": "Clanga clanga",
+    "photo": null
+   },
+   {
+    "name": "Booted Eagle",
+    "sci": "Hieraaetus pennatus",
+    "photo": "birds-in-flight/booted-eagle"
+   },
+   {
+    "name": "Steppe Eagle",
+    "sci": "Aquila nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Eastern Imperial Eagle",
+    "sci": "Aquila heliaca",
+    "photo": null
+   },
+   {
+    "name": "Tawny Eagle",
+    "sci": "Aquila rapax",
+    "photo": null
+   },
+   {
+    "name": "Golden Eagle",
+    "sci": "Aquila chrysaetos",
+    "photo": null
+   },
+   {
+    "name": "Bonelli's Eagle",
+    "sci": "Aquila fasciata",
+    "photo": null
+   },
+   {
+    "name": "Shikra",
+    "sci": "Tachyspiza badia",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Sparrowhawk",
+    "sci": "Accipiter nisus",
+    "photo": null
+   },
+   {
+    "name": "Western Marsh Harrier",
+    "sci": "Circus aeruginosus",
+    "photo": null
+   },
+   {
+    "name": "Pallid Harrier",
+    "sci": "Circus macrourus",
+    "photo": null
+   },
+   {
+    "name": "Montagu's Harrier",
+    "sci": "Circus pygargus",
+    "photo": null
+   },
+   {
+    "name": "Black Kite",
+    "sci": "Milvus migrans",
+    "photo": null
+   },
+   {
+    "name": "Brahminy Kite",
+    "sci": "Haliastur indus",
+    "photo": null
+   },
+   {
+    "name": "White-tailed Eagle",
+    "sci": "Haliaeetus albicilla",
+    "photo": null
+   },
+   {
+    "name": "White-bellied Sea-Eagle",
+    "sci": "Icthyophaga leucogaster",
+    "photo": null
+   },
+   {
+    "name": "White-eyed Buzzard",
+    "sci": "Butastur teesa",
+    "photo": null
+   },
+   {
+    "name": "Broad-winged Hawk",
+    "sci": "Buteo platypterus",
+    "photo": null
+   },
+   {
+    "name": "Common Buzzard",
+    "sci": "Buteo buteo",
+    "photo": null
+   },
+   {
+    "name": "Long-legged Buzzard",
+    "sci": "Buteo rufinus",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Buzzard",
+    "sci": "Buteo refectus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Owls",
+  "slug": "owls",
+  "species": [
+   {
+    "name": "Australasian Grass-Owl",
+    "sci": "Tyto longimembris",
+    "photo": null
+   },
+   {
+    "name": "Mountain Scops-Owl",
+    "sci": "Otus spilocephalus",
+    "photo": null
+   },
+   {
+    "name": "Indian Scops-Owl",
+    "sci": "Otus bakkamoena",
+    "photo": null
+   },
+   {
+    "name": "Collared Scops-Owl",
+    "sci": "Otus lettia",
+    "photo": null
+   },
+   {
+    "name": "Pallid Scops-Owl",
+    "sci": "Otus brucei",
+    "photo": null
+   },
+   {
+    "name": "Rock Eagle-Owl",
+    "sci": "Bubo bengalensis",
+    "photo": null
+   },
+   {
+    "name": "Brown Fish-Owl",
+    "sci": "Ketupa zeylonensis",
+    "photo": null
+   },
+   {
+    "name": "Tawny Fish-Owl",
+    "sci": "Ketupa flavipes",
+    "photo": null
+   },
+   {
+    "name": "Dusky Eagle-Owl",
+    "sci": "Ketupa coromanda",
+    "photo": null
+   },
+   {
+    "name": "Spot-bellied Eagle-Owl",
+    "sci": "Ketupa nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Asian Barred Owlet",
+    "sci": "Glaucidium cuculoides",
+    "photo": null
+   },
+   {
+    "name": "Jungle Owlet",
+    "sci": "Glaucidium radiatum",
+    "photo": null
+   },
+   {
+    "name": "Collared Owlet",
+    "sci": "Taenioptynx brodiei",
+    "photo": null
+   },
+   {
+    "name": "Spotted Owlet",
+    "sci": "Athene brama",
+    "photo": null
+   },
+   {
+    "name": "Mottled Wood-Owl",
+    "sci": "Strix ocellata",
+    "photo": null
+   },
+   {
+    "name": "Brown Wood-Owl",
+    "sci": "Strix leptogrammica",
+    "photo": null
+   },
+   {
+    "name": "Short-eared Owl",
+    "sci": "Asio flammeus",
+    "photo": null
+   },
+   {
+    "name": "Brown Boobook",
+    "sci": "Ninox scutulata",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Trogons, Hoopoe & Hornbills",
+  "slug": "trogons-hoopoe-hornbills",
+  "species": [
+   {
+    "name": "Malabar Trogon",
+    "sci": "Harpactes fasciatus",
+    "photo": null
+   },
+   {
+    "name": "Ward's Trogon",
+    "sci": "Harpactes wardi",
+    "photo": null
+   },
+   {
+    "name": "Common Hoopoe",
+    "sci": "Upupa epops",
+    "photo": null
+   },
+   {
+    "name": "Great Hornbill",
+    "sci": "Buceros bicornis",
+    "photo": null
+   },
+   {
+    "name": "Indian Gray Hornbill",
+    "sci": "Ocyceros birostris",
+    "photo": null
+   },
+   {
+    "name": "Malabar Gray Hornbill",
+    "sci": "Ocyceros griseus",
+    "photo": null
+   },
+   {
+    "name": "Oriental Pied-Hornbill",
+    "sci": "Anthracoceros albirostris",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Bee-eaters, Rollers & Kingfishers",
+  "slug": "bee-eaters-rollers-kingfishers",
+  "species": [
+   {
+    "name": "Asian Green Bee-eater",
+    "sci": "Merops orientalis",
+    "photo": "avian-portraits/asian-green-bee-eater"
+   },
+   {
+    "name": "Blue-cheeked Bee-eater",
+    "sci": "Merops persicus",
+    "photo": null
+   },
+   {
+    "name": "Blue-tailed Bee-eater",
+    "sci": "Merops philippinus",
+    "photo": "avian-portraits/blue-tailed-bee-eater"
+   },
+   {
+    "name": "Chestnut-headed Bee-eater",
+    "sci": "Merops leschenaulti",
+    "photo": null
+   },
+   {
+    "name": "Common Kingfisher",
+    "sci": "Alcedo atthis",
+    "photo": null
+   },
+   {
+    "name": "Brown-winged Kingfisher",
+    "sci": "Pelargopsis amauroptera",
+    "photo": null
+   },
+   {
+    "name": "Stork-billed Kingfisher",
+    "sci": "Pelargopsis capensis",
+    "photo": null
+   },
+   {
+    "name": "White-throated Kingfisher",
+    "sci": "Halcyon smyrnensis",
+    "photo": null
+   },
+   {
+    "name": "Black-capped Kingfisher",
+    "sci": "Halcyon pileata",
+    "photo": null
+   },
+   {
+    "name": "Collared Kingfisher",
+    "sci": "Todiramphus chloris",
+    "photo": null
+   },
+   {
+    "name": "Crested Kingfisher",
+    "sci": "Megaceryle lugubris",
+    "photo": null
+   },
+   {
+    "name": "Pied Kingfisher",
+    "sci": "Ceryle rudis",
+    "photo": "birds-in-flight/pied-kingfisher"
+   },
+   {
+    "name": "European Roller",
+    "sci": "Coracias garrulus",
+    "photo": null
+   },
+   {
+    "name": "Indian Roller",
+    "sci": "Coracias benghalensis",
+    "photo": null
+   },
+   {
+    "name": "Indochinese Roller",
+    "sci": "Coracias affinis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Barbets & Woodpeckers",
+  "slug": "barbets-woodpeckers",
+  "species": [
+   {
+    "name": "Malabar Barbet",
+    "sci": "Psilopogon malabaricus",
+    "photo": null
+   },
+   {
+    "name": "Coppersmith Barbet",
+    "sci": "Psilopogon haemacephalus",
+    "photo": null
+   },
+   {
+    "name": "Great Barbet",
+    "sci": "Psilopogon virens",
+    "photo": null
+   },
+   {
+    "name": "Brown-headed Barbet",
+    "sci": "Psilopogon zeylanicus",
+    "photo": null
+   },
+   {
+    "name": "White-cheeked Barbet",
+    "sci": "Psilopogon viridis",
+    "photo": null
+   },
+   {
+    "name": "Blue-throated Barbet",
+    "sci": "Psilopogon asiaticus",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Wryneck",
+    "sci": "Jynx torquilla",
+    "photo": null
+   },
+   {
+    "name": "Speckled Piculet",
+    "sci": "Picumnus innominatus",
+    "photo": null
+   },
+   {
+    "name": "Heart-spotted Woodpecker",
+    "sci": "Hemicircus canente",
+    "photo": null
+   },
+   {
+    "name": "Brown-capped Pygmy Woodpecker",
+    "sci": "Yungipicus nanus",
+    "photo": null
+   },
+   {
+    "name": "Gray-capped Pygmy Woodpecker",
+    "sci": "Yungipicus canicapillus",
+    "photo": null
+   },
+   {
+    "name": "Yellow-crowned Woodpecker",
+    "sci": "Leiopicus mahrattensis",
+    "photo": null
+   },
+   {
+    "name": "Brown-fronted Woodpecker",
+    "sci": "Dendrocoptes auriceps",
+    "photo": null
+   },
+   {
+    "name": "Rufous-bellied Woodpecker",
+    "sci": "Dendrocopos hyperythrus",
+    "photo": null
+   },
+   {
+    "name": "Fulvous-breasted Woodpecker",
+    "sci": "Dendrocopos macei",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Woodpecker",
+    "sci": "Dendrocopos himalayensis",
+    "photo": null
+   },
+   {
+    "name": "Greater Flameback",
+    "sci": "Chrysocolaptes guttacristatus",
+    "photo": null
+   },
+   {
+    "name": "Malabar Flameback",
+    "sci": "Chrysocolaptes socialis",
+    "photo": null
+   },
+   {
+    "name": "White-naped Woodpecker",
+    "sci": "Chrysocolaptes festivus",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Flameback",
+    "sci": "Dinopium shorii",
+    "photo": null
+   },
+   {
+    "name": "Black-rumped Flameback",
+    "sci": "Dinopium benghalense",
+    "photo": null
+   },
+   {
+    "name": "Lesser Yellownape",
+    "sci": "Picus chlorolophus",
+    "photo": null
+   },
+   {
+    "name": "Scaly-bellied Woodpecker",
+    "sci": "Picus squamatus",
+    "photo": null
+   },
+   {
+    "name": "Gray-headed Woodpecker",
+    "sci": "Picus canus",
+    "photo": null
+   },
+   {
+    "name": "Greater Yellownape",
+    "sci": "Chrysophlegma flavinucha",
+    "photo": null
+   },
+   {
+    "name": "Great Slaty Woodpecker",
+    "sci": "Mulleripicus pulverulentus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Falcons",
+  "slug": "falcons",
+  "species": [
+   {
+    "name": "Lesser Kestrel",
+    "sci": "Falco naumanni",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Kestrel",
+    "sci": "Falco tinnunculus",
+    "photo": null
+   },
+   {
+    "name": "Red-necked Falcon",
+    "sci": "Falco chicquera",
+    "photo": "birds-in-flight/red-necked-falcon"
+   },
+   {
+    "name": "Merlin",
+    "sci": "Falco columbarius",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Hobby",
+    "sci": "Falco subbuteo",
+    "photo": "birds-in-flight/eurasian-hobby"
+   },
+   {
+    "name": "Oriental Hobby",
+    "sci": "Falco severus",
+    "photo": null
+   },
+   {
+    "name": "Laggar Falcon",
+    "sci": "Falco jugger",
+    "photo": null
+   },
+   {
+    "name": "Peregrine Falcon",
+    "sci": "Falco peregrinus",
+    "photo": "avian-portraits/peregrine-falcon"
+   }
+  ]
+ },
+ {
+  "group": "Parrots & Parakeets",
+  "slug": "parrots-parakeets",
+  "species": [
+   {
+    "name": "Alexandrine Parakeet",
+    "sci": "Psittacula eupatria",
+    "photo": null
+   },
+   {
+    "name": "Rose-ringed Parakeet",
+    "sci": "Psittacula krameri",
+    "photo": null
+   },
+   {
+    "name": "Slaty-headed Parakeet",
+    "sci": "Psittacula himalayana",
+    "photo": null
+   },
+   {
+    "name": "Gray-headed Parakeet",
+    "sci": "Psittacula finschii",
+    "photo": null
+   },
+   {
+    "name": "Plum-headed Parakeet",
+    "sci": "Psittacula cyanocephala",
+    "photo": null
+   },
+   {
+    "name": "Malabar Parakeet",
+    "sci": "Psittacula columboides",
+    "photo": null
+   },
+   {
+    "name": "Derbyan Parakeet",
+    "sci": "Psittacula derbiana",
+    "photo": null
+   },
+   {
+    "name": "Red-breasted Parakeet",
+    "sci": "Psittacula alexandri",
+    "photo": null
+   },
+   {
+    "name": "Vernal Hanging-Parrot",
+    "sci": "Loriculus vernalis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Broadbills & Pittas",
+  "slug": "broadbills-pittas",
+  "species": [
+   {
+    "name": "Long-tailed Broadbill",
+    "sci": "Psarisomus dalhousiae",
+    "photo": null
+   },
+   {
+    "name": "Indian Pitta",
+    "sci": "Pitta brachyura",
+    "photo": null
+   },
+   {
+    "name": "Western Hooded Pitta",
+    "sci": "Pitta sordida",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Minivets, Orioles, Drongos & Fantails",
+  "slug": "minivets-orioles-drongos-fantails",
+  "species": [
+   {
+    "name": "Small Minivet",
+    "sci": "Pericrocotus cinnamomeus",
+    "photo": null
+   },
+   {
+    "name": "Long-tailed Minivet",
+    "sci": "Pericrocotus ethologus",
+    "photo": null
+   },
+   {
+    "name": "Orange Minivet",
+    "sci": "Pericrocotus flammeus",
+    "photo": null
+   },
+   {
+    "name": "Scarlet Minivet",
+    "sci": "Pericrocotus speciosus",
+    "photo": null
+   },
+   {
+    "name": "Rosy Minivet",
+    "sci": "Pericrocotus roseus",
+    "photo": null
+   },
+   {
+    "name": "White-browed Shrike-Babbler",
+    "sci": "Pteruthius aeralatus",
+    "photo": null
+   },
+   {
+    "name": "Green Shrike-Babbler",
+    "sci": "Pteruthius xanthochlorus",
+    "photo": null
+   },
+   {
+    "name": "Indian Golden Oriole",
+    "sci": "Oriolus kundoo",
+    "photo": null
+   },
+   {
+    "name": "Black-hooded Oriole",
+    "sci": "Oriolus xanthornus",
+    "photo": null
+   },
+   {
+    "name": "Maroon Oriole",
+    "sci": "Oriolus traillii",
+    "photo": null
+   },
+   {
+    "name": "Ashy Woodswallow",
+    "sci": "Artamus fuscus",
+    "photo": null
+   },
+   {
+    "name": "Large Woodshrike",
+    "sci": "Tephrodornis virgatus",
+    "photo": null
+   },
+   {
+    "name": "Common Woodshrike",
+    "sci": "Tephrodornis pondicerianus",
+    "photo": null
+   },
+   {
+    "name": "Bar-winged Flycatcher-shrike",
+    "sci": "Hemipus picatus",
+    "photo": null
+   },
+   {
+    "name": "Common Iora",
+    "sci": "Aegithina tiphia",
+    "photo": null
+   },
+   {
+    "name": "White-throated Fantail",
+    "sci": "Rhipidura albicollis",
+    "photo": null
+   },
+   {
+    "name": "White-browed Fantail",
+    "sci": "Rhipidura aureola",
+    "photo": null
+   },
+   {
+    "name": "Black Drongo",
+    "sci": "Dicrurus macrocercus",
+    "photo": null
+   },
+   {
+    "name": "Ashy Drongo",
+    "sci": "Dicrurus leucophaeus",
+    "photo": null
+   },
+   {
+    "name": "White-bellied Drongo",
+    "sci": "Dicrurus caerulescens",
+    "photo": null
+   },
+   {
+    "name": "Bronzed Drongo",
+    "sci": "Dicrurus aeneus",
+    "photo": null
+   },
+   {
+    "name": "Hair-crested Drongo",
+    "sci": "Dicrurus hottentottus",
+    "photo": null
+   },
+   {
+    "name": "Greater Racket-tailed Drongo",
+    "sci": "Dicrurus paradiseus",
+    "photo": null
+   },
+   {
+    "name": "Indian Paradise-Flycatcher",
+    "sci": "Terpsiphone paradisi",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Shrikes, Jays & Crows",
+  "slug": "shrikes-jays-crows",
+  "species": [
+   {
+    "name": "Isabelline Shrike",
+    "sci": "Lanius isabellinus",
+    "photo": null
+   },
+   {
+    "name": "Brown Shrike",
+    "sci": "Lanius cristatus",
+    "photo": null
+   },
+   {
+    "name": "Bay-backed Shrike",
+    "sci": "Lanius vittatus",
+    "photo": null
+   },
+   {
+    "name": "Long-tailed Shrike",
+    "sci": "Lanius schach",
+    "photo": null
+   },
+   {
+    "name": "Gray-backed Shrike",
+    "sci": "Lanius tephronotus",
+    "photo": null
+   },
+   {
+    "name": "Great Gray Shrike",
+    "sci": "Lanius excubitor",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Jay",
+    "sci": "Garrulus glandarius",
+    "photo": null
+   },
+   {
+    "name": "Black-headed Jay",
+    "sci": "Garrulus lanceolatus",
+    "photo": null
+   },
+   {
+    "name": "Yellow-billed Blue-Magpie",
+    "sci": "Urocissa flavirostris",
+    "photo": null
+   },
+   {
+    "name": "Red-billed Blue-Magpie",
+    "sci": "Urocissa erythroryncha",
+    "photo": null
+   },
+   {
+    "name": "Common Green-Magpie",
+    "sci": "Cissa chinensis",
+    "photo": null
+   },
+   {
+    "name": "Rufous Treepie",
+    "sci": "Dendrocitta vagabunda",
+    "photo": null
+   },
+   {
+    "name": "Gray Treepie",
+    "sci": "Dendrocitta formosae",
+    "photo": null
+   },
+   {
+    "name": "White-bellied Treepie",
+    "sci": "Dendrocitta leucogastra",
+    "photo": null
+   },
+   {
+    "name": "Southern Nutcracker",
+    "sci": "Nucifraga hemispila",
+    "photo": null
+   },
+   {
+    "name": "Red-billed Chough",
+    "sci": "Pyrrhocorax pyrrhocorax",
+    "photo": null
+   },
+   {
+    "name": "Yellow-billed Chough",
+    "sci": "Pyrrhocorax graculus",
+    "photo": null
+   },
+   {
+    "name": "House Crow",
+    "sci": "Corvus splendens",
+    "photo": null
+   },
+   {
+    "name": "Large-billed Crow",
+    "sci": "Corvus macrorhynchos",
+    "photo": null
+   },
+   {
+    "name": "Common Raven",
+    "sci": "Corvus corax",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Tits & Allies",
+  "slug": "tits-allies",
+  "species": [
+   {
+    "name": "Yellow-bellied Fairy-Fantail",
+    "sci": "Chelidorhynx hypoxanthus",
+    "photo": null
+   },
+   {
+    "name": "Gray-headed Canary-Flycatcher",
+    "sci": "Culicicapa ceylonensis",
+    "photo": null
+   },
+   {
+    "name": "Fire-capped Tit",
+    "sci": "Cephalopyrus flammiceps",
+    "photo": null
+   },
+   {
+    "name": "Yellow-browed Tit",
+    "sci": "Sylviparus modestus",
+    "photo": null
+   },
+   {
+    "name": "Coal Tit",
+    "sci": "Periparus ater",
+    "photo": null
+   },
+   {
+    "name": "Rufous-naped Tit",
+    "sci": "Periparus rufonuchalis",
+    "photo": null
+   },
+   {
+    "name": "Gray-crested Tit",
+    "sci": "Lophophanes dichrous",
+    "photo": null
+   },
+   {
+    "name": "Green-backed Tit",
+    "sci": "Parus monticolus",
+    "photo": null
+   },
+   {
+    "name": "Asian Tit",
+    "sci": "Parus cinereus",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Black-lored Tit",
+    "sci": "Machlolophus xanthogenys",
+    "photo": null
+   },
+   {
+    "name": "Indian Yellow Tit",
+    "sci": "Machlolophus aplonotus",
+    "photo": null
+   },
+   {
+    "name": "Black-throated Tit",
+    "sci": "Aegithalos concinnus",
+    "photo": null
+   },
+   {
+    "name": "Black-browed Tit",
+    "sci": "Aegithalos iouschistos",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Larks",
+  "slug": "larks",
+  "species": [
+   {
+    "name": "Greater Hoopoe-Lark",
+    "sci": "Alaemon alaudipes",
+    "photo": null
+   },
+   {
+    "name": "Rufous-tailed Lark",
+    "sci": "Ammomanes phoenicura",
+    "photo": null
+   },
+   {
+    "name": "Desert Lark",
+    "sci": "Ammomanes deserti",
+    "photo": null
+   },
+   {
+    "name": "Black-crowned Sparrow-Lark",
+    "sci": "Eremopterix nigriceps",
+    "photo": null
+   },
+   {
+    "name": "Ashy-crowned Sparrow-Lark",
+    "sci": "Eremopterix griseus",
+    "photo": null
+   },
+   {
+    "name": "Indian Bushlark",
+    "sci": "Plocealauda erythroptera",
+    "photo": null
+   },
+   {
+    "name": "Bengal Bushlark",
+    "sci": "Plocealauda assamica",
+    "photo": null
+   },
+   {
+    "name": "Singing Bushlark",
+    "sci": "Mirafra javanica",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Skylark",
+    "sci": "Alauda arvensis",
+    "photo": null
+   },
+   {
+    "name": "Oriental Skylark",
+    "sci": "Alauda gulgula",
+    "photo": null
+   },
+   {
+    "name": "Crested Lark",
+    "sci": "Galerida cristata",
+    "photo": null
+   },
+   {
+    "name": "Horned Lark",
+    "sci": "Eremophila alpestris",
+    "photo": "avian-portraits/horned-lark"
+   },
+   {
+    "name": "Greater Short-toed Lark",
+    "sci": "Calandrella brachydactyla",
+    "photo": null
+   },
+   {
+    "name": "Bimaculated Lark",
+    "sci": "Melanocorypha bimaculata",
+    "photo": null
+   },
+   {
+    "name": "Sand Lark",
+    "sci": "Alaudala raytal",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Warblers, Prinias & Allies",
+  "slug": "warblers-prinias-allies",
+  "species": [
+   {
+    "name": "Common Tailorbird",
+    "sci": "Orthotomus sutorius",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Prinia",
+    "sci": "Prinia crinigera",
+    "photo": null
+   },
+   {
+    "name": "Gray-crowned Prinia",
+    "sci": "Prinia cinereocapilla",
+    "photo": null
+   },
+   {
+    "name": "Rufous-fronted Prinia",
+    "sci": "Prinia buchanani",
+    "photo": null
+   },
+   {
+    "name": "Gray-breasted Prinia",
+    "sci": "Prinia hodgsonii",
+    "photo": null
+   },
+   {
+    "name": "Delicate Prinia",
+    "sci": "Prinia lepida",
+    "photo": null
+   },
+   {
+    "name": "Jungle Prinia",
+    "sci": "Prinia sylvatica",
+    "photo": null
+   },
+   {
+    "name": "Yellow-bellied Prinia",
+    "sci": "Prinia flaviventris",
+    "photo": null
+   },
+   {
+    "name": "Ashy Prinia",
+    "sci": "Prinia socialis",
+    "photo": null
+   },
+   {
+    "name": "Plain Prinia",
+    "sci": "Prinia inornata",
+    "photo": null
+   },
+   {
+    "name": "Zitting Cisticola",
+    "sci": "Cisticola juncidis",
+    "photo": null
+   },
+   {
+    "name": "Booted Warbler",
+    "sci": "Iduna caligata",
+    "photo": null
+   },
+   {
+    "name": "Moustached Warbler",
+    "sci": "Acrocephalus melanopogon",
+    "photo": null
+   },
+   {
+    "name": "Blyth's Reed Warbler",
+    "sci": "Acrocephalus dumetorum",
+    "photo": null
+   },
+   {
+    "name": "West Himalayan Bush Warbler",
+    "sci": "Locustella kashmirensis",
+    "photo": null
+   },
+   {
+    "name": "Bristled Grassbird",
+    "sci": "Schoenicola striatus",
+    "photo": null
+   },
+   {
+    "name": "Scaly-breasted Cupwing",
+    "sci": "Pnoepyga albiventer",
+    "photo": null
+   },
+   {
+    "name": "Nepal Cupwing",
+    "sci": "Pnoepyga immaculata",
+    "photo": null
+   },
+   {
+    "name": "Ashy-throated Warbler",
+    "sci": "Phylloscopus maculipennis",
+    "photo": null
+   },
+   {
+    "name": "Buff-barred Warbler",
+    "sci": "Phylloscopus pulcher",
+    "photo": null
+   },
+   {
+    "name": "Hume's Leaf Warbler",
+    "sci": "Phylloscopus humei",
+    "photo": null
+   },
+   {
+    "name": "Lemon-rumped Warbler",
+    "sci": "Phylloscopus chloronotus",
+    "photo": null
+   },
+   {
+    "name": "Tytler's Leaf Warbler",
+    "sci": "Phylloscopus tytleri",
+    "photo": null
+   },
+   {
+    "name": "Sulphur-bellied Warbler",
+    "sci": "Phylloscopus griseolus",
+    "photo": null
+   },
+   {
+    "name": "Tickell's Leaf Warbler",
+    "sci": "Phylloscopus affinis",
+    "photo": null
+   },
+   {
+    "name": "Smoky Warbler",
+    "sci": "Phylloscopus fuligiventer",
+    "photo": null
+   },
+   {
+    "name": "Mountain Chiffchaff",
+    "sci": "Phylloscopus sindianus",
+    "photo": null
+   },
+   {
+    "name": "Common Chiffchaff",
+    "sci": "Phylloscopus collybita",
+    "photo": null
+   },
+   {
+    "name": "Green-crowned Warbler",
+    "sci": "Phylloscopus burkii",
+    "photo": null
+   },
+   {
+    "name": "Greenish Warbler",
+    "sci": "Phylloscopus trochiloides",
+    "photo": null
+   },
+   {
+    "name": "Western Crowned Warbler",
+    "sci": "Phylloscopus occipitalis",
+    "photo": null
+   },
+   {
+    "name": "Gray-hooded Warbler",
+    "sci": "Phylloscopus xanthoschistos",
+    "photo": null
+   },
+   {
+    "name": "Gray-sided Bush Warbler",
+    "sci": "Cettia brunnifrons",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-headed Tesia",
+    "sci": "Cettia castaneocoronata",
+    "photo": null
+   },
+   {
+    "name": "Black-faced Warbler",
+    "sci": "Abroscopus schisticeps",
+    "photo": null
+   },
+   {
+    "name": "Brownish-flanked Bush Warbler",
+    "sci": "Horornis fortipes",
+    "photo": null
+   },
+   {
+    "name": "Aberrant Bush Warbler",
+    "sci": "Horornis flavolivaceus",
+    "photo": null
+   },
+   {
+    "name": "Lesser Whitethroat",
+    "sci": "Curruca curruca",
+    "photo": null
+   },
+   {
+    "name": "Asian Desert Warbler",
+    "sci": "Curruca nana",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Swallows & Martins",
+  "slug": "swallows-martins",
+  "species": [
+   {
+    "name": "Gray-throated Martin",
+    "sci": "Riparia chinensis",
+    "photo": null
+   },
+   {
+    "name": "Bank Swallow",
+    "sci": "Riparia riparia",
+    "photo": "birds-in-flight/sand-martin"
+   },
+   {
+    "name": "Pale Martin",
+    "sci": "Riparia diluta",
+    "photo": null
+   },
+   {
+    "name": "Dusky Crag-Martin",
+    "sci": "Ptyonoprogne concolor",
+    "photo": null
+   },
+   {
+    "name": "Barn Swallow",
+    "sci": "Hirundo rustica",
+    "photo": null
+   },
+   {
+    "name": "Wire-tailed Swallow",
+    "sci": "Hirundo smithii",
+    "photo": null
+   },
+   {
+    "name": "Asian House-Martin",
+    "sci": "Delichon dasypus",
+    "photo": null
+   },
+   {
+    "name": "Nepal House-Martin",
+    "sci": "Delichon nipalense",
+    "photo": null
+   },
+   {
+    "name": "Eastern Red-rumped Swallow",
+    "sci": "Cecropis daurica",
+    "photo": null
+   },
+   {
+    "name": "Streak-throated Swallow",
+    "sci": "Petrochelidon fluvicola",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Bulbuls",
+  "slug": "bulbuls",
+  "species": [
+   {
+    "name": "Ashy Bulbul",
+    "sci": "Hemixos flavala",
+    "photo": null
+   },
+   {
+    "name": "Yellow-browed Bulbul",
+    "sci": "Acritillas indica",
+    "photo": null
+   },
+   {
+    "name": "Mountain Bulbul",
+    "sci": "Ixos mcclellandii",
+    "photo": null
+   },
+   {
+    "name": "Black Bulbul",
+    "sci": "Hypsipetes leucocephalus",
+    "photo": null
+   },
+   {
+    "name": "Square-tailed Bulbul",
+    "sci": "Hypsipetes ganeesa",
+    "photo": null
+   },
+   {
+    "name": "Flame-throated Bulbul",
+    "sci": "Rubigula gularis",
+    "photo": null
+   },
+   {
+    "name": "White-browed Bulbul",
+    "sci": "Pycnonotus luteolus",
+    "photo": null
+   },
+   {
+    "name": "Red-whiskered Bulbul",
+    "sci": "Pycnonotus jocosus",
+    "photo": null
+   },
+   {
+    "name": "Red-vented Bulbul",
+    "sci": "Pycnonotus cafer",
+    "photo": null
+   },
+   {
+    "name": "White-eared Bulbul",
+    "sci": "Pycnonotus leucotis",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Bulbul",
+    "sci": "Pycnonotus leucogenys",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Babblers, Laughingthrushes & White-eyes",
+  "slug": "babblers-laughingthrushes-white-eyes",
+  "species": [
+   {
+    "name": "Yellow-eyed Babbler",
+    "sci": "Chrysomma sinense",
+    "photo": null
+   },
+   {
+    "name": "Spot-breasted Parrotbill",
+    "sci": "Paradoxornis guttaticollis",
+    "photo": null
+   },
+   {
+    "name": "Black-chinned Yuhina",
+    "sci": "Yuhina nigrimenta",
+    "photo": null
+   },
+   {
+    "name": "Whiskered Yuhina",
+    "sci": "Yuhina flavicollis",
+    "photo": null
+   },
+   {
+    "name": "Stripe-throated Yuhina",
+    "sci": "Yuhina gularis",
+    "photo": null
+   },
+   {
+    "name": "Indian White-eye",
+    "sci": "Zosterops palpebrosus",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-capped Babbler",
+    "sci": "Timalia pileata",
+    "photo": null
+   },
+   {
+    "name": "Black-chinned Babbler",
+    "sci": "Cyanoderma pyrrhops",
+    "photo": null
+   },
+   {
+    "name": "Streak-breasted Scimitar-Babbler",
+    "sci": "Pomatorhinus ruficollis",
+    "photo": null
+   },
+   {
+    "name": "White-browed Scimitar-Babbler",
+    "sci": "Pomatorhinus schisticeps",
+    "photo": null
+   },
+   {
+    "name": "Indian Scimitar-Babbler",
+    "sci": "Pomatorhinus horsfieldii",
+    "photo": null
+   },
+   {
+    "name": "Rusty-cheeked Scimitar-Babbler",
+    "sci": "Erythrogenys erythrogenys",
+    "photo": null
+   },
+   {
+    "name": "Puff-throated Babbler",
+    "sci": "Pellorneum ruficeps",
+    "photo": null
+   },
+   {
+    "name": "Brown-cheeked Fulvetta",
+    "sci": "Alcippe poioicephala",
+    "photo": null
+   },
+   {
+    "name": "Striated Laughingthrush",
+    "sci": "Grammatoptila striata",
+    "photo": null
+   },
+   {
+    "name": "Streaked Laughingthrush",
+    "sci": "Trochalopteron lineatum",
+    "photo": null
+   },
+   {
+    "name": "Variegated Laughingthrush",
+    "sci": "Trochalopteron variegatum",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-crowned Laughingthrush",
+    "sci": "Trochalopteron erythrocephalum",
+    "photo": null
+   },
+   {
+    "name": "Palani Laughingthrush",
+    "sci": "Montecincla fairbanki",
+    "photo": null
+   },
+   {
+    "name": "Rufous Sibia",
+    "sci": "Heterophasia capistrata",
+    "photo": null
+   },
+   {
+    "name": "Beautiful Sibia",
+    "sci": "Heterophasia pulchella",
+    "photo": null
+   },
+   {
+    "name": "Blue-winged Minla",
+    "sci": "Actinodura cyanouroptera",
+    "photo": null
+   },
+   {
+    "name": "Red-billed Leiothrix",
+    "sci": "Leiothrix lutea",
+    "photo": null
+   },
+   {
+    "name": "Large Gray Babbler",
+    "sci": "Argya malcolmi",
+    "photo": null
+   },
+   {
+    "name": "Rufous Babbler",
+    "sci": "Argya subrufa",
+    "photo": null
+   },
+   {
+    "name": "Jungle Babbler",
+    "sci": "Argya striata",
+    "photo": null
+   },
+   {
+    "name": "Yellow-billed Babbler",
+    "sci": "Argya affinis",
+    "photo": null
+   },
+   {
+    "name": "Common Babbler",
+    "sci": "Argya caudata",
+    "photo": null
+   },
+   {
+    "name": "Striated Babbler",
+    "sci": "Argya earlei",
+    "photo": null
+   },
+   {
+    "name": "White-crested Laughingthrush",
+    "sci": "Garrulax leucolophus",
+    "photo": null
+   },
+   {
+    "name": "Rufous-chinned Laughingthrush",
+    "sci": "Ianthocincla rufogularis",
+    "photo": null
+   },
+   {
+    "name": "White-throated Laughingthrush",
+    "sci": "Pterorhinus albogularis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Nuthatches, Treecreepers & Allies",
+  "slug": "nuthatches-treecreepers-allies",
+  "species": [
+   {
+    "name": "Goldcrest",
+    "sci": "Regulus regulus",
+    "photo": null
+   },
+   {
+    "name": "Wallcreeper",
+    "sci": "Tichodroma muraria",
+    "photo": null
+   },
+   {
+    "name": "White-cheeked Nuthatch",
+    "sci": "Sitta leucopsis",
+    "photo": null
+   },
+   {
+    "name": "Velvet-fronted Nuthatch",
+    "sci": "Sitta frontalis",
+    "photo": null
+   },
+   {
+    "name": "Yunnan Nuthatch",
+    "sci": "Sitta yunnanensis",
+    "photo": null
+   },
+   {
+    "name": "White-tailed Nuthatch",
+    "sci": "Sitta himalayensis",
+    "photo": null
+   },
+   {
+    "name": "Indian Nuthatch",
+    "sci": "Sitta castanea",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-bellied Nuthatch",
+    "sci": "Sitta cinnamoventris",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-vented Nuthatch",
+    "sci": "Sitta nagaensis",
+    "photo": null
+   },
+   {
+    "name": "Indian Spotted Creeper",
+    "sci": "Salpornis spilonota",
+    "photo": null
+   },
+   {
+    "name": "Bar-tailed Treecreeper",
+    "sci": "Certhia himalayana",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Wren",
+    "sci": "Nannus troglodytes",
+    "photo": null
+   },
+   {
+    "name": "Brown Dipper",
+    "sci": "Cinclus pallasii",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Starlings & Mynas",
+  "slug": "starlings-mynas",
+  "species": [
+   {
+    "name": "Common Hill Myna",
+    "sci": "Gracula religiosa",
+    "photo": null
+   },
+   {
+    "name": "Southern Hill Myna",
+    "sci": "Gracula indica",
+    "photo": null
+   },
+   {
+    "name": "European Starling",
+    "sci": "Sturnus vulgaris",
+    "photo": null
+   },
+   {
+    "name": "Rosy Starling",
+    "sci": "Pastor roseus",
+    "photo": null
+   },
+   {
+    "name": "Indian Pied Starling",
+    "sci": "Gracupica contra",
+    "photo": null
+   },
+   {
+    "name": "Brahminy Starling",
+    "sci": "Sturnia pagodarum",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-tailed Starling",
+    "sci": "Sturnia malabarica",
+    "photo": null
+   },
+   {
+    "name": "Malabar Starling",
+    "sci": "Sturnia blythii",
+    "photo": null
+   },
+   {
+    "name": "Common Myna",
+    "sci": "Acridotheres tristis",
+    "photo": null
+   },
+   {
+    "name": "Bank Myna",
+    "sci": "Acridotheres ginginianus",
+    "photo": null
+   },
+   {
+    "name": "Jungle Myna",
+    "sci": "Acridotheres fuscus",
+    "photo": null
+   },
+   {
+    "name": "Great Myna",
+    "sci": "Acridotheres grandis",
+    "photo": null
+   },
+   {
+    "name": "Spot-winged Starling",
+    "sci": "Saroglossa spilopterus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Thrushes",
+  "slug": "thrushes",
+  "species": [
+   {
+    "name": "Long-billed Thrush",
+    "sci": "Zoothera monticola",
+    "photo": null
+   },
+   {
+    "name": "Pied Thrush",
+    "sci": "Geokichla wardii",
+    "photo": null
+   },
+   {
+    "name": "Orange-headed Thrush",
+    "sci": "Geokichla citrina",
+    "photo": null
+   },
+   {
+    "name": "Mistle Thrush",
+    "sci": "Turdus viscivorus",
+    "photo": null
+   },
+   {
+    "name": "Gray-winged Blackbird",
+    "sci": "Turdus boulboul",
+    "photo": null
+   },
+   {
+    "name": "Tickell's Thrush",
+    "sci": "Turdus unicolor",
+    "photo": null
+   },
+   {
+    "name": "White-collared Blackbird",
+    "sci": "Turdus albocinctus",
+    "photo": null
+   },
+   {
+    "name": "Black-throated Thrush",
+    "sci": "Turdus atrogularis",
+    "photo": null
+   },
+   {
+    "name": "Red-throated Thrush",
+    "sci": "Turdus ruficollis",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Flycatchers, Robins, Redstarts & Chats",
+  "slug": "flycatchers-robins-redstarts-chats",
+  "species": [
+   {
+    "name": "Dark-sided Flycatcher",
+    "sci": "Muscicapa sibirica",
+    "photo": null
+   },
+   {
+    "name": "Asian Brown Flycatcher",
+    "sci": "Muscicapa dauurica",
+    "photo": null
+   },
+   {
+    "name": "Brown-breasted Flycatcher",
+    "sci": "Muscicapa muttui",
+    "photo": null
+   },
+   {
+    "name": "Indian Robin",
+    "sci": "Copsychus fulicatus",
+    "photo": null
+   },
+   {
+    "name": "Oriental Magpie-Robin",
+    "sci": "Copsychus saularis",
+    "photo": null
+   },
+   {
+    "name": "White-rumped Shama",
+    "sci": "Copsychus malabaricus",
+    "photo": null
+   },
+   {
+    "name": "White-bellied Sholakili",
+    "sci": "Sholicola albiventris",
+    "photo": null
+   },
+   {
+    "name": "Small Niltava",
+    "sci": "Niltava macgrigoriae",
+    "photo": null
+   },
+   {
+    "name": "Rufous-bellied Niltava",
+    "sci": "Niltava sundara",
+    "photo": null
+   },
+   {
+    "name": "Nilgiri Flycatcher",
+    "sci": "Eumyias albicaudatus",
+    "photo": null
+   },
+   {
+    "name": "Verditer Flycatcher",
+    "sci": "Eumyias thalassinus",
+    "photo": null
+   },
+   {
+    "name": "Blue-throated Flycatcher",
+    "sci": "Cyornis rubeculoides",
+    "photo": null
+   },
+   {
+    "name": "Indian Blue Robin",
+    "sci": "Larvivora brunnea",
+    "photo": null
+   },
+   {
+    "name": "Bluethroat",
+    "sci": "Luscinia svecica",
+    "photo": null
+   },
+   {
+    "name": "Malabar Whistling-Thrush",
+    "sci": "Myophonus horsfieldii",
+    "photo": null
+   },
+   {
+    "name": "Yellow-billed Whistling-Thrush",
+    "sci": "Myophonus flavirostris",
+    "photo": null
+   },
+   {
+    "name": "Little Forktail",
+    "sci": "Enicurus scouleri",
+    "photo": null
+   },
+   {
+    "name": "Spotted Forktail",
+    "sci": "Enicurus maculatus",
+    "photo": "avian-portraits/spotted-forktail"
+   },
+   {
+    "name": "Himalayan Rubythroat",
+    "sci": "Calliope pectoralis",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Bluetail",
+    "sci": "Tarsiger rufilatus",
+    "photo": null
+   },
+   {
+    "name": "Golden Bush-Robin",
+    "sci": "Tarsiger chrysaeus",
+    "photo": null
+   },
+   {
+    "name": "Black-and-orange Flycatcher",
+    "sci": "Ficedula nigrorufa",
+    "photo": null
+   },
+   {
+    "name": "Slaty-blue Flycatcher",
+    "sci": "Ficedula tricolor",
+    "photo": null
+   },
+   {
+    "name": "Ultramarine Flycatcher",
+    "sci": "Ficedula superciliaris",
+    "photo": null
+   },
+   {
+    "name": "Rusty-tailed Flycatcher",
+    "sci": "Ficedula ruficauda",
+    "photo": null
+   },
+   {
+    "name": "Taiga Flycatcher",
+    "sci": "Ficedula albicilla",
+    "photo": null
+   },
+   {
+    "name": "Red-breasted Flycatcher",
+    "sci": "Ficedula parva",
+    "photo": null
+   },
+   {
+    "name": "Blue-fronted Redstart",
+    "sci": "Phoenicurus frontalis",
+    "photo": null
+   },
+   {
+    "name": "Plumbeous Redstart",
+    "sci": "Phoenicurus fuliginosus",
+    "photo": "avian-portraits/plumbeous-water-redstart"
+   },
+   {
+    "name": "White-capped Redstart",
+    "sci": "Phoenicurus leucocephalus",
+    "photo": null
+   },
+   {
+    "name": "Blue-capped Redstart",
+    "sci": "Phoenicurus coeruleocephala",
+    "photo": null
+   },
+   {
+    "name": "White-winged Redstart",
+    "sci": "Phoenicurus erythrogastrus",
+    "photo": null
+   },
+   {
+    "name": "Black Redstart",
+    "sci": "Phoenicurus ochruros",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-bellied Rock-Thrush",
+    "sci": "Monticola rufiventris",
+    "photo": null
+   },
+   {
+    "name": "Blue-capped Rock-Thrush",
+    "sci": "Monticola cinclorhyncha",
+    "photo": null
+   },
+   {
+    "name": "White-browed Bushchat",
+    "sci": "Saxicola macrorhynchus",
+    "photo": "avian-portraits/white-browed-bushchat"
+   },
+   {
+    "name": "Siberian Stonechat",
+    "sci": "Saxicola maurus",
+    "photo": null
+   },
+   {
+    "name": "White-tailed Stonechat",
+    "sci": "Saxicola leucurus",
+    "photo": null
+   },
+   {
+    "name": "Pied Bushchat",
+    "sci": "Saxicola caprata",
+    "photo": null
+   },
+   {
+    "name": "Gray Bushchat",
+    "sci": "Saxicola ferreus",
+    "photo": null
+   },
+   {
+    "name": "Isabelline Wheatear",
+    "sci": "Oenanthe isabellina",
+    "photo": null
+   },
+   {
+    "name": "Desert Wheatear",
+    "sci": "Oenanthe deserti",
+    "photo": null
+   },
+   {
+    "name": "Pied Wheatear",
+    "sci": "Oenanthe pleschanka",
+    "photo": "avian-portraits/pied-wheatear"
+   },
+   {
+    "name": "Brown Rock Chat",
+    "sci": "Oenanthe fusca",
+    "photo": null
+   },
+   {
+    "name": "Variable Wheatear",
+    "sci": "Oenanthe picata",
+    "photo": null
+   },
+   {
+    "name": "Persian Wheatear",
+    "sci": "Oenanthe chrysopygia",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Flowerpeckers, Sunbirds & Leafbirds",
+  "slug": "flowerpeckers-sunbirds-leafbirds",
+  "species": [
+   {
+    "name": "Pale-billed Flowerpecker",
+    "sci": "Dicaeum erythrorhynchos",
+    "photo": null
+   },
+   {
+    "name": "Nilgiri Flowerpecker",
+    "sci": "Dicaeum concolor",
+    "photo": null
+   },
+   {
+    "name": "Fire-breasted Flowerpecker",
+    "sci": "Dicaeum ignipectus",
+    "photo": null
+   },
+   {
+    "name": "Scarlet-backed Flowerpecker",
+    "sci": "Dicaeum cruentatum",
+    "photo": null
+   },
+   {
+    "name": "Purple-rumped Sunbird",
+    "sci": "Leptocoma zeylonica",
+    "photo": null
+   },
+   {
+    "name": "Crimson-backed Sunbird",
+    "sci": "Leptocoma minima",
+    "photo": null
+   },
+   {
+    "name": "Purple Sunbird",
+    "sci": "Cinnyris asiaticus",
+    "photo": null
+   },
+   {
+    "name": "Loten's Sunbird",
+    "sci": "Cinnyris lotenius",
+    "photo": null
+   },
+   {
+    "name": "Mrs. Gould's Sunbird",
+    "sci": "Aethopyga gouldiae",
+    "photo": null
+   },
+   {
+    "name": "Green-tailed Sunbird",
+    "sci": "Aethopyga nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Crimson Sunbird",
+    "sci": "Aethopyga siparaja",
+    "photo": null
+   },
+   {
+    "name": "Little Spiderhunter",
+    "sci": "Arachnothera longirostra",
+    "photo": null
+   },
+   {
+    "name": "Asian Fairy-bluebird",
+    "sci": "Irena puella",
+    "photo": null
+   },
+   {
+    "name": "Jerdon's Leafbird",
+    "sci": "Chloropsis jerdoni",
+    "photo": null
+   },
+   {
+    "name": "Golden-fronted Leafbird",
+    "sci": "Chloropsis aurifrons",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Weavers & Munias",
+  "slug": "weavers-munias",
+  "species": [
+   {
+    "name": "Streaked Weaver",
+    "sci": "Ploceus manyar",
+    "photo": null
+   },
+   {
+    "name": "Baya Weaver",
+    "sci": "Ploceus philippinus",
+    "photo": null
+   },
+   {
+    "name": "Finn's Weaver",
+    "sci": "Ploceus megarhynchus",
+    "photo": null
+   },
+   {
+    "name": "Black-breasted Weaver",
+    "sci": "Ploceus benghalensis",
+    "photo": null
+   },
+   {
+    "name": "Indian Silverbill",
+    "sci": "Euodice malabarica",
+    "photo": null
+   },
+   {
+    "name": "Scaly-breasted Munia",
+    "sci": "Lonchura punctulata",
+    "photo": null
+   },
+   {
+    "name": "Black-throated Munia",
+    "sci": "Lonchura kelaarti",
+    "photo": null
+   },
+   {
+    "name": "White-rumped Munia",
+    "sci": "Lonchura striata",
+    "photo": null
+   },
+   {
+    "name": "Tricolored Munia",
+    "sci": "Lonchura malacca",
+    "photo": null
+   },
+   {
+    "name": "Red Avadavat",
+    "sci": "Amandava amandava",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Accentors & Sparrows",
+  "slug": "accentors-sparrows",
+  "species": [
+   {
+    "name": "Alpine Accentor",
+    "sci": "Prunella collaris",
+    "photo": null
+   },
+   {
+    "name": "Altai Accentor",
+    "sci": "Prunella himalayana",
+    "photo": null
+   },
+   {
+    "name": "Robin Accentor",
+    "sci": "Prunella rubeculoides",
+    "photo": "winter-wonderland-spiti/robin-accentor"
+   },
+   {
+    "name": "Rufous-breasted Accentor",
+    "sci": "Prunella strophiata",
+    "photo": null
+   },
+   {
+    "name": "Brown Accentor",
+    "sci": "Prunella fulvescens",
+    "photo": null
+   },
+   {
+    "name": "Black-throated Accentor",
+    "sci": "Prunella atrogularis",
+    "photo": null
+   },
+   {
+    "name": "House Sparrow",
+    "sci": "Passer domesticus",
+    "photo": null
+   },
+   {
+    "name": "Sind Sparrow",
+    "sci": "Passer pyrrhonotus",
+    "photo": null
+   },
+   {
+    "name": "Russet Sparrow",
+    "sci": "Passer cinnamomeus",
+    "photo": null
+   },
+   {
+    "name": "Eurasian Tree Sparrow",
+    "sci": "Passer montanus",
+    "photo": null
+   },
+   {
+    "name": "Yellow-throated Sparrow",
+    "sci": "Gymnoris xanthocollis",
+    "photo": null
+   },
+   {
+    "name": "Black-winged Snowfinch",
+    "sci": "Montifringilla adamsi",
+    "photo": "winter-wonderland-spiti/mg-0081-edit-jpg"
+   }
+  ]
+ },
+ {
+  "group": "Wagtails & Pipits",
+  "slug": "wagtails-pipits",
+  "species": [
+   {
+    "name": "Forest Wagtail",
+    "sci": "Dendronanthus indicus",
+    "photo": null
+   },
+   {
+    "name": "Gray Wagtail",
+    "sci": "Motacilla cinerea",
+    "photo": null
+   },
+   {
+    "name": "Western Yellow Wagtail",
+    "sci": "Motacilla flava",
+    "photo": null
+   },
+   {
+    "name": "Citrine Wagtail",
+    "sci": "Motacilla citreola",
+    "photo": "avian-portraits/citrine-wagtail"
+   },
+   {
+    "name": "White-browed Wagtail",
+    "sci": "Motacilla maderaspatensis",
+    "photo": null
+   },
+   {
+    "name": "White Wagtail",
+    "sci": "Motacilla alba",
+    "photo": null
+   },
+   {
+    "name": "Paddyfield Pipit",
+    "sci": "Anthus rufulus",
+    "photo": null
+   },
+   {
+    "name": "Long-billed Pipit",
+    "sci": "Anthus similis",
+    "photo": null
+   },
+   {
+    "name": "Blyth's Pipit",
+    "sci": "Anthus godlewskii",
+    "photo": null
+   },
+   {
+    "name": "Tawny Pipit",
+    "sci": "Anthus campestris",
+    "photo": null
+   },
+   {
+    "name": "Nilgiri Pipit",
+    "sci": "Anthus nilghiriensis",
+    "photo": null
+   },
+   {
+    "name": "Upland Pipit",
+    "sci": "Anthus sylvanus",
+    "photo": null
+   },
+   {
+    "name": "Rosy Pipit",
+    "sci": "Anthus roseatus",
+    "photo": null
+   },
+   {
+    "name": "Tree Pipit",
+    "sci": "Anthus trivialis",
+    "photo": null
+   },
+   {
+    "name": "Olive-backed Pipit",
+    "sci": "Anthus hodgsoni",
+    "photo": null
+   },
+   {
+    "name": "Water Pipit",
+    "sci": "Anthus spinoletta",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Finches & Grosbeaks",
+  "slug": "finches-grosbeaks",
+  "species": [
+   {
+    "name": "Black-and-yellow Grosbeak",
+    "sci": "Mycerobas icterioides",
+    "photo": null
+   },
+   {
+    "name": "Spot-winged Grosbeak",
+    "sci": "Mycerobas melanozanthos",
+    "photo": null
+   },
+   {
+    "name": "Common Rosefinch",
+    "sci": "Carpodacus erythrinus",
+    "photo": null
+   },
+   {
+    "name": "Himalayan Beautiful Rosefinch",
+    "sci": "Carpodacus pulcherrimus",
+    "photo": null
+   },
+   {
+    "name": "Pink-browed Rosefinch",
+    "sci": "Carpodacus rodochroa",
+    "photo": null
+   },
+   {
+    "name": "Spot-winged Rosefinch",
+    "sci": "Carpodacus rodopeplus",
+    "photo": null
+   },
+   {
+    "name": "Great Rosefinch",
+    "sci": "Carpodacus rubicilla",
+    "photo": null
+   },
+   {
+    "name": "Himalayan White-browed Rosefinch",
+    "sci": "Carpodacus thura",
+    "photo": null
+   },
+   {
+    "name": "Brown Bullfinch",
+    "sci": "Pyrrhula nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Trumpeter Finch",
+    "sci": "Bucanetes githagineus",
+    "photo": null
+   },
+   {
+    "name": "Dark-breasted Rosefinch",
+    "sci": "Procarduelis nipalensis",
+    "photo": null
+   },
+   {
+    "name": "Plain Mountain Finch",
+    "sci": "Leucosticte nemoricola",
+    "photo": null
+   },
+   {
+    "name": "Black-headed Mountain Finch",
+    "sci": "Leucosticte brandti",
+    "photo": "winter-wonderland-spiti/black-headed-mountain-finch"
+   },
+   {
+    "name": "Yellow-breasted Greenfinch",
+    "sci": "Chloris spinoides",
+    "photo": null
+   },
+   {
+    "name": "Black-headed Greenfinch",
+    "sci": "Chloris ambigua",
+    "photo": null
+   },
+   {
+    "name": "Gray-crowned Goldfinch",
+    "sci": "Carduelis caniceps",
+    "photo": null
+   },
+   {
+    "name": "Fire-fronted Serin",
+    "sci": "Serinus pusillus",
+    "photo": null
+   }
+  ]
+ },
+ {
+  "group": "Buntings & Sparrows",
+  "slug": "buntings-sparrows",
+  "species": [
+   {
+    "name": "Crested Bunting",
+    "sci": "Melophus lathami",
+    "photo": null
+   },
+   {
+    "name": "Red-headed Bunting",
+    "sci": "Melophus bruniceps",
+    "photo": null
+   },
+   {
+    "name": "Chestnut-eared Bunting",
+    "sci": "Emberiza fucata",
+    "photo": null
+   },
+   {
+    "name": "Rock Bunting",
+    "sci": "Emberiza cia",
+    "photo": null
+   },
+   {
+    "name": "Godlewski's Bunting",
+    "sci": "Emberiza godlewskii",
+    "photo": null
+   },
+   {
+    "name": "White-capped Bunting",
+    "sci": "Emberiza stewarti",
+    "photo": "avian-portraits/white-capped-bunting"
+   },
+   {
+    "name": "Striolated Bunting",
+    "sci": "Fringillaria striolata",
+    "photo": null
+   },
+   {
+    "name": "Yellow-breasted Bunting",
+    "sci": "Schoeniclus aureolus",
+    "photo": null
+   },
+   {
+    "name": "White-throated Sparrow",
+    "sci": "Zonotrichia albicollis",
+    "photo": null
+   },
+   {
+    "name": "Swamp Sparrow",
+    "sci": "Melospiza georgiana",
+    "photo": null
+   }
+  ]
+ }
+]

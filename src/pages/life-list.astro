@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/lifelist.css';
+import groups from '../data/lifelist.json';
+import photos from '../data/photos.json';
+
+// To mark a bird as photographed, set its "photo" in src/data/lifelist.json to a photo id from photos.json
+// (for example "birds-in-flight/pied-kingfisher"). The link and the green tick follow from that.
+const ids = new Set(photos.map((p: any) => p.id));
+const link = (id: string | null) => {
+  if (!id) return '#';
+  if (!ids.has(id)) throw new Error(`lifelist.json points to a photo that does not exist: ${id}`);
+  const [collection, file] = id.split('/');
+  return `/gallery/${collection}#${file}`;
+};
+const slug = (s: string) => s.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const total = groups.reduce((n, g) => n + g.species.length, 0);
+const inGallery = groups.reduce((n, g) => n + g.species.filter(s => s.photo).length, 0);
+const pct = ((inGallery / total) * 100).toFixed(1);
+---
+<BaseLayout title="Life List" description="Every bird species I have seen, grouped by family and searchable, with a link to each photograph already in the gallery.">
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Species seen</span>
+      <h1>Life List</h1>
+      <p class="mt-6 max-w-2xl font-[family-name:var(--font-head)] text-xl font-light leading-relaxed text-stone-700 sm:text-2xl dark:text-stone-300">{total} species, each one seen in the field, from the wetlands near home to the salt flats of the Little Rann of Kutch. Browse by family or search for a favourite.</p>
+
+      <div class="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-stone-500 dark:text-stone-400">
+        <span class="inline-flex items-center gap-2">
+          <span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400"><svg viewBox="0 0 16 16" class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg>Photo</span>
+          Photograph in the gallery
+        </span>
+        <span class="inline-flex items-center gap-2">
+          <span class="font-semibold text-stone-400 dark:text-stone-500">Lighter name</span>
+          Photograph yet to be uploaded
+        </span>
+      </div>
+
+      <div class="mt-8 max-w-md">
+        <div class="flex items-baseline justify-between text-xs uppercase tracking-widest text-stone-500 dark:text-stone-400">
+          <span>Added to the gallery</span><span>{inGallery} of {total}</span>
+        </div>
+        <div class="mt-2 h-1 w-full overflow-hidden rounded-full bg-stone-200 dark:bg-stone-800">
+          <div class="h-full rounded-full bg-emerald-600 dark:bg-emerald-500" style={`width: ${pct}%`}></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 24px;">
+    <div class="wrap">
+      <div class="mb-10">
+        <label for="bird-search" class="sr-only">Search the life list</label>
+        <input
+          id="bird-search"
+          type="search"
+          placeholder="Search by common or scientific name"
+          autocomplete="off"
+          spellcheck="false"
+          class="w-full rounded-full border border-stone-300 bg-transparent px-5 py-3 text-base text-stone-900 placeholder-stone-400 outline-none transition-colors duration-300 focus:border-[#8b6b43] focus:ring-4 focus:ring-[#8b6b43]/10 dark:border-stone-700 dark:text-stone-100 dark:placeholder-stone-500 dark:focus:border-[#c2a173] dark:focus:ring-[#c2a173]/10"
+        />
+        <p id="bird-count" class="mt-3 text-xs uppercase tracking-widest text-stone-500 dark:text-stone-400" aria-live="polite">{total} species</p>
+        <p id="bird-empty" class="mt-6 hidden text-stone-500 dark:text-stone-400">No species match your search.</p>
+      </div>
+
+      {groups.map(g => (
+        <section id={g.slug} class="mb-14" aria-labelledby={`${g.slug}-h`}>
+          <header class="mb-4 flex items-baseline justify-between border-b border-stone-300 pb-2 dark:border-stone-700">
+            <h3 id={`${g.slug}-h`} class="text-2xl font-light tracking-tight text-stone-900 dark:text-stone-100">{g.group}</h3>
+            <span class="text-xs uppercase tracking-widest text-stone-500 dark:text-stone-400">{g.species.length} species</span>
+          </header>
+          <ul class="grid grid-cols-1 gap-x-10 sm:grid-cols-2 [&_a]:grid [&_a]:grid-cols-[1fr_auto] [&_a]:items-center [&_a]:gap-x-3 [&_a]:border-b [&_a]:border-stone-200 [&_a]:py-1.5 dark:[&_a]:border-stone-800 [&_a:hover_strong]:text-emerald-700 dark:[&_a:hover_strong]:text-emerald-400">
+            {g.species.map(s => (
+              <li data-slug={slug(s.name)} data-status={s.photo ? 'photographed' : 'pending'} data-search={`${s.name} ${s.sci}`.toLowerCase()} style="list-style:none">
+                <a href={link(s.photo)}>
+                  <span>
+                    <strong class={s.photo ? 'font-semibold text-stone-900 transition-colors dark:text-stone-100' : 'font-semibold text-stone-400 transition-colors dark:text-stone-500'}>{s.name}</strong>{' '}
+                    <em class={s.photo ? 'text-sm italic text-stone-500 dark:text-stone-400' : 'text-sm italic text-stone-400 dark:text-stone-500'}>{s.sci}</em>
+                  </span>
+                  {s.photo && (
+                    <span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400"><svg viewBox="0 0 16 16" class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg>Photo</span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <script>
+    const input = document.getElementById('bird-search') as HTMLInputElement;
+    const count = document.getElementById('bird-count') as HTMLElement;
+    const empty = document.getElementById('bird-empty') as HTMLElement;
+
+    // Ignore case, accents, hyphens and apostrophes, so "bar headed" finds "Bar-headed Goose"
+    const norm = (s: string) => s.toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[-'’]/g, ' ').replace(/\s+/g, ' ').trim();
+
+    const groups = Array.from(document.querySelectorAll<HTMLElement>('section[id]'))
+      .map(section => ({
+        section,
+        label: section.querySelector('header span') as HTMLElement,
+        items: Array.from(section.querySelectorAll<HTMLElement>('li[data-search]'))
+          .map(li => ({ li, text: norm(li.dataset.search || '') })),
+      }))
+      .filter(g => g.items.length);
+    const total = groups.reduce((n, g) => n + g.items.length, 0);
+
+    function filter() {
+      const words = norm(input.value).split(' ').filter(Boolean);
+      let shown = 0;
+      groups.forEach(g => {
+        let visible = 0;
+        g.items.forEach(({ li, text }) => {
+          const match = words.every(w => text.includes(w));
+          li.classList.toggle('hidden', !match);
+          if (match) visible++;
+        });
+        g.section.classList.toggle('hidden', visible === 0);
+        g.label.textContent = words.length ? `${visible} of ${g.items.length} species` : `${g.items.length} species`;
+        shown += visible;
+      });
+      count.textContent = words.length ? `${shown} of ${total} species` : `${total} species`;
+      empty.classList.toggle('hidden', shown > 0);
+    }
+    input.addEventListener('input', filter);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value = ''; filter(); } });
+    filter();
+  </script>
+</BaseLayout>

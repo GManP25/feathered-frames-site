@@ -100,6 +100,13 @@ const paras = c.description.split('\n').filter(Boolean);
         if (need) { const b = document.createElement('span'); b.className = 'review-badge'; b.textContent = 'Needs: ' + need; t.appendChild(b); }
       });
     }
+    // Deep link (/gallery/<collection>#<photo-file-name>): scroll to that photograph and open it in the viewer.
+    // The Life List page links here.
+    const wanted = decodeURIComponent(location.hash.slice(1));
+    if (wanted) {
+      const tile = Array.from(document.querySelectorAll<HTMLButtonElement>('.tile')).find(t => (t.dataset.id || '').split('/').pop() === wanted);
+      if (tile) { tile.scrollIntoView({ block: 'center' }); tile.click(); }
+    }
     // keep the current collection chip in view on small screens
     document.querySelector('.chip[aria-current]')?.scrollIntoView({ inline: 'center', block: 'nearest' });
   </script>

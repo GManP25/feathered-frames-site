@@ -1,0 +1,6 @@
+/* Tailwind utilities for the Life List page only. No preflight, so the rest of the site is untouched.
+   Imported without a cascade layer so the utilities beat the site's global reset. */
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css" source(none);
+@source "../pages/life-list.astro";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));

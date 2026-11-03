@@ -12,6 +12,7 @@ export const GET: APIRoute = async () => {
     { loc: '/', lastmod: latest },
     { loc: '/blog/', lastmod: latest },
     { loc: '/prints/' },
+    { loc: '/life-list/' },
     ...collections.map(c => ({ loc: `/gallery/${c.slug}/` })),
     ...categories.map(c => ({ loc: `/blog/category/${c.slug}/`, lastmod: c.posts[0]?.data.date.toISOString().slice(0, 10) })),
     ...posts.map(p => ({ loc: `/blog/${p.id}/`, lastmod: p.data.date.toISOString().slice(0, 10) })),
