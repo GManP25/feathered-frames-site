@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Lightbox from '../components/Lightbox.astro';
 import '../styles/lifelist.css';
 import groups from '../data/lifelist.json';
 import photos from '../data/photos.json';
@@ -12,6 +13,17 @@ const link = (id: string | null) => {
   if (!ids.has(id)) throw new Error(`lifelist.json points to a photo that does not exist: ${id}`);
   const [collection, file] = id.split('/');
   return `/gallery/${collection}#${file}`;
+};
+// Photographed birds open in the site's viewer over this page. The details come from photos.json.
+const byId: Record<string, any> = Object.fromEntries(photos.map((p: any) => [p.id, p]));
+const viewer = (id: string | null) => {
+  if (!id) return {};
+  const p = byId[id];
+  return {
+    'data-lb': '', 'data-lb-group': 'lifelist', 'data-kind': 'photo', 'data-id': p.id, 'data-w': p.w, 'data-h': p.h,
+    'data-full': p.image, 'data-thumb': p.thumb, 'data-title': p.title, 'data-alt': p.alt || p.title,
+    'data-sci': p.scientificName || '', 'data-loc': p.location, 'data-exif': p.exif ? JSON.stringify(p.exif) : '',
+  };
 };
 const slug = (s: string) => s.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const total = groups.reduce((n, g) => n + g.species.length, 0);
@@ -72,7 +84,7 @@ const pct = ((inGallery / total) * 100).toFixed(1);
           <ul class="grid grid-cols-1 gap-x-10 sm:grid-cols-2 [&_a]:grid [&_a]:grid-cols-[1fr_auto] [&_a]:items-center [&_a]:gap-x-3 [&_a]:border-b [&_a]:border-stone-200 [&_a]:py-1.5 dark:[&_a]:border-stone-800 [&_a:hover_strong]:text-emerald-700 dark:[&_a:hover_strong]:text-emerald-400">
             {g.species.map(s => (
               <li data-slug={slug(s.name)} data-status={s.photo ? 'photographed' : 'pending'} data-search={`${s.name} ${s.sci}`.toLowerCase()} style="list-style:none">
-                <a href={link(s.photo)}>
+                <a href={link(s.photo)} {...viewer(s.photo)}>
                   <span>
                     <strong class={s.photo ? 'font-semibold text-stone-900 transition-colors dark:text-stone-100' : 'font-semibold text-stone-400 transition-colors dark:text-stone-500'}>{s.name}</strong>{' '}
                     <em class={s.photo ? 'text-sm italic text-stone-500 dark:text-stone-400' : 'text-sm italic text-stone-400 dark:text-stone-500'}>{s.sci}</em>
@@ -89,7 +101,20 @@ const pct = ((inGallery / total) * 100).toFixed(1);
     </div>
   </section>
 
+  <Lightbox />
+
   <script>
+    // A plain click opens the photograph over this page. Cmd, Ctrl, Shift or Alt click keeps the normal link,
+    // so the gallery opens in a new tab or window and the viewer stays closed.
+    document.addEventListener('click', (e) => {
+      // Birds without a photograph yet link to "#" as a placeholder: stay where you are
+      if ((e.target as HTMLElement).closest('a[href="#"]')) { e.preventDefault(); return; }
+      const a = (e.target as HTMLElement).closest<HTMLElement>('a[data-lb]');
+      if (!a) return;
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) { e.stopImmediatePropagation(); return; }
+      e.preventDefault();
+    }, true);
+
     const input = document.getElementById('bird-search') as HTMLInputElement;
     const count = document.getElementById('bird-count') as HTMLElement;
     const empty = document.getElementById('bird-empty') as HTMLElement;
