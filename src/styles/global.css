@@ -34,6 +34,8 @@ body {
   transition: background-color .35s ease, color .35s ease;
 }
 img, video { max-width: 100%; display: block; }
+/* Deter casual saving: no drag-out, no selection, no long-press save menu on touch screens */
+img, video { -webkit-user-drag: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
 a { color: inherit; text-decoration: none; }
 h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 500; line-height: 1.14; letter-spacing: -0.015em; text-wrap: balance; }
 .wrap { width: min(1180px, 100% - 40px); margin-inline: auto; }

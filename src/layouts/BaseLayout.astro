@@ -119,6 +119,15 @@ const p = isHome ? '' : '/';
 
   <script>
     const root = document.documentElement;
+
+    // Deter casual saving: block the right-click menu and dragging on photographs and videos.
+    const protectedMedia = 'img, video, .tile, .lb-stage, .inline-media, .z-media, .card, .thumb';
+    document.addEventListener('contextmenu', (e) => {
+      if ((e.target as Element).closest?.(protectedMedia)) e.preventDefault();
+    });
+    document.addEventListener('dragstart', (e) => {
+      if ((e.target as Element).closest?.('img, video')) e.preventDefault();
+    });
     document.getElementById('themeToggle')?.addEventListener('click', () => {
       const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
