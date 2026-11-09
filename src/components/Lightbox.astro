@@ -26,11 +26,19 @@
       <div><dt>ISO</dt><dd id="sIso">-</dd></div>
     </dl>
     <p class="lb-none" id="lbNone" hidden>Camera settings are not available for this photograph.</p>
-    <a class="lb-print" id="lbPrint" href="/prints">Request print</a>
+    <div class="lb-actions" id="lbActions">
+      <button class="lb-share" id="lbShare" type="button" aria-expanded="false" aria-controls="lbShareBox">Share</button>
+      <div class="lb-sharebox" id="lbShareBox" hidden>
+        <ul class="share-links" id="lbShareLinks"></ul>
+        <span class="share-status" id="lbShareStatus" role="status" aria-live="polite"></span>
+      </div>
+      <a class="lb-print" id="lbPrint" href="/prints">Request print</a>
+    </div>
   </aside>
 </div>
 
 <script>
+  import { SITE, shareLinks } from '../lib/share';
   const lb = document.getElementById('lb')!;
   const lbImg = document.getElementById('lbImg') as HTMLImageElement;
   const $ = (id: string) => document.getElementById(id)!;
@@ -83,6 +91,37 @@
       set('sIso', ex.iso ? ex.iso.replace('ISO ', '') : '');
     }
     ($('lbPrint') as HTMLAnchorElement).href = '/prints?photo=' + encodeURIComponent(d.id || '');
+    buildShare(d);
+  }
+
+  // Share: each photograph has its own preview page at /photo/<id>/ so apps show that photograph, not the collection
+  function buildShare(d: DOMStringMap) {
+    const box = $('lbShareBox');
+    box.hidden = true;
+    $('lbShare').setAttribute('aria-expanded', 'false');
+    const url = `${SITE}/photo/${d.id}/`;
+    const text = `${d.title || 'Photograph'} by Gaurav Pathak`;
+    const links = shareLinks({ url, text, image: SITE + (d.full || '') });
+    const ul = $('lbShareLinks');
+    ul.innerHTML = '';
+    links.forEach(l => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.className = 'share-pill'; a.href = l.href; a.textContent = l.label; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      li.appendChild(a); ul.appendChild(li);
+    });
+    const say = (m: string) => { const s = $('lbShareStatus'); s.textContent = m; setTimeout(() => { s.textContent = ''; }, 2400); };
+    const mk = (label: string, fn: () => void) => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'share-pill'; b.textContent = label; b.addEventListener('click', fn);
+      li.appendChild(b); ul.appendChild(li);
+    };
+    mk('Copy link', async () => {
+      try { await navigator.clipboard.writeText(url); say('Link copied'); }
+      catch { window.prompt('Copy this link', url); }
+    });
+    if (typeof navigator.share === 'function') mk('More\u2026', () => { navigator.share({ title: text, text, url }).catch(() => {}); });
   }
   function open(t: HTMLElement) {
     const g = t.dataset.lbGroup || 'default';
@@ -110,6 +149,11 @@
     } else if (e.key === 'Enter' && (e.target as HTMLElement).matches?.('img[data-lb]')) {
       open(e.target as HTMLElement);
     }
+  });
+  $('lbShare').addEventListener('click', () => {
+    const box = $('lbShareBox');
+    box.hidden = !box.hidden;
+    $('lbShare').setAttribute('aria-expanded', String(!box.hidden));
   });
   $('lbClose').addEventListener('click', close);
   $('lbPrev').addEventListener('click', () => show(idx - 1));

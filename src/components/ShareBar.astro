@@ -1,0 +1,34 @@
+---
+import { shareLinks } from '../lib/share';
+interface Props { url: string; text: string; image?: string; label?: string; }
+const { url, text, image, label = 'Share this story' } = Astro.props;
+const links = shareLinks({ url, text, image });
+---
+<div class="share" data-share data-url={url} data-text={text}>
+  <span class="share-label">{label}</span>
+  <ul class="share-links">
+    {links.map(l => (
+      <li><a class="share-pill" href={l.href} target="_blank" rel="noopener noreferrer" data-net={l.id}>{l.label}</a></li>
+    ))}
+    <li><button class="share-pill" type="button" data-copy>Copy link</button></li>
+    <li><button class="share-pill" type="button" data-native hidden>More&hellip;</button></li>
+  </ul>
+  <span class="share-status" role="status" aria-live="polite"></span>
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-share]').forEach((box) => {
+    const url = box.dataset.url || location.href;
+    const text = box.dataset.text || document.title;
+    const status = box.querySelector<HTMLElement>('.share-status')!;
+    const say = (m: string) => { status.textContent = m; setTimeout(() => { status.textContent = ''; }, 2400); };
+    box.querySelector('[data-copy]')?.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(url); say('Link copied'); }
+      catch { window.prompt('Copy this link', url); }
+    });
+    const native = box.querySelector<HTMLButtonElement>('[data-native]');
+    if (native && typeof navigator.share === 'function') {
+      native.hidden = false;
+      native.addEventListener('click', () => { navigator.share({ title: text, text, url }).catch(() => {}); });
+    }
+  });
+</script>

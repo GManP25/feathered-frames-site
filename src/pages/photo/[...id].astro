@@ -1,0 +1,42 @@
+---
+// Share page for one photograph. Facebook, WhatsApp and similar apps read the preview tags on this page,
+// then visitors are sent straight to the photograph in its gallery. Not listed in the sitemap, not indexed.
+import fs from 'node:fs';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import photos from '../../data/photos.json';
+import collections from '../../data/collections.json';
+
+export function getStaticPaths() {
+  return (photos as any[]).map(p => ({ params: { id: p.id }, props: { p } }));
+}
+const { p } = Astro.props as { p: any };
+const file: string = p.id.split('/').pop();
+const collection = collections.find(c => c.slug === p.collectionSlug);
+const target = `/gallery/${p.collectionSlug}#${encodeURIComponent(file)}`;
+
+// Dedicated 1200x630 preview card when one has been made (npm run share-images), otherwise the 900px thumbnail
+const cardPath = `/images/share/${p.id}.jpg`;
+const hasCard = fs.existsSync(new URL(`../../../public${cardPath}`, import.meta.url));
+const image = hasCard ? cardPath : p.thumb;
+---
+<BaseLayout
+  title={p.title}
+  description={p.alt || p.title}
+  image={image}
+  imageAlt={p.alt || p.title}
+  imageWidth={hasCard ? 1200 : undefined}
+  imageHeight={hasCard ? 630 : undefined}
+  noindex
+>
+  <section class="page-head share-landing">
+    <div class="wrap">
+      <span class="eyebrow">{collection?.title}</span>
+      <h1>{p.title}</h1>
+      {p.location && <p class="share-landing-loc">{p.location}</p>}
+      <p><a class="more-link" href={target} id="goto">View this photograph in the gallery &rarr;</a></p>
+    </div>
+  </section>
+  <script is:inline define:vars={{ target }}>
+    location.replace(target);
+  </script>
+</BaseLayout>

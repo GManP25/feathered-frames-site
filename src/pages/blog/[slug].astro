@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Lightbox from '../../components/Lightbox.astro';
+import ShareBar from '../../components/ShareBar.astro';
+import Comments from '../../components/Comments.astro';
+import { SITE } from '../../lib/share';
 import { slugify, altFor, summarise } from '../../lib/journal';
 import { getCollection, render } from 'astro:content';
 
@@ -11,6 +14,8 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { title, date, heroImage, excerpt, category } = post.data;
 const { Content } = await render(post);
+const postUrl = `${SITE}/blog/${post.id}/`;
+const shareImage = heroImage ? SITE + heroImage : undefined;
 const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <BaseLayout title={title} description={excerpt && excerpt.length > 90 ? excerpt : summarise(post.body || '') || excerpt} image={heroImage || undefined} imageAlt={altFor(heroImage)} type="article" published={date}>
@@ -21,7 +26,12 @@ const when = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', y
         <h1>{title}</h1>
       </div>
     </div>
-    <div class="post-content"><Content /><a class="back-link" href="/blog">&larr; Back to the journal</a></div>
+    <div class="post-content">
+      <Content />
+      <ShareBar url={postUrl} text={title} image={shareImage} />
+      <Comments />
+      <a class="back-link" href="/blog">&larr; Back to the journal</a>
+    </div>
   </article>
   <Lightbox />
 </BaseLayout>

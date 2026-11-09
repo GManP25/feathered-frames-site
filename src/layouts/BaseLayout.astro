@@ -1,11 +1,11 @@
 ---
 import '../styles/global.css';
 
-interface Props { title: string; description?: string; image?: string; imageAlt?: string; type?: 'website' | 'article'; published?: Date; }
+interface Props { title: string; description?: string; image?: string; imageAlt?: string; type?: 'website' | 'article'; published?: Date; noindex?: boolean; imageWidth?: number; imageHeight?: number; }
 const SITE = 'https://www.gauravsfeatheredframes.com';
 const siteTitle = "Gaurav's Feathered Frames";
 const defaultDesc = "Bird and wildlife photography from India by Gaurav Pathak: snow leopards, raptors and Himalayan birds, with camera settings and field stories.";
-const { title, description = defaultDesc, image = "/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lammergeier.jpg", imageAlt = "Bearded vulture in flight over the Spiti Valley, India", type = 'website', published } = Astro.props;
+const { title, description = defaultDesc, image = "/images/portfolio/winter-wonderland-spiti/bearded-vulture-or-lammergeier.jpg", imageAlt = "Bearded vulture in flight over the Spiti Valley, India", type = 'website', published, noindex = false, imageWidth, imageHeight } = Astro.props;
 
 // Keep the browser title within 60 characters and the description within 160, cutting at a word boundary
 const clip = (s: string, max: number) => {
@@ -38,7 +38,7 @@ const p = isHome ? '' : '/';
   <title>{fullTitle}</title>
   <meta name="description" content={metaDesc} />
   <link rel="canonical" href={canonical} />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
   <meta name="author" content="Gaurav Pathak" />
   <meta property="og:site_name" content={siteTitle} />
   <meta property="og:locale" content="en_IN" />
@@ -48,6 +48,8 @@ const p = isHome ? '' : '/';
   <meta property="og:description" content={metaDesc} />
   <meta property="og:image" content={ogImage} />
   <meta property="og:image:alt" content={imageAlt} />
+  {imageWidth && imageHeight && <meta property="og:image:width" content={String(imageWidth)} />}
+  {imageWidth && imageHeight && <meta property="og:image:height" content={String(imageHeight)} />}
   {type === 'article' && published && <meta property="article:published_time" content={published.toISOString()} />}
   {type === 'article' && <meta property="article:author" content="Gaurav Pathak" />}
   <meta name="twitter:card" content="summary_large_image" />

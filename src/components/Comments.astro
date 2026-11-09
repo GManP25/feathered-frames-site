@@ -1,0 +1,48 @@
+---
+import { COMMENTBOX_PROJECT_ID } from '../lib/config';
+---
+{COMMENTBOX_PROJECT_ID && (
+  <section class="comments" id="comments-section" aria-labelledby="comments-title" data-project={COMMENTBOX_PROJECT_ID}>
+    <h2 id="comments-title">Comments</h2>
+    <p class="comments-note">Thoughts and questions are welcome. New comments appear once I have approved them.</p>
+    <div class="commentbox" id="comments"></div>
+    <p class="comments-credit">Comments are provided by <a href="https://commentbox.io" target="_blank" rel="noopener noreferrer">CommentBox.io</a>, which does not run advertising or tracking.</p>
+  </section>
+)}
+<script>
+  const section = document.getElementById('comments-section');
+  if (section) {
+    const projectId = section.dataset.project!;
+    const box = document.getElementById('comments')!;
+    let stop: (() => void) | undefined;
+    let loaded = false;
+
+    // The comment box is a separate frame, so it is given the page colours for the current theme
+    async function mount() {
+      const { default: commentBox } = await import('commentbox.io');
+      stop?.();
+      box.innerHTML = '';
+      box.removeAttribute('data-loaded');
+      const css = getComputedStyle(document.documentElement);
+      const pick = (name: string) => css.getPropertyValue(name).trim() || undefined;
+      stop = commentBox(projectId, {
+        className: 'commentbox',
+        defaultBoxId: 'comments',
+        backgroundColor: pick('--bg'),
+        textColor: pick('--text'),
+        subtextColor: pick('--text-dim'),
+      } as any);
+      loaded = true;
+    }
+
+    // Load only when the reader gets near the comments, so the page itself stays light
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some(e => e.isIntersecting)) { io.disconnect(); mount(); }
+    }, { rootMargin: '600px 0px' });
+    io.observe(section);
+
+    // Follow the light/dark switch
+    new MutationObserver(() => { if (loaded) mount(); })
+      .observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+</script>

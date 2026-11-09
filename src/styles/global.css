@@ -200,11 +200,12 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 500; line-height: 1
 .lb-specs dt { flex: none; font-size: .64rem; letter-spacing: .2em; text-transform: uppercase; opacity: .55; }
 .lb-specs dd { text-align: right; font-size: .9rem; font-variant-numeric: tabular-nums; letter-spacing: .01em; }
 .lb-none { margin: 30px 0 40px; font-size: .84rem; opacity: .55; }
+.lb-actions { margin-top: auto; display: flex; flex-direction: column; gap: 12px; background: #101110; }
 .lb-print {
-  margin-top: auto; display: block; text-align: center; font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; font-weight: 600; color: #f1f1ec;
+  display: block; text-align: center; font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; font-weight: 600; color: #f1f1ec;
   border: 1px solid rgba(255,255,255,.38); padding: 15px 20px; transition: background .35s, color .35s, border-color .35s;
 }
-@media (min-width: 900px) { .lb-print { position: sticky; bottom: 0; } }
+@media (min-width: 900px) { .lb-actions { position: sticky; bottom: 0; padding-top: 12px; } }
 .lb-print:hover { background: #f1f1ec; color: #101110; border-color: #f1f1ec; }
 .lb-close, .lb-nav {
   position: absolute; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.22); color: #fff; cursor: pointer;
@@ -229,7 +230,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 500; line-height: 1
   .lb-count { left: 18px; top: 22px; }
   .lb.simple .lb-stage { height: 100dvh; }
   .lb.simple .lb-img { max-height: calc(100dvh - 72px); }
-  .lb-print { margin-top: 0; }
+  .lb-actions { margin-top: 8px; }
 }
 
 /* ---------- Journal ---------- */
@@ -409,3 +410,36 @@ a.tag:hover { opacity: .8; }
 .inline-group .group-row { display: flex; gap: 12px; align-items: flex-start; }
 .inline-group .group-row img { flex: var(--ar, 1) 1 0%; min-width: 0; width: 0; height: auto; max-height: none; }
 .inline-group figcaption { text-align: center; }
+
+/* ---------- Sharing ---------- */
+.share { margin-top: clamp(56px, 7vw, 88px); padding-top: 28px; border-top: 1px solid var(--border); }
+.share-label { display: block; font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 14px; }
+.share-links { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+.share-pill {
+  display: inline-block; font: inherit; font-size: .82rem; letter-spacing: .04em; line-height: 1; cursor: pointer; color: var(--text);
+  padding: 9px 16px; border-radius: 999px; border: 1px solid var(--border); background: transparent; transition: border-color .2s, color .2s, background .2s;
+}
+.share-pill:hover { border-color: var(--accent); color: var(--accent); }
+.share .share-pill[hidden] { display: none; }
+.share-status { display: block; min-height: 1.4em; margin-top: 10px; font-size: .84rem; color: var(--accent); }
+.post-content a.share-pill { color: var(--text); border-bottom: 1px solid var(--border); }
+.post-content a.share-pill:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.lb-share {
+  font: inherit; font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; font-weight: 600; cursor: pointer; color: #f1f1ec;
+  background: transparent; border: 1px solid rgba(255,255,255,.2); padding: 13px 20px; transition: border-color .3s, background .3s;
+}
+.lb-share:hover, .lb-share[aria-expanded='true'] { border-color: rgba(255,255,255,.55); background: rgba(255,255,255,.05); }
+.lb-sharebox[hidden] { display: none; }
+.lb-sharebox { padding: 4px 0 8px; }
+.lb .share-pill { color: #f1f1ec; border-color: rgba(255,255,255,.25); font-size: .78rem; padding: 8px 13px; }
+.lb .share-pill:hover { border-color: #9bb391; color: #9bb391; }
+.lb .share-status { color: #9bb391; margin-top: 8px; }
+.share-landing .share-landing-loc { color: var(--text-dim); margin-bottom: 28px; }
+
+/* ---------- Comments ---------- */
+.comments { margin-top: clamp(32px, 4vw, 44px); padding-top: 32px; border-top: 1px solid var(--border); }
+.post-content .comments h2 { font-size: 1.7rem; margin: 0 0 .4em; }
+.post-content .comments .comments-note { font-size: .98rem; color: var(--text-dim); margin-bottom: 20px; line-height: 1.6; }
+.comments .commentbox { min-height: 120px; }
+.comments .commentbox iframe { display: block; border: 0; width: 100%; }
+.post-content .comments .comments-credit { margin: 20px 0 0; font-size: .8rem; color: var(--text-dim); line-height: 1.6; }

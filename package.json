@@ -7,13 +7,15 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "share-images": "node scripts/make-share-images.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "astro": "^7.4.2"
+    "astro": "^7.4.2",
+    "commentbox.io": "2.1.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.4",
